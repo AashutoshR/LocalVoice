@@ -1,0 +1,3219 @@
+{
+  "selection": {
+    "selected": {
+      "small": {
+        "experiment": "E18",
+        "validation_wer": 5.565493937586961,
+        "candidates": {
+          "E8": 5.674816139932419,
+          "E10": 5.605247465712582,
+          "E15": 5.833830252434904,
+          "E16": 5.84376863446631,
+          "E18": 5.565493937586961,
+          "E19": 5.575432319618366,
+          "E20": 5.625124229775393
+        }
+      },
+      "tiny": {
+        "experiment": "E11",
+        "validation_wer": 18.395945140131186,
+        "candidates": {
+          "E9": 19.25064599483204,
+          "E11": 18.395945140131186,
+          "E13": 18.91274100576426,
+          "E14": 18.962432915921287,
+          "E17": 18.644404690916318,
+          "E21": 18.68415821904194,
+          "E22": 18.59471278075929,
+          "E23": 18.83323394951302
+        }
+      }
+    },
+    "checkpoint_files": {
+      "E18": {
+        "added_tokens.json": "8a5856a00b438f6fc40d2c6d9d93fea54f2c169bdc817a58d1feddb9ac96302e",
+        "config.json": "a67f3dd25e11b305579741985433df8b3c6ddb658541d796280906c7adcf1c91",
+        "generation_config.json": "e1d20a34ce6eb1cf02ba95556a81f5ae018f96150df3ac72ed54bf92873a364a",
+        "merges.txt": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+        "model.safetensors": "bf9955506ea70dd15455d369a6dfb26d8b2c0cd5539c0e70e6862478d908fb7f",
+        "normalizer.json": "6c40cc36b4bb9c5aa8be0ff9023ea4e78a3ab718b3490a1d9cd3cb7ec56f130f",
+        "preprocessor_config.json": "e4449dfed25a2b4c054b6103753daebad3cfab42c1ac0421b3e5c621a4de22e1",
+        "special_tokens_map.json": "aa84bd013194e2bf2450397e49e656d8b8d9e1f971c0f1702409870b2cf14106",
+        "tokenizer.json": "3ba86c956116332f597966eaba32ee1749cfbf8048fe941d046c36c56c26a7ee",
+        "tokenizer_config.json": "f46e9819a8910572da1b528afde146a56c63068e1a130ffc66f7b5315093b0e1",
+        "vocab.json": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+      },
+      "E19": {
+        "added_tokens.json": "8a5856a00b438f6fc40d2c6d9d93fea54f2c169bdc817a58d1feddb9ac96302e",
+        "config.json": "a67f3dd25e11b305579741985433df8b3c6ddb658541d796280906c7adcf1c91",
+        "generation_config.json": "e1d20a34ce6eb1cf02ba95556a81f5ae018f96150df3ac72ed54bf92873a364a",
+        "merges.txt": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+        "model.safetensors": "880d969a638e92d74aec66ad15c39a067c2a365a3cf7b24c24fdc62a972355de",
+        "normalizer.json": "6c40cc36b4bb9c5aa8be0ff9023ea4e78a3ab718b3490a1d9cd3cb7ec56f130f",
+        "preprocessor_config.json": "e4449dfed25a2b4c054b6103753daebad3cfab42c1ac0421b3e5c621a4de22e1",
+        "special_tokens_map.json": "aa84bd013194e2bf2450397e49e656d8b8d9e1f971c0f1702409870b2cf14106",
+        "tokenizer.json": "3ba86c956116332f597966eaba32ee1749cfbf8048fe941d046c36c56c26a7ee",
+        "tokenizer_config.json": "f46e9819a8910572da1b528afde146a56c63068e1a130ffc66f7b5315093b0e1",
+        "vocab.json": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+      },
+      "E20": {
+        "added_tokens.json": "8a5856a00b438f6fc40d2c6d9d93fea54f2c169bdc817a58d1feddb9ac96302e",
+        "config.json": "a67f3dd25e11b305579741985433df8b3c6ddb658541d796280906c7adcf1c91",
+        "generation_config.json": "e1d20a34ce6eb1cf02ba95556a81f5ae018f96150df3ac72ed54bf92873a364a",
+        "merges.txt": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+        "model.safetensors": "5008f298a0c1f5f3643cf2d2016035ee322517576d750217cc00fbb23c676fa6",
+        "normalizer.json": "6c40cc36b4bb9c5aa8be0ff9023ea4e78a3ab718b3490a1d9cd3cb7ec56f130f",
+        "preprocessor_config.json": "e4449dfed25a2b4c054b6103753daebad3cfab42c1ac0421b3e5c621a4de22e1",
+        "special_tokens_map.json": "aa84bd013194e2bf2450397e49e656d8b8d9e1f971c0f1702409870b2cf14106",
+        "tokenizer.json": "3ba86c956116332f597966eaba32ee1749cfbf8048fe941d046c36c56c26a7ee",
+        "tokenizer_config.json": "f46e9819a8910572da1b528afde146a56c63068e1a130ffc66f7b5315093b0e1",
+        "vocab.json": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+      },
+      "E21": {
+        "added_tokens.json": "8a5856a00b438f6fc40d2c6d9d93fea54f2c169bdc817a58d1feddb9ac96302e",
+        "config.json": "8a8bc05914da1e3fc0df6eb666d55305d523d788c883d9c8e5f03398c5a85b17",
+        "generation_config.json": "558c298a1e6a02f686acbe741bab168659ffd1da92baf6dac0b157db3b58b8e1",
+        "merges.txt": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+        "model.safetensors": "dd36105f42044576e9d589e25f6e0bd87747855caa39386f82b50e912a472cbc",
+        "normalizer.json": "6c40cc36b4bb9c5aa8be0ff9023ea4e78a3ab718b3490a1d9cd3cb7ec56f130f",
+        "preprocessor_config.json": "e4449dfed25a2b4c054b6103753daebad3cfab42c1ac0421b3e5c621a4de22e1",
+        "special_tokens_map.json": "aa84bd013194e2bf2450397e49e656d8b8d9e1f971c0f1702409870b2cf14106",
+        "tokenizer.json": "3ba86c956116332f597966eaba32ee1749cfbf8048fe941d046c36c56c26a7ee",
+        "tokenizer_config.json": "f46e9819a8910572da1b528afde146a56c63068e1a130ffc66f7b5315093b0e1",
+        "vocab.json": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+      },
+      "E22": {
+        "added_tokens.json": "8a5856a00b438f6fc40d2c6d9d93fea54f2c169bdc817a58d1feddb9ac96302e",
+        "config.json": "8a8bc05914da1e3fc0df6eb666d55305d523d788c883d9c8e5f03398c5a85b17",
+        "generation_config.json": "558c298a1e6a02f686acbe741bab168659ffd1da92baf6dac0b157db3b58b8e1",
+        "merges.txt": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+        "model.safetensors": "f2d5094fff192f2752e93ad2b3b7485b5d6a1f75dcb0f18599736a8de246e918",
+        "normalizer.json": "6c40cc36b4bb9c5aa8be0ff9023ea4e78a3ab718b3490a1d9cd3cb7ec56f130f",
+        "preprocessor_config.json": "e4449dfed25a2b4c054b6103753daebad3cfab42c1ac0421b3e5c621a4de22e1",
+        "special_tokens_map.json": "aa84bd013194e2bf2450397e49e656d8b8d9e1f971c0f1702409870b2cf14106",
+        "tokenizer.json": "3ba86c956116332f597966eaba32ee1749cfbf8048fe941d046c36c56c26a7ee",
+        "tokenizer_config.json": "f46e9819a8910572da1b528afde146a56c63068e1a130ffc66f7b5315093b0e1",
+        "vocab.json": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+      },
+      "E23": {
+        "added_tokens.json": "8a5856a00b438f6fc40d2c6d9d93fea54f2c169bdc817a58d1feddb9ac96302e",
+        "config.json": "8a8bc05914da1e3fc0df6eb666d55305d523d788c883d9c8e5f03398c5a85b17",
+        "generation_config.json": "558c298a1e6a02f686acbe741bab168659ffd1da92baf6dac0b157db3b58b8e1",
+        "merges.txt": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+        "model.safetensors": "5ff8d45953c92c976d010cb237cac2ce321c3080b3c0f2dd74b61c9e117534c8",
+        "normalizer.json": "6c40cc36b4bb9c5aa8be0ff9023ea4e78a3ab718b3490a1d9cd3cb7ec56f130f",
+        "preprocessor_config.json": "e4449dfed25a2b4c054b6103753daebad3cfab42c1ac0421b3e5c621a4de22e1",
+        "special_tokens_map.json": "aa84bd013194e2bf2450397e49e656d8b8d9e1f971c0f1702409870b2cf14106",
+        "tokenizer.json": "3ba86c956116332f597966eaba32ee1749cfbf8048fe941d046c36c56c26a7ee",
+        "tokenizer_config.json": "f46e9819a8910572da1b528afde146a56c63068e1a130ffc66f7b5315093b0e1",
+        "vocab.json": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+      }
+    },
+    "frozen_at": "2026-11-01T21:34:50.137415+00:00",
+    "policy": "Original FLEURS validation only for selection. No existing test or Latin holdout used for tuning.",
+    "original_selection": "runs/selection-research.json",
+    "followup_recipe_sha256": "7874669fb471b51404c360f6cf8e724ae7ce88a1cb305f11942dab177d5a513f"
+  },
+  "runs": {
+    "E18": {
+      "id": "E18",
+      "name": "Small matched full-tuning control",
+      "metrics": {
+        "wer": 5.565493937586961,
+        "cer": 1.816029759891782,
+        "substitutions": 453,
+        "deletions": 61,
+        "insertions": 46,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "bhajans → bajans",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "de → en",
+              "count": 3
+            },
+            {
+              "text": "se regresa → que regrese",
+              "count": 3
+            },
+            {
+              "text": "quince → 15",
+              "count": 3
+            },
+            {
+              "text": "camposanto → santo",
+              "count": 3
+            },
+            {
+              "text": "ex → exagente",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 10
+            },
+            {
+              "text": "en",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "se",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "u u",
+              "count": 3
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "edad",
+              "count": 2
+            },
+            {
+              "text": "bhog",
+              "count": 2
+            },
+            {
+              "text": "et al",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 8
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "a",
+              "count": 4
+            },
+            {
+              "text": "campo",
+              "count": 3
+            },
+            {
+              "text": "los",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 2
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "y",
+              "count": 2
+            },
+            {
+              "text": "john",
+              "count": 2
+            },
+            {
+              "text": "clocker era",
+              "count": 1
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.2763613063881531,
+        "trainable_parameters": 240582912,
+        "training_seconds": 3609.0736325000034,
+        "inference_parameters": 241734912,
+        "stage_training_seconds": 1871.6762090999982,
+        "initial_experiment": "E8",
+        "peak_gpu_memory_mb": 4796.52734375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.565493937586961,
+            "cer": 1.816029759891782,
+            "substitutions": 453,
+            "deletions": 61,
+            "insertions": 46,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "bhajans → bajans",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "de → en",
+                  "count": 3
+                },
+                {
+                  "text": "se regresa → que regrese",
+                  "count": 3
+                },
+                {
+                  "text": "quince → 15",
+                  "count": 3
+                },
+                {
+                  "text": "camposanto → santo",
+                  "count": 3
+                },
+                {
+                  "text": "ex → exagente",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 10
+                },
+                {
+                  "text": "en",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "se",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "u u",
+                  "count": 3
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "edad",
+                  "count": 2
+                },
+                {
+                  "text": "bhog",
+                  "count": 2
+                },
+                {
+                  "text": "et al",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 8
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "a",
+                  "count": 4
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                },
+                {
+                  "text": "o",
+                  "count": 2
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "y",
+                  "count": 2
+                },
+                {
+                  "text": "john",
+                  "count": 2
+                },
+                {
+                  "text": "clocker era",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T19:51:01.189390+00:00"
+      },
+      "training": {
+        "experiment": {
+          "id": "E18",
+          "name": "Small matched full-tuning control",
+          "strategy": "full",
+          "augmentation": true,
+          "baseline_id": "E7",
+          "model_config": "configs/whisper-small.json"
+        },
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-small",
+          "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language",
+          "evaluation_batch_size": 4,
+          "local_model_path": "data/models/whisper-small"
+        },
+        "hyperparameters": {
+          "initialize_from": "E8",
+          "learning_rate_full": 2e-06,
+          "learning_rate_encoder": 2e-06,
+          "learning_rate_decoder": 5e-07,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 4,
+          "gradient_accumulation_steps": 4,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.03,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.015,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 88,
+          "freeze_encoder_layers": 0
+        },
+        "effective_learning_rate": 2e-06,
+        "initial_experiment": "E8",
+        "initial_weights_sha256": "cbc0562fc8cd9e48c406eebac244e3cf29bd66eccc8e8a7c576db54e49651474",
+        "parent_training_seconds": 1737.3974234000052,
+        "parent_training_data": null,
+        "learning_rates": {
+          "encoder": 2e-06,
+          "decoder": 5e-07
+        },
+        "encoder_freezing": {
+          "frozen_lower_blocks": 0,
+          "encoder_depth": 12,
+          "acoustic_front_end_frozen": false,
+          "frozen_encoder_parameters": 1152000
+        },
+        "ewc": null,
+        "training_target_sha256": "1b916a432d751c12f33704b5db0a448849b14af61992fec15af1256bd12757b4",
+        "training_target_count": 2796,
+        "decoder_prefix_tokens": [
+          "<|startoftranscript|>",
+          "<|es|>",
+          "<|transcribe|>",
+          "<|notimestamps|>"
+        ],
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "checkpoint_evaluation_batch_size": 4,
+        "teacher": null,
+        "loss_objective": "supervised cross-entropy",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "validation_audit": {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Speaker IDs are missing: speaker independence cannot be verified."
+          ],
+          "splits": {
+            "train": {
+              "samples": 2796,
+              "hours": 8.80553333333334
+            },
+            "validation": {
+              "samples": 407,
+              "hours": 1.344716666666667
+            },
+            "test": {
+              "samples": 907,
+              "hours": 3.082166666666667
+            }
+          },
+          "samples": 4110
+        },
+        "training_dataset_fingerprint": "08ab2ace976976343c41370723dfa20efb6de8251ae16a8a1cc9b41e78cf2df5",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 0,
+          "additional_manifest": null,
+          "additional_license": null,
+          "total_samples": 2796,
+          "total_hours": 8.805533333333333
+        },
+        "started_at": "2026-11-01T19:17:33.645440+00:00",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "torch": "2.10.0+cu128",
+        "trainable_parameters": 240582912,
+        "trainable_parameter_names": null,
+        "base_parameters_frozen": false,
+        "total_parameters": 241734912,
+        "precision": "torch.bfloat16",
+        "optimizer_steps": 525,
+        "skipped_steps": 0,
+        "status": "completed",
+        "best_epoch": 2,
+        "best_optimizer_step": 350,
+        "best_validation_wer": 5.565493937586961,
+        "training_seconds": 1871.6762090999982,
+        "cumulative_training_seconds": 3609.0736325000034,
+        "peak_gpu_memory_mb": 4796.52734375
+      },
+      "weight_audit": {
+        "experiment": "E18",
+        "initial_experiment": "E8",
+        "groups": {
+          "encoder": {
+            "parameters": 88154112,
+            "changed_parameters": 87000960,
+            "tensors": 187,
+            "changed_tensors": 186,
+            "relative_l2_change": 0.00041504518471432273
+          },
+          "decoder": {
+            "parameters": 153580800,
+            "changed_parameters": 153306807,
+            "tensors": 292,
+            "changed_tensors": 292,
+            "relative_l2_change": 0.0010237179999838665
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      }
+    },
+    "E19": {
+      "id": "E19",
+      "name": "Small lower-six encoder blocks frozen",
+      "metrics": {
+        "wer": 5.575432319618366,
+        "cer": 1.8177206628339535,
+        "substitutions": 457,
+        "deletions": 59,
+        "insertions": 45,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 4
+            },
+            {
+              "text": "bhajans → bajans",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "de → en",
+              "count": 3
+            },
+            {
+              "text": "se regresa → que regrese",
+              "count": 3
+            },
+            {
+              "text": "quince → 15",
+              "count": 3
+            },
+            {
+              "text": "camposanto → santo",
+              "count": 3
+            },
+            {
+              "text": "ex → exagente",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 10
+            },
+            {
+              "text": "en",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "singh",
+              "count": 3
+            },
+            {
+              "text": "u u",
+              "count": 3
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "edad",
+              "count": 2
+            },
+            {
+              "text": "bhog",
+              "count": 2
+            },
+            {
+              "text": "et al",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 7
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "campo",
+              "count": 3
+            },
+            {
+              "text": "los",
+              "count": 3
+            },
+            {
+              "text": "a",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 2
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "john",
+              "count": 2
+            },
+            {
+              "text": "clocker era",
+              "count": 1
+            },
+            {
+              "text": "los que",
+              "count": 1
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.39343658771525486,
+        "trainable_parameters": 196104960,
+        "training_seconds": 3994.758915300001,
+        "inference_parameters": 241734912,
+        "stage_training_seconds": 2257.3614918999956,
+        "initial_experiment": "E8",
+        "peak_gpu_memory_mb": 4031.1083984375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.575432319618366,
+            "cer": 1.8177206628339535,
+            "substitutions": 457,
+            "deletions": 59,
+            "insertions": 45,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 4
+                },
+                {
+                  "text": "bhajans → bajans",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "de → en",
+                  "count": 3
+                },
+                {
+                  "text": "se regresa → que regrese",
+                  "count": 3
+                },
+                {
+                  "text": "quince → 15",
+                  "count": 3
+                },
+                {
+                  "text": "camposanto → santo",
+                  "count": 3
+                },
+                {
+                  "text": "ex → exagente",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 10
+                },
+                {
+                  "text": "en",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "singh",
+                  "count": 3
+                },
+                {
+                  "text": "u u",
+                  "count": 3
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "edad",
+                  "count": 2
+                },
+                {
+                  "text": "bhog",
+                  "count": 2
+                },
+                {
+                  "text": "et al",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 7
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                },
+                {
+                  "text": "a",
+                  "count": 3
+                },
+                {
+                  "text": "o",
+                  "count": 2
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "john",
+                  "count": 2
+                },
+                {
+                  "text": "clocker era",
+                  "count": 1
+                },
+                {
+                  "text": "los que",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T20:32:17.363420+00:00"
+      },
+      "training": {
+        "experiment": {
+          "id": "E19",
+          "name": "Small lower-six encoder blocks frozen",
+          "strategy": "full",
+          "augmentation": true,
+          "baseline_id": "E7",
+          "model_config": "configs/whisper-small.json"
+        },
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-small",
+          "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language",
+          "evaluation_batch_size": 4,
+          "local_model_path": "data/models/whisper-small"
+        },
+        "hyperparameters": {
+          "initialize_from": "E8",
+          "learning_rate_full": 2e-06,
+          "learning_rate_encoder": 2e-06,
+          "learning_rate_decoder": 5e-07,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 4,
+          "gradient_accumulation_steps": 4,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.03,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.015,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 88,
+          "freeze_encoder_layers": 6
+        },
+        "effective_learning_rate": 2e-06,
+        "initial_experiment": "E8",
+        "initial_weights_sha256": "cbc0562fc8cd9e48c406eebac244e3cf29bd66eccc8e8a7c576db54e49651474",
+        "parent_training_seconds": 1737.3974234000052,
+        "parent_training_data": null,
+        "learning_rates": {
+          "encoder": 2e-06,
+          "decoder": 5e-07
+        },
+        "encoder_freezing": {
+          "frozen_lower_blocks": 6,
+          "encoder_depth": 12,
+          "acoustic_front_end_frozen": true,
+          "frozen_encoder_parameters": 45629952
+        },
+        "ewc": null,
+        "training_target_sha256": "1b916a432d751c12f33704b5db0a448849b14af61992fec15af1256bd12757b4",
+        "training_target_count": 2796,
+        "decoder_prefix_tokens": [
+          "<|startoftranscript|>",
+          "<|es|>",
+          "<|transcribe|>",
+          "<|notimestamps|>"
+        ],
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "checkpoint_evaluation_batch_size": 4,
+        "teacher": null,
+        "loss_objective": "supervised cross-entropy",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "validation_audit": {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Speaker IDs are missing: speaker independence cannot be verified."
+          ],
+          "splits": {
+            "train": {
+              "samples": 2796,
+              "hours": 8.80553333333334
+            },
+            "validation": {
+              "samples": 407,
+              "hours": 1.344716666666667
+            },
+            "test": {
+              "samples": 907,
+              "hours": 3.082166666666667
+            }
+          },
+          "samples": 4110
+        },
+        "training_dataset_fingerprint": "08ab2ace976976343c41370723dfa20efb6de8251ae16a8a1cc9b41e78cf2df5",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 0,
+          "additional_manifest": null,
+          "additional_license": null,
+          "total_samples": 2796,
+          "total_hours": 8.805533333333333
+        },
+        "started_at": "2026-11-01T19:51:20.685411+00:00",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "torch": "2.10.0+cu128",
+        "trainable_parameters": 196104960,
+        "trainable_parameter_names": null,
+        "base_parameters_frozen": false,
+        "total_parameters": 241734912,
+        "precision": "torch.bfloat16",
+        "optimizer_steps": 700,
+        "skipped_steps": 0,
+        "status": "completed",
+        "best_epoch": 3.504,
+        "best_optimizer_step": 613,
+        "best_validation_wer": 5.575432319618366,
+        "training_seconds": 2257.3614918999956,
+        "cumulative_training_seconds": 3994.758915300001,
+        "peak_gpu_memory_mb": 4031.1083984375
+      },
+      "weight_audit": {
+        "experiment": "E19",
+        "initial_experiment": "E8",
+        "groups": {
+          "encoder": {
+            "parameters": 88154112,
+            "changed_parameters": 42523679,
+            "tensors": 187,
+            "changed_tensors": 92,
+            "relative_l2_change": 0.00038579388028692934
+          },
+          "decoder": {
+            "parameters": 153580800,
+            "changed_parameters": 153308118,
+            "tensors": 292,
+            "changed_tensors": 292,
+            "relative_l2_change": 0.0013399413601458635
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER.",
+        "partial_freezing": {
+          "frozen_lower_blocks": 6,
+          "protected_tensors": 94,
+          "changed_protected_tensors": 0
+        }
+      }
+    },
+    "E20": {
+      "id": "E20",
+      "name": "Small lower-nine encoder blocks frozen",
+      "metrics": {
+        "wer": 5.625124229775393,
+        "cer": 1.7957389245857287,
+        "substitutions": 461,
+        "deletions": 57,
+        "insertions": 48,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 4
+            },
+            {
+              "text": "como → cómo",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "de → en",
+              "count": 3
+            },
+            {
+              "text": "se regresa → que regrese",
+              "count": 3
+            },
+            {
+              "text": "quince → 15",
+              "count": 3
+            },
+            {
+              "text": "camposanto → santo",
+              "count": 3
+            },
+            {
+              "text": "ex → exagente",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 10
+            },
+            {
+              "text": "en",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "u u",
+              "count": 3
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "edad",
+              "count": 2
+            },
+            {
+              "text": "bhog",
+              "count": 2
+            },
+            {
+              "text": "se",
+              "count": 2
+            },
+            {
+              "text": "hacia",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 7
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "campo",
+              "count": 3
+            },
+            {
+              "text": "los",
+              "count": 3
+            },
+            {
+              "text": "a",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 2
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "y",
+              "count": 2
+            },
+            {
+              "text": "john",
+              "count": 2
+            },
+            {
+              "text": "clocker era",
+              "count": 1
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.3412004361176979,
+        "trainable_parameters": 174843648,
+        "training_seconds": 3211.9962825000257,
+        "inference_parameters": 241734912,
+        "stage_training_seconds": 1474.5988591000205,
+        "initial_experiment": "E8",
+        "peak_gpu_memory_mb": 3688.0224609375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.625124229775393,
+            "cer": 1.7957389245857287,
+            "substitutions": 461,
+            "deletions": 57,
+            "insertions": 48,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 4
+                },
+                {
+                  "text": "como → cómo",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "de → en",
+                  "count": 3
+                },
+                {
+                  "text": "se regresa → que regrese",
+                  "count": 3
+                },
+                {
+                  "text": "quince → 15",
+                  "count": 3
+                },
+                {
+                  "text": "camposanto → santo",
+                  "count": 3
+                },
+                {
+                  "text": "ex → exagente",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 10
+                },
+                {
+                  "text": "en",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "u u",
+                  "count": 3
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "edad",
+                  "count": 2
+                },
+                {
+                  "text": "bhog",
+                  "count": 2
+                },
+                {
+                  "text": "se",
+                  "count": 2
+                },
+                {
+                  "text": "hacia",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 7
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                },
+                {
+                  "text": "a",
+                  "count": 3
+                },
+                {
+                  "text": "o",
+                  "count": 2
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "y",
+                  "count": 2
+                },
+                {
+                  "text": "john",
+                  "count": 2
+                },
+                {
+                  "text": "clocker era",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T21:00:19.028967+00:00"
+      },
+      "training": {
+        "experiment": {
+          "id": "E20",
+          "name": "Small lower-nine encoder blocks frozen",
+          "strategy": "full",
+          "augmentation": true,
+          "baseline_id": "E7",
+          "model_config": "configs/whisper-small.json"
+        },
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-small",
+          "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language",
+          "evaluation_batch_size": 4,
+          "local_model_path": "data/models/whisper-small"
+        },
+        "hyperparameters": {
+          "initialize_from": "E8",
+          "learning_rate_full": 2e-06,
+          "learning_rate_encoder": 2e-06,
+          "learning_rate_decoder": 5e-07,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 4,
+          "gradient_accumulation_steps": 4,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.03,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.015,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 88,
+          "freeze_encoder_layers": 9
+        },
+        "effective_learning_rate": 2e-06,
+        "initial_experiment": "E8",
+        "initial_weights_sha256": "cbc0562fc8cd9e48c406eebac244e3cf29bd66eccc8e8a7c576db54e49651474",
+        "parent_training_seconds": 1737.3974234000052,
+        "parent_training_data": null,
+        "learning_rates": {
+          "encoder": 2e-06,
+          "decoder": 5e-07
+        },
+        "encoder_freezing": {
+          "frozen_lower_blocks": 9,
+          "encoder_depth": 12,
+          "acoustic_front_end_frozen": true,
+          "frozen_encoder_parameters": 66891264
+        },
+        "ewc": null,
+        "training_target_sha256": "1b916a432d751c12f33704b5db0a448849b14af61992fec15af1256bd12757b4",
+        "training_target_count": 2796,
+        "decoder_prefix_tokens": [
+          "<|startoftranscript|>",
+          "<|es|>",
+          "<|transcribe|>",
+          "<|notimestamps|>"
+        ],
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "checkpoint_evaluation_batch_size": 4,
+        "teacher": null,
+        "loss_objective": "supervised cross-entropy",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "validation_audit": {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Speaker IDs are missing: speaker independence cannot be verified."
+          ],
+          "splits": {
+            "train": {
+              "samples": 2796,
+              "hours": 8.80553333333334
+            },
+            "validation": {
+              "samples": 407,
+              "hours": 1.344716666666667
+            },
+            "test": {
+              "samples": 907,
+              "hours": 3.082166666666667
+            }
+          },
+          "samples": 4110
+        },
+        "training_dataset_fingerprint": "08ab2ace976976343c41370723dfa20efb6de8251ae16a8a1cc9b41e78cf2df5",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 0,
+          "additional_manifest": null,
+          "additional_license": null,
+          "total_samples": 2796,
+          "total_hours": 8.805533333333333
+        },
+        "started_at": "2026-11-01T20:32:50.291399+00:00",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "torch": "2.10.0+cu128",
+        "trainable_parameters": 174843648,
+        "trainable_parameter_names": null,
+        "base_parameters_frozen": false,
+        "total_parameters": 241734912,
+        "precision": "torch.bfloat16",
+        "optimizer_steps": 438,
+        "skipped_steps": 0,
+        "status": "completed",
+        "best_epoch": 1.504,
+        "best_optimizer_step": 263,
+        "best_validation_wer": 5.625124229775393,
+        "training_seconds": 1474.5988591000205,
+        "cumulative_training_seconds": 3211.9962825000257,
+        "peak_gpu_memory_mb": 3688.0224609375
+      },
+      "weight_audit": {
+        "experiment": "E20",
+        "initial_experiment": "E8",
+        "groups": {
+          "encoder": {
+            "parameters": 88154112,
+            "changed_parameters": 21262514,
+            "tensors": 187,
+            "changed_tensors": 47,
+            "relative_l2_change": 0.00018059785431882654
+          },
+          "decoder": {
+            "parameters": 153580800,
+            "changed_parameters": 153305973,
+            "tensors": 292,
+            "changed_tensors": 292,
+            "relative_l2_change": 0.0008293843499979179
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER.",
+        "partial_freezing": {
+          "frozen_lower_blocks": 9,
+          "protected_tensors": 139,
+          "changed_protected_tensors": 0
+        }
+      }
+    },
+    "E21": {
+      "id": "E21",
+      "name": "Tiny matched replay control",
+      "metrics": {
+        "wer": 18.68415821904194,
+        "cer": 5.811633412242137,
+        "substitutions": 1400,
+        "deletions": 160,
+        "insertions": 320,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → en",
+              "count": 6
+            },
+            {
+              "text": "de → del",
+              "count": 6
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "del → la",
+              "count": 4
+            },
+            {
+              "text": "polo → pueblo",
+              "count": 4
+            },
+            {
+              "text": "al → la",
+              "count": 4
+            },
+            {
+              "text": "al → el",
+              "count": 4
+            },
+            {
+              "text": "una → un",
+              "count": 4
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "distinguen → distingen",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 21
+            },
+            {
+              "text": "de",
+              "count": 12
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "la",
+              "count": 3
+            },
+            {
+              "text": "edad",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "antigua",
+              "count": 3
+            },
+            {
+              "text": "un",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 27
+            },
+            {
+              "text": "a",
+              "count": 26
+            },
+            {
+              "text": "en",
+              "count": 15
+            },
+            {
+              "text": "y",
+              "count": 8
+            },
+            {
+              "text": "más",
+              "count": 7
+            },
+            {
+              "text": "se",
+              "count": 6
+            },
+            {
+              "text": "la",
+              "count": 4
+            },
+            {
+              "text": "los",
+              "count": 4
+            },
+            {
+              "text": "que",
+              "count": 3
+            },
+            {
+              "text": "campo",
+              "count": 3
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.37357909950756363,
+        "trainable_parameters": 37184640,
+        "training_seconds": 2002.1008789000043,
+        "inference_parameters": 37760640,
+        "stage_training_seconds": 379.8610697000113,
+        "initial_experiment": "E11",
+        "peak_gpu_memory_mb": 1265.072265625,
+        "groups": {
+          "condition:read speech": {
+            "wer": 18.68415821904194,
+            "cer": 5.811633412242137,
+            "substitutions": 1400,
+            "deletions": 160,
+            "insertions": 320,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → en",
+                  "count": 6
+                },
+                {
+                  "text": "de → del",
+                  "count": 6
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "del → la",
+                  "count": 4
+                },
+                {
+                  "text": "polo → pueblo",
+                  "count": 4
+                },
+                {
+                  "text": "al → la",
+                  "count": 4
+                },
+                {
+                  "text": "al → el",
+                  "count": 4
+                },
+                {
+                  "text": "una → un",
+                  "count": 4
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "distinguen → distingen",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 21
+                },
+                {
+                  "text": "de",
+                  "count": 12
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "la",
+                  "count": 3
+                },
+                {
+                  "text": "edad",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "antigua",
+                  "count": 3
+                },
+                {
+                  "text": "un",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 27
+                },
+                {
+                  "text": "a",
+                  "count": 26
+                },
+                {
+                  "text": "en",
+                  "count": 15
+                },
+                {
+                  "text": "y",
+                  "count": 8
+                },
+                {
+                  "text": "más",
+                  "count": 7
+                },
+                {
+                  "text": "se",
+                  "count": 6
+                },
+                {
+                  "text": "la",
+                  "count": 4
+                },
+                {
+                  "text": "los",
+                  "count": 4
+                },
+                {
+                  "text": "que",
+                  "count": 3
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T21:10:39.183596+00:00"
+      },
+      "training": {
+        "experiment": {
+          "id": "E21",
+          "name": "Tiny matched replay control",
+          "strategy": "full",
+          "augmentation": true,
+          "baseline_id": "E0"
+        },
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "initialize_from": "E11",
+          "additional_training_manifest": "data/latin-spanish/manifest.csv",
+          "additional_training_license": "CC-BY-SA-4.0",
+          "learning_rate_full": 5e-06,
+          "learning_rate_encoder": 5e-06,
+          "learning_rate_decoder": 5e-06,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 8,
+          "gradient_accumulation_steps": 2,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.02,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.0,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 182,
+          "validation_batch_size": 4
+        },
+        "effective_learning_rate": 5e-06,
+        "initial_experiment": "E11",
+        "initial_weights_sha256": "db782a02703512d566ea060703fe10cbde51f40c28a667b4626a7cd0779cdbcb",
+        "parent_training_seconds": 1622.239809199993,
+        "parent_training_data": null,
+        "learning_rates": {
+          "encoder": 5e-06,
+          "decoder": 5e-06
+        },
+        "encoder_freezing": {
+          "frozen_lower_blocks": 0,
+          "encoder_depth": 4,
+          "acoustic_front_end_frozen": false,
+          "frozen_encoder_parameters": 576000
+        },
+        "ewc": null,
+        "training_target_sha256": "179a12184a9f1122ed59ecb1ed27e3b419b013a3c00ca018aa9070ea6f9a4258",
+        "training_target_count": 5796,
+        "decoder_prefix_tokens": [
+          "<|startoftranscript|>",
+          "<|es|>",
+          "<|transcribe|>",
+          "<|notimestamps|>"
+        ],
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "checkpoint_evaluation_batch_size": 4,
+        "teacher": null,
+        "loss_objective": "supervised cross-entropy",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "validation_audit": {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Speaker IDs are missing: speaker independence cannot be verified."
+          ],
+          "splits": {
+            "train": {
+              "samples": 2796,
+              "hours": 8.80553333333334
+            },
+            "validation": {
+              "samples": 407,
+              "hours": 1.344716666666667
+            },
+            "test": {
+              "samples": 907,
+              "hours": 3.082166666666667
+            }
+          },
+          "samples": 4110
+        },
+        "training_dataset_fingerprint": "a47dc26aa5dd9a6ba07f0b68e03fa52737e8ed4561de77dc7fb7d1ecac3b1a10",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 3000,
+          "additional_manifest": "data/latin-spanish/manifest.csv",
+          "additional_license": "CC-BY-SA-4.0",
+          "total_samples": 5796,
+          "total_hours": 12.976809843749999
+        },
+        "started_at": "2026-11-01T21:01:19.267292+00:00",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "torch": "2.10.0+cu128",
+        "trainable_parameters": 37184640,
+        "trainable_parameter_names": null,
+        "base_parameters_frozen": false,
+        "total_parameters": 37760640,
+        "precision": "torch.bfloat16",
+        "optimizer_steps": 545,
+        "skipped_steps": 0,
+        "status": "completed",
+        "best_epoch": 0.502,
+        "best_optimizer_step": 182,
+        "best_validation_wer": 18.68415821904194,
+        "training_seconds": 379.8610697000113,
+        "cumulative_training_seconds": 2002.1008789000043,
+        "peak_gpu_memory_mb": 1265.072265625
+      },
+      "weight_audit": {
+        "experiment": "E21",
+        "initial_experiment": "E11",
+        "groups": {
+          "encoder": {
+            "parameters": 8208384,
+            "changed_parameters": 7632293,
+            "tensors": 67,
+            "changed_tensors": 66,
+            "relative_l2_change": 0.00026084448939720173
+          },
+          "decoder": {
+            "parameters": 29552256,
+            "changed_parameters": 29552076,
+            "tensors": 100,
+            "changed_tensors": 100,
+            "relative_l2_change": 0.0029949900466189026
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      }
+    },
+    "E22": {
+      "id": "E22",
+      "name": "Tiny Fisher-protected replay",
+      "metrics": {
+        "wer": 18.59471278075929,
+        "cer": 5.782888062225228,
+        "substitutions": 1393,
+        "deletions": 158,
+        "insertions": 320,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → en",
+              "count": 6
+            },
+            {
+              "text": "de → del",
+              "count": 6
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "del → la",
+              "count": 4
+            },
+            {
+              "text": "polo → pueblo",
+              "count": 4
+            },
+            {
+              "text": "al → la",
+              "count": 4
+            },
+            {
+              "text": "al → el",
+              "count": 4
+            },
+            {
+              "text": "una → un",
+              "count": 4
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "distinguen → distingen",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 20
+            },
+            {
+              "text": "de",
+              "count": 12
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "la",
+              "count": 3
+            },
+            {
+              "text": "edad",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "antigua",
+              "count": 3
+            },
+            {
+              "text": "un",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 27
+            },
+            {
+              "text": "a",
+              "count": 26
+            },
+            {
+              "text": "en",
+              "count": 15
+            },
+            {
+              "text": "y",
+              "count": 8
+            },
+            {
+              "text": "más",
+              "count": 7
+            },
+            {
+              "text": "se",
+              "count": 6
+            },
+            {
+              "text": "la",
+              "count": 4
+            },
+            {
+              "text": "los",
+              "count": 4
+            },
+            {
+              "text": "que",
+              "count": 3
+            },
+            {
+              "text": "campo",
+              "count": 3
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.3713285823089342,
+        "trainable_parameters": 37184640,
+        "training_seconds": 2065.958616799995,
+        "inference_parameters": 37760640,
+        "stage_training_seconds": 443.71880760000204,
+        "initial_experiment": "E11",
+        "peak_gpu_memory_mb": 1841.3583984375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 18.59471278075929,
+            "cer": 5.782888062225228,
+            "substitutions": 1393,
+            "deletions": 158,
+            "insertions": 320,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → en",
+                  "count": 6
+                },
+                {
+                  "text": "de → del",
+                  "count": 6
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "del → la",
+                  "count": 4
+                },
+                {
+                  "text": "polo → pueblo",
+                  "count": 4
+                },
+                {
+                  "text": "al → la",
+                  "count": 4
+                },
+                {
+                  "text": "al → el",
+                  "count": 4
+                },
+                {
+                  "text": "una → un",
+                  "count": 4
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "distinguen → distingen",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 20
+                },
+                {
+                  "text": "de",
+                  "count": 12
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "la",
+                  "count": 3
+                },
+                {
+                  "text": "edad",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "antigua",
+                  "count": 3
+                },
+                {
+                  "text": "un",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 27
+                },
+                {
+                  "text": "a",
+                  "count": 26
+                },
+                {
+                  "text": "en",
+                  "count": 15
+                },
+                {
+                  "text": "y",
+                  "count": 8
+                },
+                {
+                  "text": "más",
+                  "count": 7
+                },
+                {
+                  "text": "se",
+                  "count": 6
+                },
+                {
+                  "text": "la",
+                  "count": 4
+                },
+                {
+                  "text": "los",
+                  "count": 4
+                },
+                {
+                  "text": "que",
+                  "count": 3
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T21:21:34.464778+00:00"
+      },
+      "training": {
+        "experiment": {
+          "id": "E22",
+          "name": "Tiny Fisher-protected replay",
+          "strategy": "full",
+          "augmentation": true,
+          "baseline_id": "E0"
+        },
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "initialize_from": "E11",
+          "additional_training_manifest": "data/latin-spanish/manifest.csv",
+          "additional_training_license": "CC-BY-SA-4.0",
+          "learning_rate_full": 5e-06,
+          "learning_rate_encoder": 5e-06,
+          "learning_rate_decoder": 5e-06,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 8,
+          "gradient_accumulation_steps": 2,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.02,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.0,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 182,
+          "validation_batch_size": 4,
+          "ewc_fisher": "runs/fisher-E11/fisher.safetensors",
+          "ewc_lambda": 10000.0
+        },
+        "effective_learning_rate": 5e-06,
+        "initial_experiment": "E11",
+        "initial_weights_sha256": "db782a02703512d566ea060703fe10cbde51f40c28a667b4626a7cd0779cdbcb",
+        "parent_training_seconds": 1622.239809199993,
+        "parent_training_data": null,
+        "learning_rates": {
+          "encoder": 5e-06,
+          "decoder": 5e-06
+        },
+        "encoder_freezing": {
+          "frozen_lower_blocks": 0,
+          "encoder_depth": 4,
+          "acoustic_front_end_frozen": false,
+          "frozen_encoder_parameters": 576000
+        },
+        "ewc": {
+          "anchor_experiment": "E11",
+          "project": {
+            "language": "spanish",
+            "language_code": "es",
+            "dataset": "google/fleurs",
+            "dataset_config": "es_419",
+            "model": "openai/whisper-tiny",
+            "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+            "manifest": "data/manifest.csv",
+            "seed": 42,
+            "sample_rate": 16000,
+            "max_duration_seconds": 30,
+            "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+            "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+            "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+            "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+          },
+          "split": "train",
+          "samples": 128,
+          "seed": 42,
+          "training_audio_paths": [
+            "data/audio/train/01270.wav",
+            "data/audio/train/01001.wav",
+            "data/audio/train/01309.wav",
+            "data/audio/train/00389.wav",
+            "data/audio/train/01761.wav",
+            "data/audio/train/01899.wav",
+            "data/audio/train/02757.wav",
+            "data/audio/train/00553.wav",
+            "data/audio/train/01489.wav",
+            "data/audio/train/02291.wav",
+            "data/audio/train/00623.wav",
+            "data/audio/train/01733.wav",
+            "data/audio/train/01845.wav",
+            "data/audio/train/00267.wav",
+            "data/audio/train/02256.wav",
+            "data/audio/train/01748.wav",
+            "data/audio/train/00860.wav",
+            "data/audio/train/02517.wav",
+            "data/audio/train/00539.wav",
+            "data/audio/train/00319.wav",
+            "data/audio/train/02218.wav",
+            "data/audio/train/01410.wav",
+            "data/audio/train/00344.wav",
+            "data/audio/train/00238.wav",
+            "data/audio/train/00997.wav",
+            "data/audio/train/00890.wav",
+            "data/audio/train/01305.wav",
+            "data/audio/train/00961.wav",
+            "data/audio/train/00990.wav",
+            "data/audio/train/01407.wav",
+            "data/audio/train/01928.wav",
+            "data/audio/train/01545.wav",
+            "data/audio/train/02027.wav",
+            "data/audio/train/00103.wav",
+            "data/audio/train/02109.wav",
+            "data/audio/train/01157.wav",
+            "data/audio/train/01498.wav",
+            "data/audio/train/01013.wav",
+            "data/audio/train/01710.wav",
+            "data/audio/train/01958.wav",
+            "data/audio/train/02388.wav",
+            "data/audio/train/02230.wav",
+            "data/audio/train/01840.wav",
+            "data/audio/train/02399.wav",
+            "data/audio/train/00248.wav",
+            "data/audio/train/01841.wav",
+            "data/audio/train/02138.wav",
+            "data/audio/train/01550.wav",
+            "data/audio/train/02425.wav",
+            "data/audio/train/00770.wav",
+            "data/audio/train/02041.wav",
+            "data/audio/train/02494.wav",
+            "data/audio/train/00221.wav",
+            "data/audio/train/01826.wav",
+            "data/audio/train/01887.wav",
+            "data/audio/train/02033.wav",
+            "data/audio/train/01355.wav",
+            "data/audio/train/01210.wav",
+            "data/audio/train/02165.wav",
+            "data/audio/train/02305.wav",
+            "data/audio/train/02295.wav",
+            "data/audio/train/00442.wav",
+            "data/audio/train/00491.wav",
+            "data/audio/train/01864.wav",
+            "data/audio/train/00447.wav",
+            "data/audio/train/02634.wav",
+            "data/audio/train/01345.wav",
+            "data/audio/train/01378.wav",
+            "data/audio/train/01084.wav",
+            "data/audio/train/02182.wav",
+            "data/audio/train/01583.wav",
+            "data/audio/train/00172.wav",
+            "data/audio/train/02718.wav",
+            "data/audio/train/01226.wav",
+            "data/audio/train/01315.wav",
+            "data/audio/train/01579.wav",
+            "data/audio/train/02221.wav",
+            "data/audio/train/02179.wav",
+            "data/audio/train/00386.wav",
+            "data/audio/train/01202.wav",
+            "data/audio/train/02323.wav",
+            "data/audio/train/00420.wav",
+            "data/audio/train/01863.wav",
+            "data/audio/train/01122.wav",
+            "data/audio/train/01866.wav",
+            "data/audio/train/00252.wav",
+            "data/audio/train/02066.wav",
+            "data/audio/train/02209.wav",
+            "data/audio/train/01924.wav",
+            "data/audio/train/01471.wav",
+            "data/audio/train/01883.wav",
+            "data/audio/train/01070.wav",
+            "data/audio/train/02239.wav",
+            "data/audio/train/00749.wav",
+            "data/audio/train/02643.wav",
+            "data/audio/train/00020.wav",
+            "data/audio/train/00906.wav",
+            "data/audio/train/02115.wav",
+            "data/audio/train/00119.wav",
+            "data/audio/train/01972.wav",
+            "data/audio/train/02476.wav",
+            "data/audio/train/00184.wav",
+            "data/audio/train/01215.wav",
+            "data/audio/train/00796.wav",
+            "data/audio/train/01196.wav",
+            "data/audio/train/01200.wav",
+            "data/audio/train/00229.wav",
+            "data/audio/train/02116.wav",
+            "data/audio/train/01734.wav",
+            "data/audio/train/00684.wav",
+            "data/audio/train/02481.wav",
+            "data/audio/train/02170.wav",
+            "data/audio/train/02714.wav",
+            "data/audio/train/00613.wav",
+            "data/audio/train/02104.wav",
+            "data/audio/train/01276.wav",
+            "data/audio/train/00529.wav",
+            "data/audio/train/02054.wav",
+            "data/audio/train/01172.wav",
+            "data/audio/train/01268.wav",
+            "data/audio/train/02321.wav",
+            "data/audio/train/00662.wav",
+            "data/audio/train/00208.wav",
+            "data/audio/train/02614.wav",
+            "data/audio/train/01285.wav",
+            "data/audio/train/00519.wav",
+            "data/audio/train/02584.wav",
+            "data/audio/train/00356.wav"
+          ],
+          "sample_fingerprint": "5febf2f8090f62d45fb0b31416504a3ebbd23cafa8b29b1172072ad0bc21e386",
+          "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+          "anchor_sha256": "db782a02703512d566ea060703fe10cbde51f40c28a667b4626a7cd0779cdbcb",
+          "fisher_sha256": "0bb2ac0aa9e7d749aa97dcb176d800e272e8ffe7a2d28f3442c1fffaf0669ce4",
+          "method": "mean squared per-utterance gradient of token-mean supervised cross-entropy; diagonal empirical Fisher",
+          "seconds": 14.072248299984494,
+          "evaluation_data_used": false,
+          "lambda": 10000.0,
+          "normalization": "global unit trace",
+          "anchor": "E11",
+          "raw_fisher_trace": 689.9978766966714
+        },
+        "training_target_sha256": "179a12184a9f1122ed59ecb1ed27e3b419b013a3c00ca018aa9070ea6f9a4258",
+        "training_target_count": 5796,
+        "decoder_prefix_tokens": [
+          "<|startoftranscript|>",
+          "<|es|>",
+          "<|transcribe|>",
+          "<|notimestamps|>"
+        ],
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "checkpoint_evaluation_batch_size": 4,
+        "teacher": null,
+        "loss_objective": "supervised cross-entropy + diagonal Fisher EWC",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "validation_audit": {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Speaker IDs are missing: speaker independence cannot be verified."
+          ],
+          "splits": {
+            "train": {
+              "samples": 2796,
+              "hours": 8.80553333333334
+            },
+            "validation": {
+              "samples": 407,
+              "hours": 1.344716666666667
+            },
+            "test": {
+              "samples": 907,
+              "hours": 3.082166666666667
+            }
+          },
+          "samples": 4110
+        },
+        "training_dataset_fingerprint": "a47dc26aa5dd9a6ba07f0b68e03fa52737e8ed4561de77dc7fb7d1ecac3b1a10",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 3000,
+          "additional_manifest": "data/latin-spanish/manifest.csv",
+          "additional_license": "CC-BY-SA-4.0",
+          "total_samples": 5796,
+          "total_hours": 12.976809843749999
+        },
+        "started_at": "2026-11-01T21:11:07.722864+00:00",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "torch": "2.10.0+cu128",
+        "trainable_parameters": 37184640,
+        "trainable_parameter_names": null,
+        "base_parameters_frozen": false,
+        "total_parameters": 37760640,
+        "precision": "torch.bfloat16",
+        "optimizer_steps": 545,
+        "skipped_steps": 0,
+        "status": "completed",
+        "best_epoch": 0.502,
+        "best_optimizer_step": 182,
+        "best_validation_wer": 18.59471278075929,
+        "training_seconds": 443.71880760000204,
+        "cumulative_training_seconds": 2065.958616799995,
+        "peak_gpu_memory_mb": 1841.3583984375
+      },
+      "weight_audit": {
+        "experiment": "E22",
+        "initial_experiment": "E11",
+        "groups": {
+          "encoder": {
+            "parameters": 8208384,
+            "changed_parameters": 7632293,
+            "tensors": 67,
+            "changed_tensors": 66,
+            "relative_l2_change": 0.00026081226248811373
+          },
+          "decoder": {
+            "parameters": 29552256,
+            "changed_parameters": 29552078,
+            "tensors": 100,
+            "changed_tensors": 100,
+            "relative_l2_change": 0.0029946869980316416
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      }
+    },
+    "E23": {
+      "id": "E23",
+      "name": "Tiny stronger Fisher-protected replay",
+      "metrics": {
+        "wer": 18.83323394951302,
+        "cer": 5.9046330740615485,
+        "substitutions": 1409,
+        "deletions": 156,
+        "insertions": 330,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 6
+            },
+            {
+              "text": "de → en",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "al → el",
+              "count": 5
+            },
+            {
+              "text": "del → la",
+              "count": 4
+            },
+            {
+              "text": "polo → pueblo",
+              "count": 4
+            },
+            {
+              "text": "deportivos → portivos",
+              "count": 4
+            },
+            {
+              "text": "una → un",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 21
+            },
+            {
+              "text": "de",
+              "count": 13
+            },
+            {
+              "text": "en",
+              "count": 6
+            },
+            {
+              "text": "la",
+              "count": 4
+            },
+            {
+              "text": "no",
+              "count": 4
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "el",
+              "count": 2
+            },
+            {
+              "text": "edad",
+              "count": 2
+            },
+            {
+              "text": "un",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 36
+            },
+            {
+              "text": "a",
+              "count": 25
+            },
+            {
+              "text": "en",
+              "count": 14
+            },
+            {
+              "text": "y",
+              "count": 8
+            },
+            {
+              "text": "se",
+              "count": 8
+            },
+            {
+              "text": "la",
+              "count": 7
+            },
+            {
+              "text": "más",
+              "count": 7
+            },
+            {
+              "text": "el",
+              "count": 4
+            },
+            {
+              "text": "un",
+              "count": 4
+            },
+            {
+              "text": "su",
+              "count": 4
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.36819719434864545,
+        "trainable_parameters": 37184640,
+        "training_seconds": 2196.765885800007,
+        "inference_parameters": 37760640,
+        "stage_training_seconds": 574.5260766000138,
+        "initial_experiment": "E11",
+        "peak_gpu_memory_mb": 1841.3583984375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 18.83323394951302,
+            "cer": 5.9046330740615485,
+            "substitutions": 1409,
+            "deletions": 156,
+            "insertions": 330,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 6
+                },
+                {
+                  "text": "de → en",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "al → el",
+                  "count": 5
+                },
+                {
+                  "text": "del → la",
+                  "count": 4
+                },
+                {
+                  "text": "polo → pueblo",
+                  "count": 4
+                },
+                {
+                  "text": "deportivos → portivos",
+                  "count": 4
+                },
+                {
+                  "text": "una → un",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 21
+                },
+                {
+                  "text": "de",
+                  "count": 13
+                },
+                {
+                  "text": "en",
+                  "count": 6
+                },
+                {
+                  "text": "la",
+                  "count": 4
+                },
+                {
+                  "text": "no",
+                  "count": 4
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "el",
+                  "count": 2
+                },
+                {
+                  "text": "edad",
+                  "count": 2
+                },
+                {
+                  "text": "un",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 36
+                },
+                {
+                  "text": "a",
+                  "count": 25
+                },
+                {
+                  "text": "en",
+                  "count": 14
+                },
+                {
+                  "text": "y",
+                  "count": 8
+                },
+                {
+                  "text": "se",
+                  "count": 8
+                },
+                {
+                  "text": "la",
+                  "count": 7
+                },
+                {
+                  "text": "más",
+                  "count": 7
+                },
+                {
+                  "text": "el",
+                  "count": 4
+                },
+                {
+                  "text": "un",
+                  "count": 4
+                },
+                {
+                  "text": "su",
+                  "count": 4
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T21:34:44.919502+00:00"
+      },
+      "training": {
+        "experiment": {
+          "id": "E23",
+          "name": "Tiny stronger Fisher-protected replay",
+          "strategy": "full",
+          "augmentation": true,
+          "baseline_id": "E0"
+        },
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "initialize_from": "E11",
+          "additional_training_manifest": "data/latin-spanish/manifest.csv",
+          "additional_training_license": "CC-BY-SA-4.0",
+          "learning_rate_full": 5e-06,
+          "learning_rate_encoder": 5e-06,
+          "learning_rate_decoder": 5e-06,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 8,
+          "gradient_accumulation_steps": 2,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.02,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.0,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 182,
+          "validation_batch_size": 4,
+          "ewc_fisher": "runs/fisher-E11/fisher.safetensors",
+          "ewc_lambda": 10000000.0
+        },
+        "effective_learning_rate": 5e-06,
+        "initial_experiment": "E11",
+        "initial_weights_sha256": "db782a02703512d566ea060703fe10cbde51f40c28a667b4626a7cd0779cdbcb",
+        "parent_training_seconds": 1622.239809199993,
+        "parent_training_data": null,
+        "learning_rates": {
+          "encoder": 5e-06,
+          "decoder": 5e-06
+        },
+        "encoder_freezing": {
+          "frozen_lower_blocks": 0,
+          "encoder_depth": 4,
+          "acoustic_front_end_frozen": false,
+          "frozen_encoder_parameters": 576000
+        },
+        "ewc": {
+          "anchor_experiment": "E11",
+          "project": {
+            "language": "spanish",
+            "language_code": "es",
+            "dataset": "google/fleurs",
+            "dataset_config": "es_419",
+            "model": "openai/whisper-tiny",
+            "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+            "manifest": "data/manifest.csv",
+            "seed": 42,
+            "sample_rate": 16000,
+            "max_duration_seconds": 30,
+            "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+            "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+            "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+            "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+          },
+          "split": "train",
+          "samples": 128,
+          "seed": 42,
+          "training_audio_paths": [
+            "data/audio/train/01270.wav",
+            "data/audio/train/01001.wav",
+            "data/audio/train/01309.wav",
+            "data/audio/train/00389.wav",
+            "data/audio/train/01761.wav",
+            "data/audio/train/01899.wav",
+            "data/audio/train/02757.wav",
+            "data/audio/train/00553.wav",
+            "data/audio/train/01489.wav",
+            "data/audio/train/02291.wav",
+            "data/audio/train/00623.wav",
+            "data/audio/train/01733.wav",
+            "data/audio/train/01845.wav",
+            "data/audio/train/00267.wav",
+            "data/audio/train/02256.wav",
+            "data/audio/train/01748.wav",
+            "data/audio/train/00860.wav",
+            "data/audio/train/02517.wav",
+            "data/audio/train/00539.wav",
+            "data/audio/train/00319.wav",
+            "data/audio/train/02218.wav",
+            "data/audio/train/01410.wav",
+            "data/audio/train/00344.wav",
+            "data/audio/train/00238.wav",
+            "data/audio/train/00997.wav",
+            "data/audio/train/00890.wav",
+            "data/audio/train/01305.wav",
+            "data/audio/train/00961.wav",
+            "data/audio/train/00990.wav",
+            "data/audio/train/01407.wav",
+            "data/audio/train/01928.wav",
+            "data/audio/train/01545.wav",
+            "data/audio/train/02027.wav",
+            "data/audio/train/00103.wav",
+            "data/audio/train/02109.wav",
+            "data/audio/train/01157.wav",
+            "data/audio/train/01498.wav",
+            "data/audio/train/01013.wav",
+            "data/audio/train/01710.wav",
+            "data/audio/train/01958.wav",
+            "data/audio/train/02388.wav",
+            "data/audio/train/02230.wav",
+            "data/audio/train/01840.wav",
+            "data/audio/train/02399.wav",
+            "data/audio/train/00248.wav",
+            "data/audio/train/01841.wav",
+            "data/audio/train/02138.wav",
+            "data/audio/train/01550.wav",
+            "data/audio/train/02425.wav",
+            "data/audio/train/00770.wav",
+            "data/audio/train/02041.wav",
+            "data/audio/train/02494.wav",
+            "data/audio/train/00221.wav",
+            "data/audio/train/01826.wav",
+            "data/audio/train/01887.wav",
+            "data/audio/train/02033.wav",
+            "data/audio/train/01355.wav",
+            "data/audio/train/01210.wav",
+            "data/audio/train/02165.wav",
+            "data/audio/train/02305.wav",
+            "data/audio/train/02295.wav",
+            "data/audio/train/00442.wav",
+            "data/audio/train/00491.wav",
+            "data/audio/train/01864.wav",
+            "data/audio/train/00447.wav",
+            "data/audio/train/02634.wav",
+            "data/audio/train/01345.wav",
+            "data/audio/train/01378.wav",
+            "data/audio/train/01084.wav",
+            "data/audio/train/02182.wav",
+            "data/audio/train/01583.wav",
+            "data/audio/train/00172.wav",
+            "data/audio/train/02718.wav",
+            "data/audio/train/01226.wav",
+            "data/audio/train/01315.wav",
+            "data/audio/train/01579.wav",
+            "data/audio/train/02221.wav",
+            "data/audio/train/02179.wav",
+            "data/audio/train/00386.wav",
+            "data/audio/train/01202.wav",
+            "data/audio/train/02323.wav",
+            "data/audio/train/00420.wav",
+            "data/audio/train/01863.wav",
+            "data/audio/train/01122.wav",
+            "data/audio/train/01866.wav",
+            "data/audio/train/00252.wav",
+            "data/audio/train/02066.wav",
+            "data/audio/train/02209.wav",
+            "data/audio/train/01924.wav",
+            "data/audio/train/01471.wav",
+            "data/audio/train/01883.wav",
+            "data/audio/train/01070.wav",
+            "data/audio/train/02239.wav",
+            "data/audio/train/00749.wav",
+            "data/audio/train/02643.wav",
+            "data/audio/train/00020.wav",
+            "data/audio/train/00906.wav",
+            "data/audio/train/02115.wav",
+            "data/audio/train/00119.wav",
+            "data/audio/train/01972.wav",
+            "data/audio/train/02476.wav",
+            "data/audio/train/00184.wav",
+            "data/audio/train/01215.wav",
+            "data/audio/train/00796.wav",
+            "data/audio/train/01196.wav",
+            "data/audio/train/01200.wav",
+            "data/audio/train/00229.wav",
+            "data/audio/train/02116.wav",
+            "data/audio/train/01734.wav",
+            "data/audio/train/00684.wav",
+            "data/audio/train/02481.wav",
+            "data/audio/train/02170.wav",
+            "data/audio/train/02714.wav",
+            "data/audio/train/00613.wav",
+            "data/audio/train/02104.wav",
+            "data/audio/train/01276.wav",
+            "data/audio/train/00529.wav",
+            "data/audio/train/02054.wav",
+            "data/audio/train/01172.wav",
+            "data/audio/train/01268.wav",
+            "data/audio/train/02321.wav",
+            "data/audio/train/00662.wav",
+            "data/audio/train/00208.wav",
+            "data/audio/train/02614.wav",
+            "data/audio/train/01285.wav",
+            "data/audio/train/00519.wav",
+            "data/audio/train/02584.wav",
+            "data/audio/train/00356.wav"
+          ],
+          "sample_fingerprint": "5febf2f8090f62d45fb0b31416504a3ebbd23cafa8b29b1172072ad0bc21e386",
+          "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+          "anchor_sha256": "db782a02703512d566ea060703fe10cbde51f40c28a667b4626a7cd0779cdbcb",
+          "fisher_sha256": "0bb2ac0aa9e7d749aa97dcb176d800e272e8ffe7a2d28f3442c1fffaf0669ce4",
+          "method": "mean squared per-utterance gradient of token-mean supervised cross-entropy; diagonal empirical Fisher",
+          "seconds": 14.072248299984494,
+          "evaluation_data_used": false,
+          "lambda": 10000000.0,
+          "normalization": "global unit trace",
+          "anchor": "E11",
+          "raw_fisher_trace": 689.9978766966714
+        },
+        "training_target_sha256": "179a12184a9f1122ed59ecb1ed27e3b419b013a3c00ca018aa9070ea6f9a4258",
+        "training_target_count": 5796,
+        "decoder_prefix_tokens": [
+          "<|startoftranscript|>",
+          "<|es|>",
+          "<|transcribe|>",
+          "<|notimestamps|>"
+        ],
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "checkpoint_evaluation_batch_size": 4,
+        "teacher": null,
+        "loss_objective": "supervised cross-entropy + diagonal Fisher EWC",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "validation_audit": {
+          "valid": true,
+          "errors": [],
+          "warnings": [
+            "Speaker IDs are missing: speaker independence cannot be verified."
+          ],
+          "splits": {
+            "train": {
+              "samples": 2796,
+              "hours": 8.80553333333334
+            },
+            "validation": {
+              "samples": 407,
+              "hours": 1.344716666666667
+            },
+            "test": {
+              "samples": 907,
+              "hours": 3.082166666666667
+            }
+          },
+          "samples": 4110
+        },
+        "training_dataset_fingerprint": "a47dc26aa5dd9a6ba07f0b68e03fa52737e8ed4561de77dc7fb7d1ecac3b1a10",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 3000,
+          "additional_manifest": "data/latin-spanish/manifest.csv",
+          "additional_license": "CC-BY-SA-4.0",
+          "total_samples": 5796,
+          "total_hours": 12.976809843749999
+        },
+        "started_at": "2026-11-01T21:22:10.570429+00:00",
+        "device": "cuda",
+        "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "torch": "2.10.0+cu128",
+        "trainable_parameters": 37184640,
+        "trainable_parameter_names": null,
+        "base_parameters_frozen": false,
+        "total_parameters": 37760640,
+        "precision": "torch.bfloat16",
+        "optimizer_steps": 726,
+        "skipped_steps": 0,
+        "status": "completed",
+        "best_epoch": 1,
+        "best_optimizer_step": 363,
+        "best_validation_wer": 18.83323394951302,
+        "training_seconds": 574.5260766000138,
+        "cumulative_training_seconds": 2196.765885800007,
+        "peak_gpu_memory_mb": 1841.3583984375
+      },
+      "weight_audit": {
+        "experiment": "E23",
+        "initial_experiment": "E11",
+        "groups": {
+          "encoder": {
+            "parameters": 8208384,
+            "changed_parameters": 7632302,
+            "tensors": 67,
+            "changed_tensors": 66,
+            "relative_l2_change": 0.00036104043731793016
+          },
+          "decoder": {
+            "parameters": 29552256,
+            "changed_parameters": 29552127,
+            "tensors": 100,
+            "changed_tensors": 100,
+            "relative_l2_change": 0.005427358572289885
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      }
+    }
+  },
+  "_export": {
+    "paths": "Project-relative; original machine-local records are preserved in runs/.",
+    "metrics_modified": false,
+    "fingerprints": "Historical fingerprints are preserved, not recalculated after path redaction."
+  }
+}

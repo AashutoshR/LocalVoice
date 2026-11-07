@@ -1,0 +1,51 @@
+[
+  {
+    "graphics": [
+      {
+        "label": "Word error rate by experiment, percentages shown above bars",
+        "result": "pass"
+      }
+    ],
+    "icons": [],
+    "page": "#overview"
+  },
+  {
+    "graphics": [],
+    "icons": [
+      {
+        "label": "Control icon",
+        "ratio": 6.409,
+        "result": "pass"
+      }
+    ],
+    "page": "#playground"
+  },
+  {
+    "graphics": [
+      {
+        "label": "Validation word error rate. Epoch 1: 20.9 percent. Epoch 2: 21.3 percent. Epoch 3: 21.2 percent. Lower is better.",
+        "result": "pass"
+      },
+      {
+        "label": "Validation word error rate. Epoch 1: 168.9 percent. Epoch 2: 51.7 percent. Epoch 3: 21.6 percent. Epoch 4: 21.7 percent. Epoch 5: 21.8 percent. Lower is better.",
+        "result": "pass"
+      },
+      {
+        "label": "Validation word error rate. Epoch 1: 179.6 percent. Epoch 2: 191.6 percent. Lower is better.",
+        "result": "pass"
+      }
+    ],
+    "icons": [],
+    "page": "#experiments"
+  },
+  {
+    "graphics": [],
+    "icons": [],
+    "page": "#dataset"
+  },
+  {
+    "graphics": [],
+    "icons": [],
+    "page": "#report"
+  }
+]

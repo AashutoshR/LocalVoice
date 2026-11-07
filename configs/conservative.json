@@ -1,0 +1,20 @@
+{
+  "learning_rate_full": 2e-06,
+  "learning_rate_lora": 1e-05,
+  "batch_size": 8,
+  "gradient_accumulation_steps": 4,
+  "epochs": 6,
+  "seed": 42,
+  "early_stopping_patience": 2,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "lora_targets": [
+    "q_proj",
+    "v_proj"
+  ],
+  "warmup_ratio": 0.05,
+  "weight_decay": 0.05,
+  "log_every_steps": 20,
+  "target_text": "punctuated"
+}

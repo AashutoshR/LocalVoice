@@ -1,0 +1,5643 @@
+[
+  {
+    "documentWidth": 722,
+    "elements": [
+      {
+        "kind": "text",
+        "label": "Skip to main content",
+        "ratio": 16.009,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "a:nth-of-type(1)"
+      },
+      {
+        "height": 46.5,
+        "kind": "control",
+        "label": "Skip to main content",
+        "result": "pass",
+        "selector": "a:nth-of-type(1)",
+        "width": 190.1
+      },
+      {
+        "kind": "text",
+        "label": "LocalVoice",
+        "ratio": 15.836,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 37.5,
+        "kind": "control",
+        "label": "LocalVoice.",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 686.4
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 12.615,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Overview",
+        "ratio": 10.755,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Overview",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 99.9
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Speech playgroundTRY IT",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "width": 148.3
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Experiments5",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "width": 113.7
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Dataset",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "width": 89.6
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Research report",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Research report",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "width": 131.5
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Workspace",
+        "ratio": 5.903,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "/",
+        "ratio": 6.069,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Overview",
+        "ratio": 11.932,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#breadcrumb"
+      },
+      {
+        "kind": "text",
+        "label": "Local environment",
+        "ratio": 7.073,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "THE SPANISH FINE-TUNING LAB",
+        "ratio": 5.81,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Fine-tuning, made measurable",
+        "ratio": 14.337,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 5.65,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Fine-tune Spanish speech recognition. Measure exactly what your training changes.",
+        "ratio": 5.596,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Track fine-tuning",
+        "ratio": 6.309,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Track fine-tuning â†—",
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 163.5
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-overview > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "â†—",
+        "ratio": 6.309,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "SPANISH SPEECH RECOGNITION",
+        "ratio": 8.832,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Adapt the model. Measure the difference.",
+        "ratio": 12.283,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "One pretrained model. Five controlled experiments. Discover what fine-tuning changes, one word at a time.",
+        "ratio": 9.839,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Explore the experiment plan",
+        "ratio": 10.619,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 28,
+        "kind": "control",
+        "label": "Explore the experiment plan â†’",
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 192.9
+      },
+      {
+        "kind": "text",
+        "label": "â†’",
+        "ratio": 10.619,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Whisper Tiny",
+        "ratio": 9.448,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Spanish Â· es",
+        "ratio": 9.448,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-overview > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset size",
+        "ratio": 7.138,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "13.2",
+        "ratio": 13.724,
+        "required": 3,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(1) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "hours",
+        "ratio": 7.075,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "4,110 prepared clips",
+        "ratio": 6.409,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(1) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments evaluated",
+        "ratio": 5.992,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(2) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "3",
+        "ratio": 11.519,
+        "required": 3,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(2) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "/ 5",
+        "ratio": 5.938,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E4 train Â· live",
+        "ratio": 5.379,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(2) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Best tuned WER",
+        "ratio": 7.138,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(3) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.9",
+        "ratio": 13.724,
+        "required": 3,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(3) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "%",
+        "ratio": 7.075,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(3) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 Â· validation split",
+        "ratio": 6.409,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(3) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Relative WER reduction",
+        "ratio": 5.972,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(4) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "-0.6",
+        "ratio": 11.482,
+        "required": 3,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(4) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "%",
+        "ratio": 5.919,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 versus E0 Â· regression",
+        "ratio": 5.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-metrics > article:nth-of-type(4) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "From baseline to better",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Word error rate across the experiment series",
+        "ratio": 6.258,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Lower is better",
+        "ratio": 6,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "â†“",
+        "ratio": 6,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "100%",
+        "ratio": 6.125,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(1) > i:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "75%",
+        "ratio": 6.125,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(1) > i:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "50%",
+        "ratio": 6.125,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(1) > i:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "25%",
+        "ratio": 6.125,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(1) > i:nth-of-type(4) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "0%",
+        "ratio": 6.125,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(1) > i:nth-of-type(5) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "non-text",
+        "label": "backgroundColor",
+        "ratio": 6.199,
+        "required": 3,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.8%",
+        "ratio": 9.876,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E0",
+        "ratio": 6.374,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "non-text",
+        "label": "backgroundColor",
+        "ratio": 4.776,
+        "required": 3,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.9%",
+        "ratio": 9.876,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1",
+        "ratio": 6.374,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "non-text",
+        "label": "backgroundColor",
+        "ratio": 4.776,
+        "required": 3,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "21.6%",
+        "ratio": 9.876,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E2",
+        "ratio": 6.374,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E3",
+        "ratio": 6.374,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E4",
+        "ratio": 6.374,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-chart > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Pretrained",
+        "ratio": 6.448,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Fine-tuned",
+        "ratio": 6.448,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "validation split Â· comparable runs only",
+        "ratio": 6.448,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#chart-split"
+      },
+      {
+        "kind": "text",
+        "label": "The path to improvement",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "A reproducible research workflow",
+        "ratio": 6.258,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "2 / 4",
+        "ratio": 6.272,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps-count"
+      },
+      {
+        "kind": "text",
+        "label": "âœ“",
+        "ratio": 6.959,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Prepare the data",
+        "ratio": 9.802,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(1) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Validate clips, transcripts, and split integrity",
+        "ratio": 5.581,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Complete",
+        "ratio": 5.449,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "âœ“",
+        "ratio": 6.959,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Establish the baseline",
+        "ratio": 9.802,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(2) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Measure pretrained recognition quality",
+        "ratio": 5.581,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Complete",
+        "ratio": 5.449,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(2) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "3",
+        "ratio": 4.96,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Fine-tune & experiment",
+        "ratio": 9.802,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(3) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Compare full tuning, LoRA, and augmentation",
+        "ratio": 5.581,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "In progress",
+        "ratio": 5.449,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(3) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "4",
+        "ratio": 4.96,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(4) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Evaluate & understand",
+        "ratio": 9.802,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(4) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Report the changes, costs, and limitations",
+        "ratio": 5.581,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Pending",
+        "ratio": 5.449,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#steps > div:nth-of-type(4) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "View research notes",
+        "ratio": 8.408,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(2) > a:nth-of-type(1)"
+      },
+      {
+        "height": 47.3,
+        "kind": "control",
+        "label": "View research notes â†—",
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(2) > a:nth-of-type(1)",
+        "width": 680.8
+      },
+      {
+        "kind": "text",
+        "label": "â†—",
+        "ratio": 8.408,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > div:nth-of-type(4) > article:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "One model. Five perspectives.",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "A controlled comparison of strategy and augmentation.",
+        "ratio": 6.258,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "All experiments",
+        "ratio": 7.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 28,
+        "kind": "control",
+        "label": "All experiments â†’",
+        "result": "pass",
+        "selector": "#page-overview > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 97.6
+      },
+      {
+        "kind": "text",
+        "label": "â†’",
+        "ratio": 7.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "height": 348.8,
+        "kind": "control",
+        "label": "Experiment summary, horizontally scrollable",
+        "result": "pass",
+        "selector": "#overview-table",
+        "width": 680.8
+      },
+      {
+        "kind": "text",
+        "label": "EXPERIMENT",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "STRATEGY",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "AUGMENTATION",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "WER â†“",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "STATUS",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "Pretrained baseline",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E0",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Pretrained",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "â€” None",
+        "ratio": 5.275,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.8%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated",
+        "ratio": 6.271,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(5) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full fine-tuning",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full fine-tuning",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "â€” None",
+        "ratio": 5.275,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.9%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated",
+        "ratio": 6.271,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(5) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA fine-tuning",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E2",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "â€” None",
+        "ratio": 5.275,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "21.6%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated",
+        "ratio": 6.271,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(5) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full + augmentation",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E3",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full fine-tuning",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "âœ§ Enabled",
+        "ratio": 6.732,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "planned",
+        "ratio": 5.856,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(5) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA + augmentation",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E4",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "âœ§ Enabled",
+        "ratio": 6.732,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "running",
+        "ratio": 5.856,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#overview-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(5) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LocalVoice   Built for measurable progress.",
+        "ratio": 5.557,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > footer:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "/",
+        "ratio": 5.557,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > footer:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "No improvement claims without evaluation.",
+        "ratio": 5.557,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-overview > footer:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "graphic-label",
+        "selector": "[role=img] measured graphic 1",
+        "label": "Word error rate by experiment, percentages shown above bars",
+        "result": "pass"
+      }
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Fine-tuning, made measurable."
+      },
+      {
+        "level": "H2",
+        "text": "Adapt the model.Measure the difference."
+      },
+      {
+        "level": "H2",
+        "text": "From baseline to better"
+      },
+      {
+        "level": "H2",
+        "text": "The path to improvement"
+      },
+      {
+        "level": "H2",
+        "text": "One model. Five perspectives."
+      }
+    ],
+    "page": "#overview",
+    "viewport": 738
+  },
+  {
+    "documentWidth": 722,
+    "elements": [
+      {
+        "kind": "text",
+        "label": "Skip to main content",
+        "ratio": 16.009,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "a:nth-of-type(1)"
+      },
+      {
+        "height": 46.5,
+        "kind": "control",
+        "label": "Skip to main content",
+        "result": "pass",
+        "selector": "a:nth-of-type(1)",
+        "width": 190.1
+      },
+      {
+        "kind": "text",
+        "label": "LocalVoice",
+        "ratio": 15.836,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 37.5,
+        "kind": "control",
+        "label": "LocalVoice.",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 686.4
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 12.615,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Overview",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Overview",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 97.2
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 10.755,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Speech playgroundTRY IT",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "width": 153.4
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Experiments5",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "width": 113.7
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Dataset",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "width": 89.6
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Research report",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Research report",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "width": 131.5
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Workspace",
+        "ratio": 5.903,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "/",
+        "ratio": 6.069,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 11.932,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#breadcrumb"
+      },
+      {
+        "kind": "text",
+        "label": "Local environment",
+        "ratio": 7.073,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LISTEN. TRANSCRIBE. COMPARE.",
+        "ratio": 5.81,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 14.337,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 5.65,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Hear what your model can do. Compare the same clip across experiments.",
+        "ratio": 5.596,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Spanish Â· up to 30 seconds",
+        "ratio": 6,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Give your voice a place",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Upload audio",
+        "ratio": 10.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#upload-tab"
+      },
+      {
+        "height": 41,
+        "kind": "control",
+        "label": "Upload audio",
+        "result": "pass",
+        "selector": "#upload-tab",
+        "width": 291.7
+      },
+      {
+        "kind": "text",
+        "label": "Record speech",
+        "ratio": 5.261,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#record-tab"
+      },
+      {
+        "height": 41,
+        "kind": "control",
+        "label": "Record speech",
+        "result": "pass",
+        "selector": "#record-tab",
+        "width": 291.7
+      },
+      {
+        "kind": "non-text",
+        "label": "borderTopColor",
+        "ratio": 5.878,
+        "required": 3,
+        "result": "pass",
+        "selector": "#drop-zone"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#drop-zone > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Drop your audio here",
+        "ratio": 9.048,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#drop-zone > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "or   to get started",
+        "ratio": 5.71,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#drop-zone > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "browse files",
+        "ratio": 5.71,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#drop-zone > span:nth-of-type(2) > u:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "WAV, FLAC, OGG Â· max 12 MB Â· 30 seconds",
+        "ratio": 5.13,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#audio-hint"
+      },
+      {
+        "height": 208.4,
+        "kind": "control",
+        "label": "Drop your audio hereor browse files to get startedWAV, FLAC, OGG Â· max 12 MB Â· 30 seconds",
+        "result": "pass",
+        "selector": "#audio-file",
+        "width": 596.8
+      },
+      {
+        "kind": "text",
+        "label": "Try a Spanish dataset sample",
+        "ratio": 6.545,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#sample-button"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Try a Spanish dataset sample â†—",
+        "result": "pass",
+        "selector": "#sample-button",
+        "width": 598.4
+      },
+      {
+        "kind": "text",
+        "label": "â†—",
+        "ratio": 6.545,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#sample-button > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Model to test",
+        "ratio": 8.872,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(1)"
+      },
+      {
+        "height": 46,
+        "kind": "control",
+        "label": "Model to test",
+        "result": "pass",
+        "selector": "#model-select",
+        "width": 598.4
+      },
+      {
+        "kind": "non-text",
+        "label": "borderTopColor",
+        "ratio": 6.199,
+        "required": 3,
+        "result": "pass",
+        "selector": "#model-select"
+      },
+      {
+        "kind": "text",
+        "label": "Compare with pretrained baseline",
+        "ratio": 7.524,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(2)"
+      },
+      {
+        "height": 24,
+        "kind": "control",
+        "label": "Compare with pretrained baseline",
+        "result": "pass",
+        "selector": "#compare-models",
+        "width": 24
+      },
+      {
+        "kind": "text",
+        "label": "Reference transcript",
+        "ratio": 8.872,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "optional",
+        "ratio": 5.392,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "height": 99.7,
+        "kind": "control",
+        "label": "Reference transcript optional",
+        "result": "pass",
+        "selector": "#reference",
+        "width": 598.4
+      },
+      {
+        "kind": "non-text",
+        "label": "borderTopColor",
+        "ratio": 6.199,
+        "required": 3,
+        "result": "pass",
+        "selector": "#reference"
+      },
+      {
+        "kind": "text",
+        "label": "Use the exact Spanish words spoken in the clip. Accents and Ã± are preserved.",
+        "ratio": 6.441,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#reference-hint"
+      },
+      {
+        "kind": "text",
+        "label": "Transcribe audio",
+        "ratio": 6.309,
+        "required": 4.5,
+        "result": "exempt",
+        "selector": "#transcribe-button"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Transcribe audio",
+        "result": "disabled",
+        "selector": "#transcribe-button",
+        "width": 598.4
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#transcribe-button > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "GPU reserved for the experiment series. Speech testing resumes when the series finishes.",
+        "ratio": 6.441,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#inference-availability"
+      },
+      {
+        "kind": "text",
+        "label": "Audio stays on this machine. Models download on first use.",
+        "ratio": 6.441,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(2)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "The words behind the sound",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Your transcription will appear here",
+        "ratio": 6.258,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "height": 40,
+        "kind": "control",
+        "label": "Copy transcript",
+        "result": "pass",
+        "selector": "#copy-transcript",
+        "width": 40
+      },
+      {
+        "kind": "meaningful-icon",
+        "label": "Copy transcript",
+        "result": "pass",
+        "selector": "#copy-transcript > span:nth-of-type(1) > svg:nth-of-type(1)",
+        "ratio": 6.409,
+        "required": 3
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#transcript-results > div:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Ready when you are.",
+        "ratio": 7.299,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#transcript-results > div:nth-of-type(1) > h3:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Upload or record a clip, select a model, and turn speech into something you can study.",
+        "ratio": 5.41,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#transcript-results > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "A playground is a starting point.",
+        "ratio": 6.875,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Single-clip scores help inspect errors. Use the fixed evaluation split to make research claims. Model loading and inference time are reported separately.",
+        "ratio": 5.206,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+      }
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Speech playground."
+      },
+      {
+        "level": "H2",
+        "text": "Give your voice a place"
+      },
+      {
+        "level": "H2",
+        "text": "The words behind the sound"
+      },
+      {
+        "level": "H3",
+        "text": "Ready when you are."
+      }
+    ],
+    "page": "#playground",
+    "viewport": 738
+  },
+  {
+    "documentWidth": 722,
+    "elements": [
+      {
+        "kind": "text",
+        "label": "Skip to main content",
+        "ratio": 16.009,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "a:nth-of-type(1)"
+      },
+      {
+        "height": 46.5,
+        "kind": "control",
+        "label": "Skip to main content",
+        "result": "pass",
+        "selector": "a:nth-of-type(1)",
+        "width": 190.1
+      },
+      {
+        "kind": "text",
+        "label": "LocalVoice",
+        "ratio": 15.836,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 37.5,
+        "kind": "control",
+        "label": "LocalVoice.",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 686.4
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 12.615,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Overview",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Overview",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 97.2
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Speech playgroundTRY IT",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "width": 148.3
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments",
+        "ratio": 10.755,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Experiments5",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "width": 117.7
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Dataset",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "width": 89.6
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Research report",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Research report",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "width": 131.5
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Workspace",
+        "ratio": 5.903,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "/",
+        "ratio": 6.069,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments",
+        "ratio": 11.932,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#breadcrumb"
+      },
+      {
+        "kind": "text",
+        "label": "Local environment",
+        "ratio": 7.073,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "CONTROLLED EXPERIMENTS",
+        "ratio": 5.81,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Make the difference measurable",
+        "ratio": 14.337,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 5.65,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "A live view of model updates, validation checkpoints, and measured improvements.",
+        "ratio": 5.596,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Export results",
+        "ratio": 11.259,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Export results",
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 129.8
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-experiments > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "The fine-tuning board",
+        "ratio": 12.606,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Real optimizer updates, learning curves, and validation-selected checkpoints.",
+        "ratio": 6.07,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Whisper Â· Spanish",
+        "ratio": 6,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > article:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Â· E4 train",
+        "ratio": 6.526,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiment series: running",
+        "ratio": 11.274,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > p:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full tuning updates every model parameter. LoRA updates query/value adapters. Augmentation is applied only to training audio. The best checkpoint is selected by validation WER.",
+        "ratio": 6.526,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 Â· Full fine-tuning",
+        "ratio": 11.274,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated Â· completed",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "height": 7,
+        "kind": "control",
+        "label": "E1 completed progress",
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > div:nth-of-type(2)",
+        "width": 630.8,
+        "exception": "Informational progress indicator, not a pointer target"
+      },
+      {
+        "kind": "text",
+        "label": "Epoch 3 / 5",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1050 optimizer updates",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Loss 0.898",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Best validation WER 20.9%",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(4)"
+      },
+      {
+        "kind": "graphic",
+        "label": "Validation word error rate. Epoch 1: 20.9 percent. Epoch 2: 21.3 percent. Epoch 3: 21.2 percent. Lower is better.",
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Validation WER by epoch Â· lower is better Â· see exact values below",
+        "ratio": 6.113,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(1) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E2 Â· LoRA fine-tuning",
+        "ratio": 11.274,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated Â· completed",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "height": 7,
+        "kind": "control",
+        "label": "E2 completed progress",
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > div:nth-of-type(2)",
+        "width": 630.8,
+        "exception": "Informational progress indicator, not a pointer target"
+      },
+      {
+        "kind": "text",
+        "label": "Epoch 5 / 5",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1750 optimizer updates",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Loss 1.453",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Best validation WER 21.6%",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(4)"
+      },
+      {
+        "kind": "graphic",
+        "label": "Validation word error rate. Epoch 1: 168.9 percent. Epoch 2: 51.7 percent. Epoch 3: 21.6 percent. Epoch 4: 21.7 percent. Epoch 5: 21.8 percent. Lower is better.",
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Validation WER by epoch Â· lower is better Â· see exact values below",
+        "ratio": 6.113,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(2) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E4 Â· LoRA + augmentation",
+        "ratio": 11.274,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "running Â· validation",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "height": 7,
+        "kind": "control",
+        "label": "E4 validation progress",
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > div:nth-of-type(2)",
+        "width": 630.8,
+        "exception": "Informational progress indicator, not a pointer target"
+      },
+      {
+        "kind": "text",
+        "label": "Epoch 2 / 5",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > div:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "700 optimizer updates",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > div:nth-of-type(3) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Loss 1.798",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > div:nth-of-type(3) > span:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Best validation WER 179.6%",
+        "ratio": 6.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > div:nth-of-type(3) > span:nth-of-type(4)"
+      },
+      {
+        "kind": "graphic",
+        "label": "Validation word error rate. Epoch 1: 179.6 percent. Lower is better.",
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Validation WER by epoch Â· lower is better Â· see exact values below",
+        "ratio": 6.113,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#training-progress > div:nth-of-type(3) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset size",
+        "ratio": 7.138,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "13.2",
+        "ratio": 13.724,
+        "required": 3,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(1) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "hours",
+        "ratio": 7.075,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "4,110 prepared clips",
+        "ratio": 6.409,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(1) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments evaluated",
+        "ratio": 5.992,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(2) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "3",
+        "ratio": 11.519,
+        "required": 3,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(2) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "/ 5",
+        "ratio": 5.938,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E4 train Â· live",
+        "ratio": 5.379,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(2) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Best tuned WER",
+        "ratio": 7.138,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(3) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.9",
+        "ratio": 13.724,
+        "required": 3,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(3) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "%",
+        "ratio": 7.075,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(3) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 Â· validation split",
+        "ratio": 6.409,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(3) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Relative WER reduction",
+        "ratio": 5.972,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(4) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "-0.6",
+        "ratio": 11.482,
+        "required": 3,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(4) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "%",
+        "ratio": 5.919,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 versus E0 Â· regression",
+        "ratio": 5.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-metrics > article:nth-of-type(4) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiment matrix",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Actual evaluation results are loaded directly from local run artifacts.",
+        "ratio": 6.258,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Refresh",
+        "ratio": 11.259,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#refresh-results"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Refresh",
+        "result": "pass",
+        "selector": "#refresh-results",
+        "width": 105.4
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#refresh-results > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "height": 359.2,
+        "kind": "control",
+        "label": "Detailed experiment measurements, horizontally scrollable",
+        "result": "pass",
+        "selector": "#experiment-table",
+        "width": 680.8
+      },
+      {
+        "kind": "text",
+        "label": "EXPERIMENT",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "STRATEGY",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "AUGMENTATION",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "WER â†“",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "CER â†“",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "TRAIN TIME",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "GPU MEMORY",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "TRAINABLE",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "LATENCY",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "SPLIT",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": "STATUS",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(11)"
+      },
+      {
+        "kind": "text",
+        "label": "Pretrained baseline",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E0",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Pretrained",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "â€” None",
+        "ratio": 5.275,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.8%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "6.5%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "0.0 min",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "0",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "0.31 s",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "validation",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated",
+        "ratio": 6.271,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(11) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full fine-tuning",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full fine-tuning",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "â€” None",
+        "ratio": 5.275,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.9%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "6.7%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "8.5 min",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "1006 MB",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "37,184,640",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "0.23 s",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "validation",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated",
+        "ratio": 6.271,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(11) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA fine-tuning",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E2",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "â€” None",
+        "ratio": 5.275,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "21.6%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "6.9%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "20.0 min",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "673 MB",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "147,456",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "0.27 s",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "validation",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": "evaluated",
+        "ratio": 6.271,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(11) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full + augmentation",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E3",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Full fine-tuning",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "âœ§ Enabled",
+        "ratio": 6.732,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": "planned",
+        "ratio": 5.856,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(11) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA + augmentation",
+        "ratio": 11.312,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E4",
+        "ratio": 6.034,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "âœ§ Enabled",
+        "ratio": 6.732,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "â€”",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": "running",
+        "ratio": 5.856,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#experiment-table > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(11) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "What changed, and by how much?",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(3) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Baseline WER:   on the   split. Positive reductions mean fewer errors; negative values are regressions.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "20.8%",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > p:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "validation",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > p:nth-of-type(1) > strong:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 Â· Full fine-tuning",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "-0.1 pp WER Â· -0.2 pp CER",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E2 Â· LoRA fine-tuning",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "-0.8 pp WER Â· -0.4 pp CER",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > div:nth-of-type(2) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Augmentation effect: compare E3 with E1 and E4 with E2. LoRA effect: compare E2 with E1 and E4 with E3.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "LoRA versus full",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > div:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "-0.7 pp WER reduction",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#improvement-details > div:nth-of-type(3) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Run an experiment",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Run these commands in the project terminal. Training uses the settings in  .",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "configs/training.json",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1) > code:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".venv\\Scripts\\localvoice train E2\n.venv\\Scripts\\localvoice evaluate E2",
+        "ratio": 7.535,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > pre:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Start with validation results. Freeze experiment choices before unlocking test evaluation.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Look inside the results",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > article:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Error patterns, training history, and labeled subgroups.",
+        "ratio": 6.258,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-experiments > article:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E0 Â· Pretrained baseline",
+        "ratio": 8.123,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > summary:nth-of-type(1)"
+      },
+      {
+        "height": 28,
+        "kind": "control",
+        "label": "E0 Â· Pretrained baseline",
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > summary:nth-of-type(1)",
+        "width": 630.8
+      },
+      {
+        "kind": "text",
+        "label": "1547 substitutions Â· 186 deletions Â· 359 insertions across 10062 reference words.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": de â†’ del (6) Â· caza â†’ casa (6) Â· de â†’ en (5) Â· ello â†’ ellos (5) Â· del â†’ la (5)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "substitutions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(2) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": de (17) Â· a (17) Â· en (6) Â· la (5) Â· al (4)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "deletions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(3) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": de (28) Â· a (23) Â· en (13) Â· y (12) Â· me (7)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "insertions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(4) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "condition:read speech Â· 407 clips Â· WER 20.8% Â· CER 6.5%",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(1) > p:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 Â· Full fine-tuning",
+        "ratio": 8.123,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > summary:nth-of-type(1)"
+      },
+      {
+        "height": 28,
+        "kind": "control",
+        "label": "E1 Â· Full fine-tuning",
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > summary:nth-of-type(1)",
+        "width": 630.8
+      },
+      {
+        "kind": "text",
+        "label": "1531 substitutions Â· 156 deletions Â· 417 insertions across 10062 reference words.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": una â†’ un (7) Â· caza â†’ casa (6) Â· al â†’ el (5) Â· polo â†’ pueblo (4) Â· vÃ­ctima â†’ vÃ­ctimas (3)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "substitutions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(2) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": a (19) Â· de (14) Â· en (7) Â· la (4) Â· antigua (4)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "deletions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(3) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": de (37) Â· a (30) Â· en (19) Â· y (15) Â· se (10)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "insertions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(4) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Best checkpoint: epoch 1. Successful optimizer updates: 1050. Skipped updates: 0.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "EPOCH",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "TRAIN LOSS",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "VALIDATION WER",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "VALIDATION CER",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "1",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1.878",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "20.9%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "6.7%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "2",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1.145",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "21.3%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "7.0%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "3",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "0.898",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "21.2%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "7.1%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "condition:read speech Â· 407 clips Â· WER 20.9% Â· CER 6.7%",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(2) > p:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "E2 Â· LoRA fine-tuning",
+        "ratio": 8.123,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > summary:nth-of-type(1)"
+      },
+      {
+        "height": 28,
+        "kind": "control",
+        "label": "E2 Â· LoRA fine-tuning",
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > summary:nth-of-type(1)",
+        "width": 630.8
+      },
+      {
+        "kind": "text",
+        "label": "1581 substitutions Â· 156 deletions Â· 433 insertions across 10062 reference words.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": caza â†’ casa (6) Â· al â†’ el (6) Â· de â†’ del (5) Â· del â†’ el (5) Â· una â†’ un (5)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "substitutions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(2) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": a (17) Â· de (9) Â· en (7) Â· la (5) Â· al (4)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "deletions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(3) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ": de (38) Â· a (36) Â· en (17) Â· y (13) Â· la (5)",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "insertions",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(4) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Best checkpoint: epoch 3. Successful optimizer updates: 1750. Skipped updates: 0.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "EPOCH",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "TRAIN LOSS",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "VALIDATION WER",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "VALIDATION CER",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "1",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "2.244",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "168.9%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "92.5%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "2",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1.736",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "51.7%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "22.4%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(2) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "3",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1.555",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "21.6%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "6.9%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(3) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "4",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1.476",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "21.7%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "7.0%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(4) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "5",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1.453",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "21.8%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "7.0%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(5) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "condition:read speech Â· 407 clips Â· WER 21.6% Â· CER 6.9%",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(3) > p:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "E4 Â· LoRA + augmentation",
+        "ratio": 8.123,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > summary:nth-of-type(1)"
+      },
+      {
+        "height": 28,
+        "kind": "control",
+        "label": "E4 Â· LoRA + augmentation",
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > summary:nth-of-type(1)",
+        "width": 630.8
+      },
+      {
+        "kind": "text",
+        "label": "Best checkpoint: epoch 1. Successful optimizer updates: 350. Skipped updates: 0.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "EPOCH",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "TRAIN LOSS",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "VALIDATION WER",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "VALIDATION CER",
+        "ratio": 5.954,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > thead:nth-of-type(1) > tr:nth-of-type(1) > th:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "1",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "2.302",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "179.6%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "98.6%",
+        "ratio": 6.905,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#diagnostics > details:nth-of-type(4) > div:nth-of-type(1) > table:nth-of-type(1) > tbody:nth-of-type(1) > tr:nth-of-type(1) > td:nth-of-type(4)"
+      },
+      {
+        "kind": "graphic-label",
+        "selector": "[role=img] measured graphic 1",
+        "label": "Validation word error rate. Epoch 1: 20.9 percent. Epoch 2: 21.3 percent. Epoch 3: 21.2 percent. Lower is better.",
+        "result": "pass"
+      },
+      {
+        "kind": "graphic-label",
+        "selector": "[role=img] measured graphic 2",
+        "label": "Validation word error rate. Epoch 1: 168.9 percent. Epoch 2: 51.7 percent. Epoch 3: 21.6 percent. Epoch 4: 21.7 percent. Epoch 5: 21.8 percent. Lower is better.",
+        "result": "pass"
+      },
+      {
+        "kind": "graphic-label",
+        "selector": "[role=img] measured graphic 3",
+        "label": "Validation word error rate. Epoch 1: 179.6 percent. Epoch 2: 191.6 percent. Lower is better.",
+        "result": "pass"
+      }
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Make the difference measurable."
+      },
+      {
+        "level": "H2",
+        "text": "The fine-tuning board"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment matrix"
+      },
+      {
+        "level": "H2",
+        "text": "What changed, and by how much?"
+      },
+      {
+        "level": "H2",
+        "text": "Run an experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Look inside the results"
+      }
+    ],
+    "page": "#experiments",
+    "viewport": 738
+  },
+  {
+    "documentWidth": 722,
+    "elements": [
+      {
+        "kind": "text",
+        "label": "Skip to main content",
+        "ratio": 16.009,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "a:nth-of-type(1)"
+      },
+      {
+        "height": 46.5,
+        "kind": "control",
+        "label": "Skip to main content",
+        "result": "pass",
+        "selector": "a:nth-of-type(1)",
+        "width": 190.1
+      },
+      {
+        "kind": "text",
+        "label": "LocalVoice",
+        "ratio": 15.836,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 37.5,
+        "kind": "control",
+        "label": "LocalVoice.",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 686.4
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 12.615,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Overview",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Overview",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 97.2
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Speech playgroundTRY IT",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "width": 148.3
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Experiments5",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "width": 113.7
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset",
+        "ratio": 10.755,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Dataset",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "width": 92.1
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Research report",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Research report",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "width": 131.5
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Workspace",
+        "ratio": 5.903,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "/",
+        "ratio": 6.069,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset",
+        "ratio": 11.932,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#breadcrumb"
+      },
+      {
+        "kind": "text",
+        "label": "Local environment",
+        "ratio": 7.073,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "THE FOUNDATION",
+        "ratio": 5.81,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Better models start with data",
+        "ratio": 14.337,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 5.65,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Spanish speech, consistent transcripts, and auditable evaluation splits.",
+        "ratio": 5.596,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Google FLEURS Â· es_419",
+        "ratio": 6,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Prepared clips",
+        "ratio": 7.138,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "4110",
+        "ratio": 13.724,
+        "required": 3,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(1) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "clips",
+        "ratio": 7.075,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Validated audioâ€“transcript pairs",
+        "ratio": 6.409,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(1) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Train split",
+        "ratio": 5.992,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(2) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "8.8",
+        "ratio": 11.519,
+        "required": 3,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(2) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "hours",
+        "ratio": 5.938,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "2796 clips",
+        "ratio": 5.379,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(2) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Validation split",
+        "ratio": 7.138,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(3) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "1.3",
+        "ratio": 13.724,
+        "required": 3,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(3) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "hours",
+        "ratio": 7.075,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(3) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "407 clips",
+        "ratio": 6.409,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(3) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Test split",
+        "ratio": 5.972,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(4) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "3.1",
+        "ratio": 11.482,
+        "required": 3,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(4) > div:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "hours",
+        "ratio": 5.919,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "907 clips",
+        "ratio": 5.362,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-metrics > article:nth-of-type(4) > div:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset readiness",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(3) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Manifest ready",
+        "ratio": 11.623,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-details > p:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Format: mono WAV Â· 16,000 Hz Â· clips up to 30 seconds. Transcript normalization: Unicode NFC, lowercase, punctuation removal, and collapsed whitespace.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-details > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Manifest fields: audio_path, transcript, speaker_id, split, duration_seconds.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-details > p:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Speaker IDs are missing: speaker independence cannot be verified.",
+        "ratio": 6.495,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-details > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "License: CC-BY-4.0. FLEURS Â· Google, 2022. Speaker IDs may be unavailable; the report must disclose that speaker independence cannot be verified.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-details > p:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "The dashboard checks manifest structure. Run   for the full audio and duplicate-content audit.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-details > p:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "localvoice validate",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#dataset-details > p:nth-of-type(5) > code:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Prepare the dataset",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Download the official Spanish parquet exports and convert clips to mono 16 kHz WAV. Original splits are retained.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".venv\\Scripts\\localvoice prepare\n.venv\\Scripts\\localvoice validate",
+        "ratio": 7.535,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > pre:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "FLEURS is read speech. Results will not establish performance on spontaneous speech or every Spanish dialect.",
+        "ratio": 6.728,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "View source & license â†—",
+        "ratio": 7.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)"
+      },
+      {
+        "height": 28,
+        "kind": "control",
+        "label": "View source & license â†—",
+        "result": "pass",
+        "selector": "#page-dataset > div:nth-of-type(3) > article:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+        "width": 122.7
+      }
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Better models start with data."
+      },
+      {
+        "level": "H2",
+        "text": "Dataset readiness"
+      },
+      {
+        "level": "H2",
+        "text": "Prepare the dataset"
+      }
+    ],
+    "page": "#dataset",
+    "viewport": 738
+  },
+  {
+    "documentWidth": 722,
+    "elements": [
+      {
+        "kind": "text",
+        "label": "Skip to main content",
+        "ratio": 16.009,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "a:nth-of-type(1)"
+      },
+      {
+        "height": 46.5,
+        "kind": "control",
+        "label": "Skip to main content",
+        "result": "pass",
+        "selector": "a:nth-of-type(1)",
+        "width": 190.1
+      },
+      {
+        "kind": "text",
+        "label": "LocalVoice",
+        "ratio": 15.836,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 37.5,
+        "kind": "control",
+        "label": "LocalVoice.",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 686.4
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 12.615,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Overview",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Overview",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 97.2
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Speech playgroundTRY IT",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "width": 148.3
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Experiments5",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "width": 113.7
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Dataset",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "width": 89.6
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Research report",
+        "ratio": 10.755,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Research report",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "width": 136.1
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Workspace",
+        "ratio": 5.903,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "/",
+        "ratio": 6.069,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Research report",
+        "ratio": 11.932,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#breadcrumb"
+      },
+      {
+        "kind": "text",
+        "label": "Local environment",
+        "ratio": 7.073,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "THE RESEARCH JOURNAL",
+        "ratio": 5.81,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-report > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Evidence behind every improvement",
+        "ratio": 14.337,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-report > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 5.65,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-report > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "The decisions, methods, measured findings, and limitations behind this project.",
+        "ratio": 5.596,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-report > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Export evidence",
+        "ratio": 11.259,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-report > div:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Export evidence",
+        "result": "pass",
+        "selector": "#page-report > div:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 142.1
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-report > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "View the LocalVoice brand board â†—",
+        "ratio": 6.286,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-report > p:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 32,
+        "kind": "control",
+        "label": "View the LocalVoice brand board â†—",
+        "result": "pass",
+        "selector": "#page-report > p:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 212.1
+      },
+      {
+        "kind": "text",
+        "label": "Fine-tuning Spanish speech recognition with limited labeled data",
+        "ratio": 12.005,
+        "required": 3,
+        "result": "pass",
+        "selector": "#report-content > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Objective",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Measure how full fine-tuning, LoRA, and speech augmentation change Spanish transcription accuracy and adaptation cost. Spanish is the target language; the low-resource condition is",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Current evidence",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "The Spanish experiment series uses its own dataset and run artifacts. Superseded results from the earlier language choice are archived and never compared with Spanish. Live results",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Data and checkpoint",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset: Google FLEURS, Latin American Spanish configuration  , licensed CC-BY-4.0. Official train, validation, and test splits are retained. Audio becomes mono 16 kHz WAV; empty o",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "es_419",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(3) > code:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Model: multilingual  , fixed repository revision  , Apache-2.0. Keeping the family, size, and revision fixed makes the initial strategy comparison interpretable. Tiny fits the avai",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "openai/whisper-tiny",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(4) > code:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(4) > code:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Exact adaptation methods",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "E0 is the untouched pretrained baseline. E1 updates all model parameters. E2 freezes the base weights and trains rank-eight LoRA updates on query and value projections ( ,  ), alph",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "q_proj",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(5) > code:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "v_proj",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(5) > code:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Every tuned run has a maximum five-epoch budget, batch size eight, one gradient accumulation step, seed 42, AdamW, weight decay 0.01, gradient clipping 1.0, 10% warmup, and linear ",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "CUDA uses bfloat16 when supported, otherwise scaled float16, with gradient checkpointing. Successful and skipped updates are counted. Non-finite loss stops training. Unaugmented fe",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "Augmentation and text handling",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "Training-only speed perturbation samples 0.95â€“1.05; additive Gaussian noise samples 20â€“35 dB SNR. Clips near thirty seconds are not slowed past the model context limit, avoiding tr",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "All references and predictions share Unicode NFC, lowercase, Unicode punctuation removal, and whitespace normalization. Spanish accents and Ã± are preserved. Generation is fixed at ",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "What is compared",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 versus E0 measures full adaptation. E2 versus E0 measures adapter adaptation. E3 versus E1 and E4 versus E2 measure augmentation under each strategy. E2 versus E1 and E4 versus ",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": "WER and CER are computed using JiWER. Absolute WER reduction is baseline minus tuned WER in percentage points. Relative reduction divides that difference by baseline WER; it is und",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(11)"
+      },
+      {
+        "kind": "text",
+        "label": "Cost includes training wall time, peak PyTorch GPU allocation, trainable weights, and warmed generation latency. Peak allocation is not total board memory. Baseline trainable param",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(12)"
+      },
+      {
+        "kind": "text",
+        "label": "Checkpoint and test policy",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(7)"
+      },
+      {
+        "kind": "text",
+        "label": "Checkpoints are independently loadable full models or LoRA adapters with their processor files. The experiment series evaluates only validation data. The held-out test set requires",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(13)"
+      },
+      {
+        "kind": "text",
+        "label": "--split test --final-test",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(13) > code:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Artifacts and progress",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(8)"
+      },
+      {
+        "kind": "text",
+        "label": "Each run retains  ,  ,  ,  ,  , and   as applicable. The website shows optimizer updates, training loss, validation curves, selected epochs, recognition errors, baseline difference",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(14)"
+      },
+      {
+        "kind": "text",
+        "label": "training.json",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(14) > code:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "progress.json",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(14) > code:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "history.json",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(14) > code:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "checkpoint/",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(14) > code:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "metrics-validation.json",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(14) > code:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "predictions-validation.json",
+        "ratio": 7.538,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(14) > code:nth-of-type(6)"
+      },
+      {
+        "kind": "text",
+        "label": "Limitations",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(9)"
+      },
+      {
+        "kind": "text",
+        "label": "FLEURS is read speech; results do not establish conversational or dialect-wide Spanish performance.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(1) > li:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Missing speaker IDs prevent an independent audit of speaker separation.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(1) > li:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "One seed and one model size support an initial controlled study, not a universal ranking.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(1) > li:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "Augmentation and LoRA can worsen accuracy; all measured outcomes must be reported.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(1) > li:nth-of-type(4)"
+      },
+      {
+        "kind": "text",
+        "label": "Training-set playground clips are diagnostic and cannot support evaluation claims.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(1) > li:nth-of-type(5)"
+      },
+      {
+        "kind": "text",
+        "label": "Sources",
+        "ratio": 9.659,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > h3:nth-of-type(10)"
+      },
+      {
+        "kind": "text",
+        "label": ",  ,  , and  .",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15)"
+      },
+      {
+        "kind": "text",
+        "label": "FLEURS dataset and license",
+        "ratio": 7.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(1)"
+      },
+      {
+        "height": 17.6,
+        "kind": "control",
+        "label": "FLEURS dataset and license",
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(1)",
+        "width": 179,
+        "exception": "Inline prose link target exception"
+      },
+      {
+        "kind": "text",
+        "label": "Whisper Tiny",
+        "ratio": 7.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(2)"
+      },
+      {
+        "height": 17.6,
+        "kind": "control",
+        "label": "Whisper Tiny",
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(2)",
+        "width": 83.6,
+        "exception": "Inline prose link target exception"
+      },
+      {
+        "kind": "text",
+        "label": "Whisper fine-tuning guide",
+        "ratio": 7.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(3)"
+      },
+      {
+        "height": 17.6,
+        "kind": "control",
+        "label": "Whisper fine-tuning guide",
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(3)",
+        "width": 169.5,
+        "exception": "Inline prose link target exception"
+      },
+      {
+        "kind": "text",
+        "label": "PEFT LoRA",
+        "ratio": 7.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(4)"
+      },
+      {
+        "height": 17.6,
+        "kind": "control",
+        "label": "PEFT LoRA",
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(15) > a:nth-of-type(4)",
+        "width": 68.1,
+        "exception": "Inline prose link target exception"
+      },
+      {
+        "kind": "text",
+        "label": "## Current local results",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > p:nth-of-type(16)"
+      },
+      {
+        "kind": "text",
+        "label": "E0 Â· Pretrained baseline: WER 20.79%, CER 6.50%, 407 clips on the validation split.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(2) > li:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "E1 Â· Full fine-tuning: WER 20.91%, CER 6.71%, 407 clips on the validation split.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(2) > li:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "E2 Â· LoRA fine-tuning: WER 21.57%, CER 6.90%, 407 clips on the validation split.",
+        "ratio": 7.199,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#report-content > ul:nth-of-type(2) > li:nth-of-type(3)"
+      }
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Evidence behind every improvement."
+      },
+      {
+        "level": "H2",
+        "text": "Fine-tuning Spanish speech recognition with limited labeled data"
+      },
+      {
+        "level": "H3",
+        "text": "Objective"
+      },
+      {
+        "level": "H3",
+        "text": "Current evidence"
+      },
+      {
+        "level": "H3",
+        "text": "Data and checkpoint"
+      },
+      {
+        "level": "H3",
+        "text": "Exact adaptation methods"
+      },
+      {
+        "level": "H3",
+        "text": "Augmentation and text handling"
+      },
+      {
+        "level": "H3",
+        "text": "What is compared"
+      },
+      {
+        "level": "H3",
+        "text": "Checkpoint and test policy"
+      },
+      {
+        "level": "H3",
+        "text": "Artifacts and progress"
+      },
+      {
+        "level": "H3",
+        "text": "Limitations"
+      },
+      {
+        "level": "H3",
+        "text": "Sources"
+      }
+    ],
+    "page": "#report",
+    "viewport": 738
+  },
+  {
+    "documentWidth": 375,
+    "elements": [
+      {
+        "kind": "text",
+        "label": "Skip to main content",
+        "ratio": 16.009,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "a:nth-of-type(1)"
+      },
+      {
+        "height": 46.5,
+        "kind": "control",
+        "label": "Skip to main content",
+        "result": "pass",
+        "selector": "a:nth-of-type(1)",
+        "width": 190.1
+      },
+      {
+        "kind": "text",
+        "label": "LocalVoice",
+        "ratio": 15.836,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 37.5,
+        "kind": "control",
+        "label": "LocalVoice.",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 339.2
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 12.615,
+        "required": 3,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)"
+      },
+      {
+        "kind": "text",
+        "label": "Overview",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Overview",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+        "width": 97.2
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 10.755,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Speech playgroundTRY IT",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+        "width": 153.4
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Experiments",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Experiments5",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+        "width": 113.7
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Dataset",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Dataset",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4)",
+        "width": 89.6
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(4) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Research report",
+        "ratio": 10.013,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Research report",
+        "result": "pass",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5)",
+        "width": 131.5
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "aside:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(5) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Workspace",
+        "ratio": 5.903,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "/",
+        "ratio": 6.069,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 11.932,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#breadcrumb"
+      },
+      {
+        "kind": "text",
+        "label": "Local environment",
+        "ratio": 7.073,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "LISTEN. TRANSCRIBE. COMPARE.",
+        "ratio": 5.81,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Speech playground",
+        "ratio": 14.337,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": ".",
+        "ratio": 5.65,
+        "required": 3,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Hear what your model can do. Compare the same clip across experiments.",
+        "ratio": 5.596,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Give your voice a place",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Upload audio",
+        "ratio": 5.261,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#upload-tab"
+      },
+      {
+        "height": 41,
+        "kind": "control",
+        "label": "Upload audio",
+        "result": "pass",
+        "selector": "#upload-tab",
+        "width": 138.3
+      },
+      {
+        "kind": "text",
+        "label": "Record speech",
+        "ratio": 10.019,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#record-tab"
+      },
+      {
+        "height": 41,
+        "kind": "control",
+        "label": "Record speech",
+        "result": "pass",
+        "selector": "#record-tab",
+        "width": 138.3
+      },
+      {
+        "height": 60,
+        "kind": "control",
+        "label": "Start recording",
+        "result": "pass",
+        "selector": "#record-button",
+        "width": 60
+      },
+      {
+        "kind": "meaningful-icon",
+        "label": "Record audio",
+        "result": "pass",
+        "selector": "#record-button > span:nth-of-type(1) > svg:nth-of-type(1)",
+        "ratio": 6.747,
+        "required": 3
+      },
+      {
+        "kind": "text",
+        "label": "Your voice, in your language",
+        "ratio": 7.828,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#record-label"
+      },
+      {
+        "kind": "text",
+        "label": "Press to record. Press again to stop.",
+        "ratio": 5.345,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#record-pane > div:nth-of-type(1) > small:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "00:00 / 00:30",
+        "ratio": 5.345,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#record-timer"
+      },
+      {
+        "kind": "text",
+        "label": "Try a Spanish dataset sample",
+        "ratio": 6.545,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#sample-button"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Try a Spanish dataset sample â†—",
+        "result": "pass",
+        "selector": "#sample-button",
+        "width": 291.6
+      },
+      {
+        "kind": "text",
+        "label": "â†—",
+        "ratio": 6.545,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#sample-button > span:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Model to test",
+        "ratio": 8.872,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(1)"
+      },
+      {
+        "height": 48,
+        "kind": "control",
+        "label": "Model to test",
+        "result": "pass",
+        "selector": "#model-select",
+        "width": 291.6
+      },
+      {
+        "kind": "non-text",
+        "label": "borderTopColor",
+        "ratio": 6.199,
+        "required": 3,
+        "result": "pass",
+        "selector": "#model-select"
+      },
+      {
+        "kind": "text",
+        "label": "Compare with pretrained baseline",
+        "ratio": 7.524,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(2)"
+      },
+      {
+        "height": 24,
+        "kind": "control",
+        "label": "Compare with pretrained baseline",
+        "result": "pass",
+        "selector": "#compare-models",
+        "width": 24
+      },
+      {
+        "kind": "text",
+        "label": "Reference transcript",
+        "ratio": 8.872,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(3)"
+      },
+      {
+        "kind": "text",
+        "label": "optional",
+        "ratio": 5.392,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > label:nth-of-type(3) > span:nth-of-type(1)"
+      },
+      {
+        "height": 116.8,
+        "kind": "control",
+        "label": "Reference transcript optional",
+        "result": "pass",
+        "selector": "#reference",
+        "width": 291.6
+      },
+      {
+        "kind": "non-text",
+        "label": "borderTopColor",
+        "ratio": 6.199,
+        "required": 3,
+        "result": "pass",
+        "selector": "#reference"
+      },
+      {
+        "kind": "text",
+        "label": "Use the exact Spanish words spoken in the clip. Accents and Ã± are preserved.",
+        "ratio": 6.441,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#reference-hint"
+      },
+      {
+        "kind": "text",
+        "label": "Transcribe audio",
+        "ratio": 6.309,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#transcribe-button"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Transcribe audio",
+        "result": "pass",
+        "selector": "#transcribe-button",
+        "width": 291.6
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#transcribe-button > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Audio stays on this machine. Models download on first use.",
+        "ratio": 6.441,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(2)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-playground > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "The words behind the sound",
+        "ratio": 12.997,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Your transcription will appear here",
+        "ratio": 6.258,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "height": 44,
+        "kind": "control",
+        "label": "Copy transcript",
+        "result": "pass",
+        "selector": "#copy-transcript",
+        "width": 44
+      },
+      {
+        "kind": "meaningful-icon",
+        "label": "Copy transcript",
+        "result": "pass",
+        "selector": "#copy-transcript > span:nth-of-type(1) > svg:nth-of-type(1)",
+        "ratio": 6.409,
+        "required": 3
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#transcript-results > div:nth-of-type(1) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Ready when you are.",
+        "ratio": 7.299,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#transcript-results > div:nth-of-type(1) > h3:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Upload or record a clip, select a model, and turn speech into something you can study.",
+        "ratio": 5.41,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#transcript-results > div:nth-of-type(1) > p:nth-of-type(1)"
+      },
+      {
+        "kind": "decorative-icon",
+        "label": "Decorative icon paired with a text or named control",
+        "result": "decorative",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(2) > span:nth-of-type(1) > svg:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "A playground is a starting point.",
+        "ratio": 6.875,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > strong:nth-of-type(1)"
+      },
+      {
+        "kind": "text",
+        "label": "Single-clip scores help inspect errors. Use the fixed evaluation split to make research claims. Model loading and inference time are reported separately.",
+        "ratio": 5.206,
+        "required": 4.5,
+        "result": "pass",
+        "selector": "#page-playground > div:nth-of-type(2) > div:nth-of-type(1) > article:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+      }
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Speech playground."
+      },
+      {
+        "level": "H2",
+        "text": "Give your voice a place"
+      },
+      {
+        "level": "H2",
+        "text": "The words behind the sound"
+      },
+      {
+        "level": "H3",
+        "text": "Ready when you are."
+      }
+    ],
+    "page": "#playground:record",
+    "viewport": 390
+  }
+]

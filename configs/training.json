@@ -1,0 +1,19 @@
+{
+  "learning_rate_full": 1e-05,
+  "learning_rate_lora": 0.0001,
+  "batch_size": 8,
+  "gradient_accumulation_steps": 1,
+  "epochs": 5,
+  "seed": 42,
+  "early_stopping_patience": 2,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "lora_targets": [
+    "q_proj",
+    "v_proj"
+  ],
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "log_every_steps": 20
+}

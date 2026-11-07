@@ -1,0 +1,19 @@
+{
+  "learning_rate_full": 0.000002,
+  "learning_rate_lora": 0.0001,
+  "batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "epochs": 6,
+  "seed": 42,
+  "early_stopping_patience": 2,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.1,
+  "lora_targets": "model\\.decoder\\.layers\\.\\d+\\.(self_attn|encoder_attn)\\.(q_proj|v_proj)",
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "log_every_steps": 20,
+  "target_text": "punctuated",
+  "freeze_encoder": true,
+  "validation_interval_updates": 88
+}

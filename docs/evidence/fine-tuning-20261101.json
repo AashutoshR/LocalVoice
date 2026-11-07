@@ -1,0 +1,6154 @@
+{
+  "generated_at": "2026-11-01T04:18:39.719309+00:00",
+  "backbones": [
+    "openai/whisper-tiny",
+    "openai/whisper-small"
+  ],
+  "new_backbones_added_in_this_round": 0,
+  "interpretation": "Measured local GPU artifacts. Corpus-specific comparisons; MLS dev is exploratory and the later FLEURS test is reused.",
+  "runs": {
+    "E0": {
+      "metrics-validation": {
+        "wer": 20.79109520969986,
+        "cer": 6.5032127155901245,
+        "substitutions": 1547,
+        "deletions": 186,
+        "insertions": 359,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 6
+            },
+            {
+              "text": "caza → casa",
+              "count": 6
+            },
+            {
+              "text": "de → en",
+              "count": 5
+            },
+            {
+              "text": "ello → ellos",
+              "count": 5
+            },
+            {
+              "text": "del → la",
+              "count": 5
+            },
+            {
+              "text": "al → el",
+              "count": 5
+            },
+            {
+              "text": "una → un",
+              "count": 4
+            },
+            {
+              "text": "aun → aún",
+              "count": 4
+            },
+            {
+              "text": "aristarco → aristarko",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "de",
+              "count": 17
+            },
+            {
+              "text": "a",
+              "count": 17
+            },
+            {
+              "text": "en",
+              "count": 6
+            },
+            {
+              "text": "la",
+              "count": 5
+            },
+            {
+              "text": "al",
+              "count": 4
+            },
+            {
+              "text": "antigua",
+              "count": 4
+            },
+            {
+              "text": "forma",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "el",
+              "count": 3
+            },
+            {
+              "text": "cuatros",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 28
+            },
+            {
+              "text": "a",
+              "count": 23
+            },
+            {
+              "text": "en",
+              "count": 13
+            },
+            {
+              "text": "y",
+              "count": 12
+            },
+            {
+              "text": "me",
+              "count": 7
+            },
+            {
+              "text": "se",
+              "count": 6
+            },
+            {
+              "text": "la",
+              "count": 5
+            },
+            {
+              "text": "no",
+              "count": 5
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "los",
+              "count": 4
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.31067945036824185,
+        "trainable_parameters": 0,
+        "training_seconds": 0,
+        "peak_gpu_memory_mb": null,
+        "groups": {
+          "condition:read speech": {
+            "wer": 20.79109520969986,
+            "cer": 6.5032127155901245,
+            "substitutions": 1547,
+            "deletions": 186,
+            "insertions": 359,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 6
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 6
+                },
+                {
+                  "text": "de → en",
+                  "count": 5
+                },
+                {
+                  "text": "ello → ellos",
+                  "count": 5
+                },
+                {
+                  "text": "del → la",
+                  "count": 5
+                },
+                {
+                  "text": "al → el",
+                  "count": 5
+                },
+                {
+                  "text": "una → un",
+                  "count": 4
+                },
+                {
+                  "text": "aun → aún",
+                  "count": 4
+                },
+                {
+                  "text": "aristarco → aristarko",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "de",
+                  "count": 17
+                },
+                {
+                  "text": "a",
+                  "count": 17
+                },
+                {
+                  "text": "en",
+                  "count": 6
+                },
+                {
+                  "text": "la",
+                  "count": 5
+                },
+                {
+                  "text": "al",
+                  "count": 4
+                },
+                {
+                  "text": "antigua",
+                  "count": 4
+                },
+                {
+                  "text": "forma",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "el",
+                  "count": 3
+                },
+                {
+                  "text": "cuatros",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 28
+                },
+                {
+                  "text": "a",
+                  "count": 23
+                },
+                {
+                  "text": "en",
+                  "count": 13
+                },
+                {
+                  "text": "y",
+                  "count": 12
+                },
+                {
+                  "text": "me",
+                  "count": 7
+                },
+                {
+                  "text": "se",
+                  "count": 6
+                },
+                {
+                  "text": "la",
+                  "count": 5
+                },
+                {
+                  "text": "no",
+                  "count": 5
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "los",
+                  "count": 4
+                }
+              ]
+            }
+          }
+        },
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T16:45:28.433904+00:00"
+      },
+      "metrics-mls-dev": {
+        "wer": 23.93058161350844,
+        "cer": 7.540753724802804,
+        "substitutions": 1838,
+        "deletions": 280,
+        "insertions": 433,
+        "reference_words": 10660,
+        "samples": 300,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "don → donquijote",
+              "count": 12
+            },
+            {
+              "text": "á → a",
+              "count": 7
+            },
+            {
+              "text": "merced → mercedes",
+              "count": 6
+            },
+            {
+              "text": "mas → más",
+              "count": 5
+            },
+            {
+              "text": "él → el",
+              "count": 4
+            },
+            {
+              "text": "cómo → como",
+              "count": 4
+            },
+            {
+              "text": "sancho → sancio",
+              "count": 4
+            },
+            {
+              "text": "hubiere → hubiera",
+              "count": 3
+            },
+            {
+              "text": "el → del",
+              "count": 3
+            },
+            {
+              "text": "huerta → buerta",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 19
+            },
+            {
+              "text": "quijote",
+              "count": 14
+            },
+            {
+              "text": "en",
+              "count": 8
+            },
+            {
+              "text": "de",
+              "count": 8
+            },
+            {
+              "text": "el",
+              "count": 6
+            },
+            {
+              "text": "y",
+              "count": 5
+            },
+            {
+              "text": "o",
+              "count": 5
+            },
+            {
+              "text": "no",
+              "count": 4
+            },
+            {
+              "text": "la",
+              "count": 3
+            },
+            {
+              "text": "que",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 27
+            },
+            {
+              "text": "en",
+              "count": 22
+            },
+            {
+              "text": "a",
+              "count": 22
+            },
+            {
+              "text": "y",
+              "count": 9
+            },
+            {
+              "text": "que",
+              "count": 6
+            },
+            {
+              "text": "con",
+              "count": 6
+            },
+            {
+              "text": "es",
+              "count": 5
+            },
+            {
+              "text": "por",
+              "count": 5
+            },
+            {
+              "text": "se",
+              "count": 5
+            },
+            {
+              "text": "fue",
+              "count": 5
+            }
+          ]
+        },
+        "split": "mls-dev",
+        "dataset": "facebook/multilingual_librispeech",
+        "dataset_revision": "2e83e61823b4c47dcbcb1980bb88601274127609",
+        "dataset_fingerprint": "c5f7ed37c14bfb508043a20bed1a8b918d2cd50ae8cc1cffd86b51347fd2e4cb",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "mean_latency_seconds": 0.12358616699969086,
+        "interpretation": "New held-out clips; exploratory follow-up because the earlier MLS test informed the domain choice. No further tuning after these scores.",
+        "evaluated_at": "2026-11-01T03:50:32.914534+00:00"
+      },
+      "metrics-test": {
+        "wer": 19.10721197264869,
+        "cer": 6.095359690058994,
+        "substitutions": 3216,
+        "deletions": 413,
+        "insertions": 814,
+        "reference_words": 23253,
+        "samples": 907,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 12
+            },
+            {
+              "text": "del → el",
+              "count": 8
+            },
+            {
+              "text": "a → al",
+              "count": 7
+            },
+            {
+              "text": "sí → si",
+              "count": 7
+            },
+            {
+              "text": "treinta → 30",
+              "count": 6
+            },
+            {
+              "text": "asimismo → mismo",
+              "count": 6
+            },
+            {
+              "text": "del → de",
+              "count": 6
+            },
+            {
+              "text": "período → periodo",
+              "count": 6
+            },
+            {
+              "text": "de → en",
+              "count": 5
+            },
+            {
+              "text": "ello → ellos",
+              "count": 5
+            }
+          ],
+          "deletions": [
+            {
+              "text": "de",
+              "count": 35
+            },
+            {
+              "text": "a",
+              "count": 30
+            },
+            {
+              "text": "en",
+              "count": 19
+            },
+            {
+              "text": "la",
+              "count": 15
+            },
+            {
+              "text": "el",
+              "count": 12
+            },
+            {
+              "text": "es",
+              "count": 7
+            },
+            {
+              "text": "lo",
+              "count": 5
+            },
+            {
+              "text": "vida",
+              "count": 5
+            },
+            {
+              "text": "e",
+              "count": 5
+            },
+            {
+              "text": "los",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 43
+            },
+            {
+              "text": "a",
+              "count": 32
+            },
+            {
+              "text": "en",
+              "count": 24
+            },
+            {
+              "text": "y",
+              "count": 16
+            },
+            {
+              "text": "la",
+              "count": 16
+            },
+            {
+              "text": "el",
+              "count": 16
+            },
+            {
+              "text": "se",
+              "count": 15
+            },
+            {
+              "text": "que",
+              "count": 11
+            },
+            {
+              "text": "su",
+              "count": 10
+            },
+            {
+              "text": "es",
+              "count": 10
+            }
+          ]
+        },
+        "split": "test",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.299810410694489,
+        "trainable_parameters": 0,
+        "training_seconds": 0,
+        "peak_gpu_memory_mb": null,
+        "groups": {
+          "condition:read speech": {
+            "wer": 19.10721197264869,
+            "cer": 6.095359690058994,
+            "substitutions": 3216,
+            "deletions": 413,
+            "insertions": 814,
+            "reference_words": 23253,
+            "samples": 907,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 12
+                },
+                {
+                  "text": "del → el",
+                  "count": 8
+                },
+                {
+                  "text": "a → al",
+                  "count": 7
+                },
+                {
+                  "text": "sí → si",
+                  "count": 7
+                },
+                {
+                  "text": "treinta → 30",
+                  "count": 6
+                },
+                {
+                  "text": "asimismo → mismo",
+                  "count": 6
+                },
+                {
+                  "text": "del → de",
+                  "count": 6
+                },
+                {
+                  "text": "período → periodo",
+                  "count": 6
+                },
+                {
+                  "text": "de → en",
+                  "count": 5
+                },
+                {
+                  "text": "ello → ellos",
+                  "count": 5
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "de",
+                  "count": 35
+                },
+                {
+                  "text": "a",
+                  "count": 30
+                },
+                {
+                  "text": "en",
+                  "count": 19
+                },
+                {
+                  "text": "la",
+                  "count": 15
+                },
+                {
+                  "text": "el",
+                  "count": 12
+                },
+                {
+                  "text": "es",
+                  "count": 7
+                },
+                {
+                  "text": "lo",
+                  "count": 5
+                },
+                {
+                  "text": "vida",
+                  "count": 5
+                },
+                {
+                  "text": "e",
+                  "count": 5
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 43
+                },
+                {
+                  "text": "a",
+                  "count": 32
+                },
+                {
+                  "text": "en",
+                  "count": 24
+                },
+                {
+                  "text": "y",
+                  "count": 16
+                },
+                {
+                  "text": "la",
+                  "count": 16
+                },
+                {
+                  "text": "el",
+                  "count": 16
+                },
+                {
+                  "text": "se",
+                  "count": 15
+                },
+                {
+                  "text": "que",
+                  "count": 11
+                },
+                {
+                  "text": "su",
+                  "count": 10
+                },
+                {
+                  "text": "es",
+                  "count": 10
+                }
+              ]
+            }
+          }
+        },
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T19:11:50.205342+00:00"
+      }
+    },
+    "E9": {
+      "metrics-validation": {
+        "wer": 19.25064599483204,
+        "cer": 5.8657423063916125,
+        "substitutions": 1443,
+        "deletions": 179,
+        "insertions": 315,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 6
+            },
+            {
+              "text": "caza → casa",
+              "count": 6
+            },
+            {
+              "text": "al → el",
+              "count": 5
+            },
+            {
+              "text": "de → en",
+              "count": 4
+            },
+            {
+              "text": "del → la",
+              "count": 4
+            },
+            {
+              "text": "polo → pueblo",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "nazismo → nacismo",
+              "count": 3
+            },
+            {
+              "text": "filósofos → filosofos",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 18
+            },
+            {
+              "text": "de",
+              "count": 13
+            },
+            {
+              "text": "la",
+              "count": 4
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "poder",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "el",
+              "count": 3
+            },
+            {
+              "text": "antigua",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "tres",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 22
+            },
+            {
+              "text": "a",
+              "count": 16
+            },
+            {
+              "text": "en",
+              "count": 15
+            },
+            {
+              "text": "y",
+              "count": 8
+            },
+            {
+              "text": "no",
+              "count": 4
+            },
+            {
+              "text": "el",
+              "count": 4
+            },
+            {
+              "text": "se",
+              "count": 4
+            },
+            {
+              "text": "los",
+              "count": 4
+            },
+            {
+              "text": "me",
+              "count": 4
+            },
+            {
+              "text": "su",
+              "count": 4
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.29529241818217594,
+        "trainable_parameters": 37184640,
+        "training_seconds": 1071.1655258999963,
+        "peak_gpu_memory_mb": 1192.28076171875,
+        "groups": {
+          "condition:read speech": {
+            "wer": 19.25064599483204,
+            "cer": 5.8657423063916125,
+            "substitutions": 1443,
+            "deletions": 179,
+            "insertions": 315,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 6
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 6
+                },
+                {
+                  "text": "al → el",
+                  "count": 5
+                },
+                {
+                  "text": "de → en",
+                  "count": 4
+                },
+                {
+                  "text": "del → la",
+                  "count": 4
+                },
+                {
+                  "text": "polo → pueblo",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "nazismo → nacismo",
+                  "count": 3
+                },
+                {
+                  "text": "filósofos → filosofos",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 18
+                },
+                {
+                  "text": "de",
+                  "count": 13
+                },
+                {
+                  "text": "la",
+                  "count": 4
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "poder",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "el",
+                  "count": 3
+                },
+                {
+                  "text": "antigua",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "tres",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 22
+                },
+                {
+                  "text": "a",
+                  "count": 16
+                },
+                {
+                  "text": "en",
+                  "count": 15
+                },
+                {
+                  "text": "y",
+                  "count": 8
+                },
+                {
+                  "text": "no",
+                  "count": 4
+                },
+                {
+                  "text": "el",
+                  "count": 4
+                },
+                {
+                  "text": "se",
+                  "count": 4
+                },
+                {
+                  "text": "los",
+                  "count": 4
+                },
+                {
+                  "text": "me",
+                  "count": 4
+                },
+                {
+                  "text": "su",
+                  "count": 4
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T22:20:06.004697+00:00"
+      },
+      "metrics-test": {
+        "wer": 17.928869393196578,
+        "cer": 5.512752780957412,
+        "substitutions": 3094,
+        "deletions": 386,
+        "insertions": 689,
+        "reference_words": 23253,
+        "samples": 907,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 15
+            },
+            {
+              "text": "del → el",
+              "count": 7
+            },
+            {
+              "text": "de → en",
+              "count": 6
+            },
+            {
+              "text": "a → al",
+              "count": 6
+            },
+            {
+              "text": "electrón → electron",
+              "count": 6
+            },
+            {
+              "text": "del → de",
+              "count": 6
+            },
+            {
+              "text": "treinta → 30",
+              "count": 5
+            },
+            {
+              "text": "según → segun",
+              "count": 5
+            },
+            {
+              "text": "período → periodo",
+              "count": 5
+            },
+            {
+              "text": "sí → si",
+              "count": 5
+            }
+          ],
+          "deletions": [
+            {
+              "text": "de",
+              "count": 31
+            },
+            {
+              "text": "a",
+              "count": 28
+            },
+            {
+              "text": "en",
+              "count": 25
+            },
+            {
+              "text": "el",
+              "count": 14
+            },
+            {
+              "text": "la",
+              "count": 10
+            },
+            {
+              "text": "lo",
+              "count": 6
+            },
+            {
+              "text": "es",
+              "count": 6
+            },
+            {
+              "text": "que",
+              "count": 4
+            },
+            {
+              "text": "con",
+              "count": 4
+            },
+            {
+              "text": "vida",
+              "count": 4
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 53
+            },
+            {
+              "text": "a",
+              "count": 35
+            },
+            {
+              "text": "en",
+              "count": 27
+            },
+            {
+              "text": "y",
+              "count": 17
+            },
+            {
+              "text": "la",
+              "count": 16
+            },
+            {
+              "text": "el",
+              "count": 14
+            },
+            {
+              "text": "se",
+              "count": 12
+            },
+            {
+              "text": "es",
+              "count": 12
+            },
+            {
+              "text": "que",
+              "count": 12
+            },
+            {
+              "text": "su",
+              "count": 11
+            }
+          ]
+        },
+        "split": "test",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.331298584454094,
+        "trainable_parameters": 37184640,
+        "training_seconds": 1071.1655258999963,
+        "peak_gpu_memory_mb": 1192.28076171875,
+        "groups": {
+          "condition:read speech": {
+            "wer": 17.928869393196578,
+            "cer": 5.512752780957412,
+            "substitutions": 3094,
+            "deletions": 386,
+            "insertions": 689,
+            "reference_words": 23253,
+            "samples": 907,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 15
+                },
+                {
+                  "text": "del → el",
+                  "count": 7
+                },
+                {
+                  "text": "de → en",
+                  "count": 6
+                },
+                {
+                  "text": "a → al",
+                  "count": 6
+                },
+                {
+                  "text": "electrón → electron",
+                  "count": 6
+                },
+                {
+                  "text": "del → de",
+                  "count": 6
+                },
+                {
+                  "text": "treinta → 30",
+                  "count": 5
+                },
+                {
+                  "text": "según → segun",
+                  "count": 5
+                },
+                {
+                  "text": "período → periodo",
+                  "count": 5
+                },
+                {
+                  "text": "sí → si",
+                  "count": 5
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "de",
+                  "count": 31
+                },
+                {
+                  "text": "a",
+                  "count": 28
+                },
+                {
+                  "text": "en",
+                  "count": 25
+                },
+                {
+                  "text": "el",
+                  "count": 14
+                },
+                {
+                  "text": "la",
+                  "count": 10
+                },
+                {
+                  "text": "lo",
+                  "count": 6
+                },
+                {
+                  "text": "es",
+                  "count": 6
+                },
+                {
+                  "text": "que",
+                  "count": 4
+                },
+                {
+                  "text": "con",
+                  "count": 4
+                },
+                {
+                  "text": "vida",
+                  "count": 4
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 53
+                },
+                {
+                  "text": "a",
+                  "count": 35
+                },
+                {
+                  "text": "en",
+                  "count": 27
+                },
+                {
+                  "text": "y",
+                  "count": 17
+                },
+                {
+                  "text": "la",
+                  "count": 16
+                },
+                {
+                  "text": "el",
+                  "count": 14
+                },
+                {
+                  "text": "se",
+                  "count": 12
+                },
+                {
+                  "text": "es",
+                  "count": 12
+                },
+                {
+                  "text": "que",
+                  "count": 12
+                },
+                {
+                  "text": "su",
+                  "count": 11
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T23:14:22.466301+00:00"
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.4851840511390142,
+          "validation_wer": 19.86682568077917,
+          "validation_cer": 6.055123435914778,
+          "elapsed_seconds": 173.0486702000053
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.2553108695575168,
+          "validation_wer": 20.343868018286624,
+          "validation_cer": 6.13290497125465,
+          "elapsed_seconds": 345.00908000000345
+        },
+        {
+          "epoch": 3,
+          "train_loss": 1.1866118180751801,
+          "validation_wer": 19.618366129994037,
+          "validation_cer": 5.9621237740953665,
+          "elapsed_seconds": 520.4529959000065
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.1434718340209553,
+          "validation_wer": 19.449413635460147,
+          "validation_cer": 5.914778491714576,
+          "elapsed_seconds": 701.888537699997
+        },
+        {
+          "epoch": 5,
+          "train_loss": 1.131124558533941,
+          "validation_wer": 19.359968197177498,
+          "validation_cer": 5.923233006425431,
+          "elapsed_seconds": 885.0835261000029
+        },
+        {
+          "epoch": 6,
+          "train_loss": 1.1156301684464727,
+          "validation_wer": 19.25064599483204,
+          "validation_cer": 5.8657423063916125,
+          "elapsed_seconds": 1070.7132923000026
+        }
+      ],
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "learning_rate_full": 2e-06,
+          "learning_rate_lora": 1e-05,
+          "batch_size": 8,
+          "gradient_accumulation_steps": 4,
+          "epochs": 6,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "lora_rank": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "lora_targets": [
+            "q_proj",
+            "v_proj"
+          ],
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated"
+        },
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "optimizer_steps": 528,
+        "best_epoch": 6,
+        "best_validation_wer": 19.25064599483204,
+        "trainable_parameters": 37184640,
+        "total_parameters": 37760640,
+        "training_seconds": 1071.1655258999963,
+        "peak_gpu_memory_mb": 1192.28076171875,
+        "tokenizer_prefix_verified": true
+      }
+    },
+    "E11": {
+      "metrics-validation": {
+        "wer": 18.395945140131186,
+        "cer": 5.8014879945891105,
+        "substitutions": 1383,
+        "deletions": 181,
+        "insertions": 287,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 8
+            },
+            {
+              "text": "caza → casa",
+              "count": 6
+            },
+            {
+              "text": "polo → pueblo",
+              "count": 4
+            },
+            {
+              "text": "al → el",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "distinguen → distingen",
+              "count": 3
+            },
+            {
+              "text": "nazismo → nacismo",
+              "count": 3
+            },
+            {
+              "text": "lo → los",
+              "count": 3
+            },
+            {
+              "text": "pa → a",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 21
+            },
+            {
+              "text": "de",
+              "count": 11
+            },
+            {
+              "text": "en",
+              "count": 7
+            },
+            {
+              "text": "la",
+              "count": 5
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "antigua",
+              "count": 4
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "posibles",
+              "count": 3
+            },
+            {
+              "text": "se",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "a",
+              "count": 19
+            },
+            {
+              "text": "de",
+              "count": 18
+            },
+            {
+              "text": "en",
+              "count": 12
+            },
+            {
+              "text": "la",
+              "count": 7
+            },
+            {
+              "text": "y",
+              "count": 6
+            },
+            {
+              "text": "más",
+              "count": 6
+            },
+            {
+              "text": "no",
+              "count": 4
+            },
+            {
+              "text": "que",
+              "count": 4
+            },
+            {
+              "text": "el",
+              "count": 4
+            },
+            {
+              "text": "se",
+              "count": 4
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.3195643474200797,
+        "trainable_parameters": 37184640,
+        "training_seconds": 1622.239809199993,
+        "stage_training_seconds": 551.0742832999968,
+        "initial_experiment": "E9",
+        "peak_gpu_memory_mb": 1192.8349609375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 18.395945140131186,
+            "cer": 5.8014879945891105,
+            "substitutions": 1383,
+            "deletions": 181,
+            "insertions": 287,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 8
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 6
+                },
+                {
+                  "text": "polo → pueblo",
+                  "count": 4
+                },
+                {
+                  "text": "al → el",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "distinguen → distingen",
+                  "count": 3
+                },
+                {
+                  "text": "nazismo → nacismo",
+                  "count": 3
+                },
+                {
+                  "text": "lo → los",
+                  "count": 3
+                },
+                {
+                  "text": "pa → a",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 21
+                },
+                {
+                  "text": "de",
+                  "count": 11
+                },
+                {
+                  "text": "en",
+                  "count": 7
+                },
+                {
+                  "text": "la",
+                  "count": 5
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "antigua",
+                  "count": 4
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "posibles",
+                  "count": 3
+                },
+                {
+                  "text": "se",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "a",
+                  "count": 19
+                },
+                {
+                  "text": "de",
+                  "count": 18
+                },
+                {
+                  "text": "en",
+                  "count": 12
+                },
+                {
+                  "text": "la",
+                  "count": 7
+                },
+                {
+                  "text": "y",
+                  "count": 6
+                },
+                {
+                  "text": "más",
+                  "count": 6
+                },
+                {
+                  "text": "no",
+                  "count": 4
+                },
+                {
+                  "text": "que",
+                  "count": 4
+                },
+                {
+                  "text": "el",
+                  "count": 4
+                },
+                {
+                  "text": "se",
+                  "count": 4
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T00:15:45.863389+00:00"
+      },
+      "metrics-mls-dev": {
+        "wer": 27.31707317073171,
+        "cer": 9.242769500438213,
+        "substitutions": 2118,
+        "deletions": 348,
+        "insertions": 446,
+        "reference_words": 10660,
+        "samples": 300,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "mas → más",
+              "count": 7
+            },
+            {
+              "text": "don → donquijote",
+              "count": 7
+            },
+            {
+              "text": "que → qué",
+              "count": 6
+            },
+            {
+              "text": "el → del",
+              "count": 5
+            },
+            {
+              "text": "él → el",
+              "count": 4
+            },
+            {
+              "text": "á → a",
+              "count": 4
+            },
+            {
+              "text": "jehová → jeva",
+              "count": 3
+            },
+            {
+              "text": "cómo → como",
+              "count": 3
+            },
+            {
+              "text": "don → donkijote",
+              "count": 3
+            },
+            {
+              "text": "ínsula → insula",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 19
+            },
+            {
+              "text": "quijote",
+              "count": 18
+            },
+            {
+              "text": "en",
+              "count": 8
+            },
+            {
+              "text": "he",
+              "count": 8
+            },
+            {
+              "text": "de",
+              "count": 8
+            },
+            {
+              "text": "que",
+              "count": 5
+            },
+            {
+              "text": "y",
+              "count": 5
+            },
+            {
+              "text": "no",
+              "count": 5
+            },
+            {
+              "text": "el",
+              "count": 4
+            },
+            {
+              "text": "sancho",
+              "count": 4
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 24
+            },
+            {
+              "text": "en",
+              "count": 20
+            },
+            {
+              "text": "a",
+              "count": 16
+            },
+            {
+              "text": "y",
+              "count": 9
+            },
+            {
+              "text": "el",
+              "count": 7
+            },
+            {
+              "text": "con",
+              "count": 7
+            },
+            {
+              "text": "es",
+              "count": 7
+            },
+            {
+              "text": "que",
+              "count": 6
+            },
+            {
+              "text": "se",
+              "count": 6
+            },
+            {
+              "text": "fue",
+              "count": 6
+            }
+          ]
+        },
+        "split": "mls-dev",
+        "dataset": "facebook/multilingual_librispeech",
+        "dataset_revision": "2e83e61823b4c47dcbcb1980bb88601274127609",
+        "dataset_fingerprint": "c5f7ed37c14bfb508043a20bed1a8b918d2cd50ae8cc1cffd86b51347fd2e4cb",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "mean_latency_seconds": 0.17241286666690334,
+        "interpretation": "New held-out clips; exploratory follow-up because the earlier MLS test informed the domain choice. No further tuning after these scores.",
+        "evaluated_at": "2026-11-01T03:51:37.140214+00:00"
+      },
+      "history": [
+        {
+          "epoch": 0.503,
+          "optimizer_steps": 88,
+          "train_loss": 1.1863466177813031,
+          "validation_wer": 19.767441860465116,
+          "validation_cer": 6.048359824146094,
+          "elapsed_seconds": 78.73470839999209
+        },
+        {
+          "epoch": 1,
+          "optimizer_steps": 175,
+          "train_loss": 1.1194306087068149,
+          "validation_wer": 19.25064599483204,
+          "validation_cer": 5.918160297598918,
+          "elapsed_seconds": 161.63512120000087
+        },
+        {
+          "epoch": 1.503,
+          "optimizer_steps": 263,
+          "train_loss": 0.9750551532276652,
+          "validation_wer": 18.694096601073344,
+          "validation_cer": 5.823469732837335,
+          "elapsed_seconds": 240.19589649999398
+        },
+        {
+          "epoch": 2,
+          "optimizer_steps": 350,
+          "train_loss": 0.9423082476854324,
+          "validation_wer": 18.395945140131186,
+          "validation_cer": 5.8014879945891105,
+          "elapsed_seconds": 318.5164916999929
+        },
+        {
+          "epoch": 2.503,
+          "optimizer_steps": 438,
+          "train_loss": 0.8266148706051436,
+          "validation_wer": 19.350029815146094,
+          "validation_cer": 6.075414271220832,
+          "elapsed_seconds": 398.0115181000001
+        },
+        {
+          "epoch": 3,
+          "optimizer_steps": 525,
+          "train_loss": 0.8288429679615157,
+          "validation_wer": 19.5487974557742,
+          "validation_cer": 6.061887047683463,
+          "elapsed_seconds": 473.6031090000033
+        },
+        {
+          "epoch": 3.503,
+          "optimizer_steps": 613,
+          "train_loss": 0.7873798276890408,
+          "validation_wer": 19.022063208109717,
+          "validation_cer": 5.953669259384512,
+          "elapsed_seconds": 551.0686372999917
+        }
+      ],
+      "weight-audit": {
+        "experiment": "E11",
+        "initial_experiment": "E9",
+        "groups": {
+          "encoder": {
+            "parameters": 8208384,
+            "changed_parameters": 7632340,
+            "tensors": 67,
+            "changed_tensors": 66,
+            "relative_l2_change": 0.0008357027519757302
+          },
+          "decoder": {
+            "parameters": 29552256,
+            "changed_parameters": 29552202,
+            "tensors": 100,
+            "changed_tensors": 100,
+            "relative_l2_change": 0.011572543084202896
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      },
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "initialize_from": "E9",
+          "learning_rate_full": 1e-05,
+          "learning_rate_encoder": 1e-05,
+          "learning_rate_decoder": 1e-05,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 8,
+          "gradient_accumulation_steps": 2,
+          "epochs": 8,
+          "seed": 42,
+          "early_stopping_patience": 3,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.02,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.0,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 88,
+          "validation_batch_size": 4
+        },
+        "initial_experiment": "E9",
+        "initial_weights_sha256": "36327608750da0c7994611629c9b675952ba20045d36fba34c57df5eacbfca08",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "optimizer_steps": 613,
+        "best_optimizer_step": 350,
+        "best_epoch": 2,
+        "best_validation_wer": 18.395945140131186,
+        "trainable_parameters": 37184640,
+        "total_parameters": 37760640,
+        "training_seconds": 551.0742832999968,
+        "cumulative_training_seconds": 1622.239809199993,
+        "peak_gpu_memory_mb": 1192.8349609375,
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5"
+      }
+    },
+    "E12": {
+      "metrics-validation": {
+        "wer": 21.48678195189823,
+        "cer": 6.533648968549205,
+        "substitutions": 1566,
+        "deletions": 132,
+        "insertions": 464,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "del → la",
+              "count": 11
+            },
+            {
+              "text": "al → el",
+              "count": 7
+            },
+            {
+              "text": "caza → casa",
+              "count": 6
+            },
+            {
+              "text": "de → en",
+              "count": 4
+            },
+            {
+              "text": "de → del",
+              "count": 4
+            },
+            {
+              "text": "del → el",
+              "count": 4
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "distinguen → distingen",
+              "count": 3
+            },
+            {
+              "text": "nazismo → nacismo",
+              "count": 3
+            },
+            {
+              "text": "filósofos → filosofos",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 24
+            },
+            {
+              "text": "de",
+              "count": 9
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "la",
+              "count": 3
+            },
+            {
+              "text": "un",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "u u",
+              "count": 3
+            },
+            {
+              "text": "edad",
+              "count": 2
+            },
+            {
+              "text": "los",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 53
+            },
+            {
+              "text": "a",
+              "count": 22
+            },
+            {
+              "text": "en",
+              "count": 19
+            },
+            {
+              "text": "se",
+              "count": 14
+            },
+            {
+              "text": "y",
+              "count": 10
+            },
+            {
+              "text": "la",
+              "count": 9
+            },
+            {
+              "text": "que",
+              "count": 5
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "su",
+              "count": 5
+            },
+            {
+              "text": "más",
+              "count": 5
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.30749352088451776,
+        "trainable_parameters": 37184640,
+        "training_seconds": 1722.5343521000032,
+        "stage_training_seconds": 651.3688262000069,
+        "initial_experiment": "E9",
+        "peak_gpu_memory_mb": 2243.83251953125,
+        "groups": {
+          "condition:read speech": {
+            "wer": 21.48678195189823,
+            "cer": 6.533648968549205,
+            "substitutions": 1566,
+            "deletions": 132,
+            "insertions": 464,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "del → la",
+                  "count": 11
+                },
+                {
+                  "text": "al → el",
+                  "count": 7
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 6
+                },
+                {
+                  "text": "de → en",
+                  "count": 4
+                },
+                {
+                  "text": "de → del",
+                  "count": 4
+                },
+                {
+                  "text": "del → el",
+                  "count": 4
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "distinguen → distingen",
+                  "count": 3
+                },
+                {
+                  "text": "nazismo → nacismo",
+                  "count": 3
+                },
+                {
+                  "text": "filósofos → filosofos",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 24
+                },
+                {
+                  "text": "de",
+                  "count": 9
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "la",
+                  "count": 3
+                },
+                {
+                  "text": "un",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "u u",
+                  "count": 3
+                },
+                {
+                  "text": "edad",
+                  "count": 2
+                },
+                {
+                  "text": "los",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 53
+                },
+                {
+                  "text": "a",
+                  "count": 22
+                },
+                {
+                  "text": "en",
+                  "count": 19
+                },
+                {
+                  "text": "se",
+                  "count": 14
+                },
+                {
+                  "text": "y",
+                  "count": 10
+                },
+                {
+                  "text": "la",
+                  "count": 9
+                },
+                {
+                  "text": "que",
+                  "count": 5
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "su",
+                  "count": 5
+                },
+                {
+                  "text": "más",
+                  "count": 5
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T03:19:00.714193+00:00"
+      },
+      "history": [
+        {
+          "epoch": 0.504,
+          "optimizer_steps": 88,
+          "train_loss": 1.5133783509108154,
+          "validation_wer": 22.08308487378255,
+          "validation_cer": 6.854920527561719,
+          "elapsed_seconds": 118.3668284000014
+        },
+        {
+          "epoch": 1,
+          "optimizer_steps": 175,
+          "train_loss": 1.406628429036966,
+          "validation_wer": 21.48678195189823,
+          "validation_cer": 6.533648968549205,
+          "elapsed_seconds": 233.72461590000603
+        },
+        {
+          "epoch": 1.504,
+          "optimizer_steps": 263,
+          "train_loss": 1.180868829346516,
+          "validation_wer": 23.086861458954484,
+          "validation_cer": 7.186337504227256,
+          "elapsed_seconds": 355.8149405000004
+        },
+        {
+          "epoch": 2,
+          "optimizer_steps": 350,
+          "train_loss": 1.156091675567354,
+          "validation_wer": 22.271914132379248,
+          "validation_cer": 6.9462292864389585,
+          "elapsed_seconds": 495.30205310000747
+        },
+        {
+          "epoch": 2.504,
+          "optimizer_steps": 438,
+          "train_loss": 1.0519962967796759,
+          "validation_wer": 22.172530312065195,
+          "validation_cer": 6.892120392289483,
+          "elapsed_seconds": 651.3618128999951
+        }
+      ],
+      "weight-audit": {
+        "experiment": "E12",
+        "initial_experiment": "E9",
+        "groups": {
+          "encoder": {
+            "parameters": 8208384,
+            "changed_parameters": 7632333,
+            "tensors": 67,
+            "changed_tensors": 66,
+            "relative_l2_change": 0.000603642489418968
+          },
+          "decoder": {
+            "parameters": 29552256,
+            "changed_parameters": 29552197,
+            "tensors": 100,
+            "changed_tensors": 100,
+            "relative_l2_change": 0.008871697875264444
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      },
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "initialize_from": "E9",
+          "teacher_experiment": "E7",
+          "distillation_temperature": 2.0,
+          "distillation_weight": 0.5,
+          "learning_rate_full": 1e-05,
+          "learning_rate_encoder": 1e-05,
+          "learning_rate_decoder": 1e-05,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 4,
+          "gradient_accumulation_steps": 4,
+          "epochs": 6,
+          "seed": 42,
+          "early_stopping_patience": 3,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.02,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.0,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 88,
+          "validation_batch_size": 4
+        },
+        "initial_experiment": "E9",
+        "initial_weights_sha256": "36327608750da0c7994611629c9b675952ba20045d36fba34c57df5eacbfca08",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "optimizer_steps": 438,
+        "best_optimizer_step": 175,
+        "best_epoch": 1,
+        "best_validation_wer": 21.48678195189823,
+        "trainable_parameters": 37184640,
+        "total_parameters": 37760640,
+        "training_seconds": 651.3688262000069,
+        "cumulative_training_seconds": 1722.5343521000032,
+        "peak_gpu_memory_mb": 2243.83251953125,
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "loss_objective": "weighted supervised cross-entropy + teacher KL"
+      }
+    },
+    "E13": {
+      "metrics-validation": {
+        "wer": 18.91274100576426,
+        "cer": 5.862360500507271,
+        "substitutions": 1426,
+        "deletions": 176,
+        "insertions": 301,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 8
+            },
+            {
+              "text": "al → el",
+              "count": 7
+            },
+            {
+              "text": "de → en",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "la → las",
+              "count": 5
+            },
+            {
+              "text": "polo → pueblo",
+              "count": 4
+            },
+            {
+              "text": "deportivos → portivos",
+              "count": 4
+            },
+            {
+              "text": "del → la",
+              "count": 4
+            },
+            {
+              "text": "una → un",
+              "count": 4
+            },
+            {
+              "text": "masculino → culino",
+              "count": 4
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 17
+            },
+            {
+              "text": "de",
+              "count": 9
+            },
+            {
+              "text": "la",
+              "count": 8
+            },
+            {
+              "text": "en",
+              "count": 7
+            },
+            {
+              "text": "al",
+              "count": 5
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "un",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "antigua",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 29
+            },
+            {
+              "text": "a",
+              "count": 16
+            },
+            {
+              "text": "en",
+              "count": 12
+            },
+            {
+              "text": "y",
+              "count": 9
+            },
+            {
+              "text": "se",
+              "count": 8
+            },
+            {
+              "text": "más",
+              "count": 7
+            },
+            {
+              "text": "la",
+              "count": 6
+            },
+            {
+              "text": "el",
+              "count": 6
+            },
+            {
+              "text": "los",
+              "count": 4
+            },
+            {
+              "text": "su",
+              "count": 4
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.3173959071252979,
+        "trainable_parameters": 37184640,
+        "training_seconds": 1961.3442431999865,
+        "stage_training_seconds": 890.1787172999902,
+        "initial_experiment": "E9",
+        "peak_gpu_memory_mb": 1348.91943359375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 18.91274100576426,
+            "cer": 5.862360500507271,
+            "substitutions": 1426,
+            "deletions": 176,
+            "insertions": 301,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 8
+                },
+                {
+                  "text": "al → el",
+                  "count": 7
+                },
+                {
+                  "text": "de → en",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "la → las",
+                  "count": 5
+                },
+                {
+                  "text": "polo → pueblo",
+                  "count": 4
+                },
+                {
+                  "text": "deportivos → portivos",
+                  "count": 4
+                },
+                {
+                  "text": "del → la",
+                  "count": 4
+                },
+                {
+                  "text": "una → un",
+                  "count": 4
+                },
+                {
+                  "text": "masculino → culino",
+                  "count": 4
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 17
+                },
+                {
+                  "text": "de",
+                  "count": 9
+                },
+                {
+                  "text": "la",
+                  "count": 8
+                },
+                {
+                  "text": "en",
+                  "count": 7
+                },
+                {
+                  "text": "al",
+                  "count": 5
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "un",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "antigua",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 29
+                },
+                {
+                  "text": "a",
+                  "count": 16
+                },
+                {
+                  "text": "en",
+                  "count": 12
+                },
+                {
+                  "text": "y",
+                  "count": 9
+                },
+                {
+                  "text": "se",
+                  "count": 8
+                },
+                {
+                  "text": "más",
+                  "count": 7
+                },
+                {
+                  "text": "la",
+                  "count": 6
+                },
+                {
+                  "text": "el",
+                  "count": 6
+                },
+                {
+                  "text": "los",
+                  "count": 4
+                },
+                {
+                  "text": "su",
+                  "count": 4
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T03:38:31.384639+00:00"
+      },
+      "metrics-mls-dev": {
+        "wer": 20.27204502814259,
+        "cer": 6.468010517090271,
+        "substitutions": 1584,
+        "deletions": 260,
+        "insertions": 317,
+        "reference_words": 10660,
+        "samples": 300,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "a → á",
+              "count": 18
+            },
+            {
+              "text": "á → a",
+              "count": 5
+            },
+            {
+              "text": "él → el",
+              "count": 3
+            },
+            {
+              "text": "ni → y",
+              "count": 3
+            },
+            {
+              "text": "que → qué",
+              "count": 3
+            },
+            {
+              "text": "mío → mio",
+              "count": 3
+            },
+            {
+              "text": "el → del",
+              "count": 3
+            },
+            {
+              "text": "del → de",
+              "count": 3
+            },
+            {
+              "text": "mas → más",
+              "count": 3
+            },
+            {
+              "text": "tenía → tenia",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 21
+            },
+            {
+              "text": "en",
+              "count": 11
+            },
+            {
+              "text": "de",
+              "count": 7
+            },
+            {
+              "text": "y",
+              "count": 6
+            },
+            {
+              "text": "que",
+              "count": 4
+            },
+            {
+              "text": "el",
+              "count": 4
+            },
+            {
+              "text": "he",
+              "count": 4
+            },
+            {
+              "text": "sí",
+              "count": 4
+            },
+            {
+              "text": "dios",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "en",
+              "count": 17
+            },
+            {
+              "text": "de",
+              "count": 17
+            },
+            {
+              "text": "y",
+              "count": 13
+            },
+            {
+              "text": "a",
+              "count": 13
+            },
+            {
+              "text": "se",
+              "count": 7
+            },
+            {
+              "text": "con",
+              "count": 6
+            },
+            {
+              "text": "que",
+              "count": 5
+            },
+            {
+              "text": "á",
+              "count": 5
+            },
+            {
+              "text": "es",
+              "count": 4
+            },
+            {
+              "text": "el",
+              "count": 3
+            }
+          ]
+        },
+        "split": "mls-dev",
+        "dataset": "facebook/multilingual_librispeech",
+        "dataset_revision": "2e83e61823b4c47dcbcb1980bb88601274127609",
+        "dataset_fingerprint": "c5f7ed37c14bfb508043a20bed1a8b918d2cd50ae8cc1cffd86b51347fd2e4cb",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "mean_latency_seconds": 0.11638391966688989,
+        "interpretation": "New held-out clips; exploratory follow-up because the earlier MLS test informed the domain choice. No further tuning after these scores.",
+        "evaluated_at": "2026-11-01T03:52:23.770409+00:00"
+      },
+      "history": [
+        {
+          "epoch": 0.502,
+          "optimizer_steps": 182,
+          "train_loss": 0.9620448709516735,
+          "validation_wer": 20.085470085470085,
+          "validation_cer": 6.0787960771051734,
+          "elapsed_seconds": 100.6371894999902
+        },
+        {
+          "epoch": 1,
+          "optimizer_steps": 363,
+          "train_loss": 0.8954482108354569,
+          "validation_wer": 19.19101570264361,
+          "validation_cer": 5.752451809266148,
+          "elapsed_seconds": 222.15044299999136
+        },
+        {
+          "epoch": 1.502,
+          "optimizer_steps": 545,
+          "train_loss": 0.7071543897983137,
+          "validation_wer": 19.071755118266744,
+          "validation_cer": 5.963814677037538,
+          "elapsed_seconds": 337.2939875999873
+        },
+        {
+          "epoch": 2,
+          "optimizer_steps": 726,
+          "train_loss": 0.6889977218364847,
+          "validation_wer": 19.131385410455177,
+          "validation_cer": 5.887724044639837,
+          "elapsed_seconds": 445.5886211999896
+        },
+        {
+          "epoch": 2.502,
+          "optimizer_steps": 908,
+          "train_loss": 0.5954126006217448,
+          "validation_wer": 18.91274100576426,
+          "validation_cer": 5.862360500507271,
+          "elapsed_seconds": 555.9681378999958
+        },
+        {
+          "epoch": 3,
+          "optimizer_steps": 1089,
+          "train_loss": 0.5916527995158886,
+          "validation_wer": 19.538859073742795,
+          "validation_cer": 6.021305377071355,
+          "elapsed_seconds": 661.2882057999959
+        },
+        {
+          "epoch": 3.502,
+          "optimizer_steps": 1271,
+          "train_loss": 0.5272386255827579,
+          "validation_wer": 19.449413635460147,
+          "validation_cer": 6.055123435914778,
+          "elapsed_seconds": 779.1025616999978
+        },
+        {
+          "epoch": 4,
+          "optimizer_steps": 1452,
+          "train_loss": 0.5284737405694764,
+          "validation_wer": 19.518982309679984,
+          "validation_cer": 6.063577950625635,
+          "elapsed_seconds": 890.1746344999992
+        }
+      ],
+      "weight-audit": {
+        "experiment": "E13",
+        "initial_experiment": "E9",
+        "groups": {
+          "encoder": {
+            "parameters": 8208384,
+            "changed_parameters": 7632359,
+            "tensors": 67,
+            "changed_tensors": 66,
+            "relative_l2_change": 0.0014942836359288965
+          },
+          "decoder": {
+            "parameters": 29552256,
+            "changed_parameters": 29552216,
+            "tensors": 100,
+            "changed_tensors": 100,
+            "relative_l2_change": 0.019575845578947846
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      },
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "initialize_from": "E9",
+          "additional_training_manifest": "data/additional-spanish/manifest.csv",
+          "learning_rate_full": 1e-05,
+          "learning_rate_encoder": 1e-05,
+          "learning_rate_decoder": 1e-05,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 8,
+          "gradient_accumulation_steps": 2,
+          "epochs": 6,
+          "seed": 42,
+          "early_stopping_patience": 3,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.02,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.0,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 182,
+          "validation_batch_size": 4
+        },
+        "initial_experiment": "E9",
+        "initial_weights_sha256": "36327608750da0c7994611629c9b675952ba20045d36fba34c57df5eacbfca08",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 3000,
+          "additional_manifest": "data/additional-spanish/manifest.csv",
+          "total_samples": 5796,
+          "total_hours": 21.275087222222222
+        },
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "training_dataset_fingerprint": "107089f7551c66efcc5b9a7c0bfdb5874f1437016bf537acbca39533a8de0ae8",
+        "optimizer_steps": 1452,
+        "best_optimizer_step": 908,
+        "best_epoch": 2.502,
+        "best_validation_wer": 18.91274100576426,
+        "trainable_parameters": 37184640,
+        "total_parameters": 37760640,
+        "training_seconds": 890.1787172999902,
+        "cumulative_training_seconds": 1961.3442431999865,
+        "peak_gpu_memory_mb": 1348.91943359375,
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "loss_objective": "supervised cross-entropy"
+      }
+    },
+    "E14": {
+      "metrics-validation": {
+        "wer": 18.962432915921287,
+        "cer": 5.836996956374704,
+        "substitutions": 1430,
+        "deletions": 171,
+        "insertions": 307,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 6
+            },
+            {
+              "text": "al → el",
+              "count": 6
+            },
+            {
+              "text": "deportivos → portivos",
+              "count": 6
+            },
+            {
+              "text": "de → en",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "la → las",
+              "count": 4
+            },
+            {
+              "text": "yoga → joga",
+              "count": 4
+            },
+            {
+              "text": "del → la",
+              "count": 4
+            },
+            {
+              "text": "masculino → culino",
+              "count": 4
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 18
+            },
+            {
+              "text": "de",
+              "count": 9
+            },
+            {
+              "text": "en",
+              "count": 8
+            },
+            {
+              "text": "la",
+              "count": 6
+            },
+            {
+              "text": "al",
+              "count": 3
+            },
+            {
+              "text": "edad",
+              "count": 3
+            },
+            {
+              "text": "un",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "el",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 35
+            },
+            {
+              "text": "a",
+              "count": 21
+            },
+            {
+              "text": "en",
+              "count": 15
+            },
+            {
+              "text": "la",
+              "count": 9
+            },
+            {
+              "text": "y",
+              "count": 8
+            },
+            {
+              "text": "más",
+              "count": 8
+            },
+            {
+              "text": "el",
+              "count": 7
+            },
+            {
+              "text": "se",
+              "count": 7
+            },
+            {
+              "text": "su",
+              "count": 5
+            },
+            {
+              "text": "los",
+              "count": 4
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.3022691073707812,
+        "trainable_parameters": 37184640,
+        "training_seconds": 2450.0688452999893,
+        "stage_training_seconds": 488.7246021000028,
+        "initial_experiment": "E13",
+        "peak_gpu_memory_mb": 1268.97802734375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 18.962432915921287,
+            "cer": 5.836996956374704,
+            "substitutions": 1430,
+            "deletions": 171,
+            "insertions": 307,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 6
+                },
+                {
+                  "text": "al → el",
+                  "count": 6
+                },
+                {
+                  "text": "deportivos → portivos",
+                  "count": 6
+                },
+                {
+                  "text": "de → en",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "la → las",
+                  "count": 4
+                },
+                {
+                  "text": "yoga → joga",
+                  "count": 4
+                },
+                {
+                  "text": "del → la",
+                  "count": 4
+                },
+                {
+                  "text": "masculino → culino",
+                  "count": 4
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 18
+                },
+                {
+                  "text": "de",
+                  "count": 9
+                },
+                {
+                  "text": "en",
+                  "count": 8
+                },
+                {
+                  "text": "la",
+                  "count": 6
+                },
+                {
+                  "text": "al",
+                  "count": 3
+                },
+                {
+                  "text": "edad",
+                  "count": 3
+                },
+                {
+                  "text": "un",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "el",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 35
+                },
+                {
+                  "text": "a",
+                  "count": 21
+                },
+                {
+                  "text": "en",
+                  "count": 15
+                },
+                {
+                  "text": "la",
+                  "count": 9
+                },
+                {
+                  "text": "y",
+                  "count": 8
+                },
+                {
+                  "text": "más",
+                  "count": 8
+                },
+                {
+                  "text": "el",
+                  "count": 7
+                },
+                {
+                  "text": "se",
+                  "count": 7
+                },
+                {
+                  "text": "su",
+                  "count": 5
+                },
+                {
+                  "text": "los",
+                  "count": 4
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 1,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "latency_mode": "single clip",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T03:49:35.046230+00:00"
+      },
+      "metrics-mls-dev": {
+        "wer": 20.356472795497186,
+        "cer": 6.496056091148115,
+        "substitutions": 1588,
+        "deletions": 266,
+        "insertions": 316,
+        "reference_words": 10660,
+        "samples": 300,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "á → a",
+              "count": 5
+            },
+            {
+              "text": "a → á",
+              "count": 5
+            },
+            {
+              "text": "del → de",
+              "count": 4
+            },
+            {
+              "text": "mas → más",
+              "count": 4
+            },
+            {
+              "text": "sólo → solo",
+              "count": 4
+            },
+            {
+              "text": "rucio → rúcio",
+              "count": 4
+            },
+            {
+              "text": "él → el",
+              "count": 3
+            },
+            {
+              "text": "que → qué",
+              "count": 3
+            },
+            {
+              "text": "mío → mio",
+              "count": 3
+            },
+            {
+              "text": "el → del",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 19
+            },
+            {
+              "text": "en",
+              "count": 10
+            },
+            {
+              "text": "de",
+              "count": 8
+            },
+            {
+              "text": "y",
+              "count": 6
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "que",
+              "count": 4
+            },
+            {
+              "text": "he",
+              "count": 4
+            },
+            {
+              "text": "o",
+              "count": 4
+            },
+            {
+              "text": "sí",
+              "count": 3
+            },
+            {
+              "text": "oración",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 23
+            },
+            {
+              "text": "en",
+              "count": 17
+            },
+            {
+              "text": "a",
+              "count": 12
+            },
+            {
+              "text": "y",
+              "count": 11
+            },
+            {
+              "text": "se",
+              "count": 8
+            },
+            {
+              "text": "que",
+              "count": 5
+            },
+            {
+              "text": "con",
+              "count": 5
+            },
+            {
+              "text": "es",
+              "count": 4
+            },
+            {
+              "text": "me",
+              "count": 4
+            },
+            {
+              "text": "te",
+              "count": 3
+            }
+          ]
+        },
+        "split": "mls-dev",
+        "dataset": "facebook/multilingual_librispeech",
+        "dataset_revision": "2e83e61823b4c47dcbcb1980bb88601274127609",
+        "dataset_fingerprint": "c5f7ed37c14bfb508043a20bed1a8b918d2cd50ae8cc1cffd86b51347fd2e4cb",
+        "model": "openai/whisper-tiny",
+        "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "mean_latency_seconds": 0.11853013533366417,
+        "interpretation": "New held-out clips; exploratory follow-up because the earlier MLS test informed the domain choice. No further tuning after these scores.",
+        "evaluated_at": "2026-11-01T03:53:10.692943+00:00"
+      },
+      "history": [
+        {
+          "epoch": 0.251,
+          "optimizer_steps": 44,
+          "train_loss": 0.7692653436891057,
+          "validation_wer": 19.369906579208905,
+          "validation_cer": 6.031450794724383,
+          "elapsed_seconds": 56.34687570000824
+        },
+        {
+          "epoch": 0.503,
+          "optimizer_steps": 88,
+          "train_loss": 0.8134056119756266,
+          "validation_wer": 19.200954084675015,
+          "validation_cer": 5.9299966181941155,
+          "elapsed_seconds": 113.96710280000116
+        },
+        {
+          "epoch": 0.754,
+          "optimizer_steps": 132,
+          "train_loss": 0.8005788819017735,
+          "validation_wer": 19.181077320612204,
+          "validation_cer": 5.911396685830233,
+          "elapsed_seconds": 176.93741410000075
+        },
+        {
+          "epoch": 1,
+          "optimizer_steps": 175,
+          "train_loss": 0.7805925641528197,
+          "validation_wer": 19.06181673623534,
+          "validation_cer": 5.9046330740615485,
+          "elapsed_seconds": 239.428616899997
+        },
+        {
+          "epoch": 1.251,
+          "optimizer_steps": 219,
+          "train_loss": 0.7771575229073112,
+          "validation_wer": 18.962432915921287,
+          "validation_cer": 5.836996956374704,
+          "elapsed_seconds": 301.1503572000074
+        },
+        {
+          "epoch": 1.503,
+          "optimizer_steps": 263,
+          "train_loss": 0.7741736821322278,
+          "validation_wer": 19.032001590141125,
+          "validation_cer": 5.874196821102469,
+          "elapsed_seconds": 363.31023560000176
+        },
+        {
+          "epoch": 1.754,
+          "optimizer_steps": 307,
+          "train_loss": 0.7771387451864553,
+          "validation_wer": 19.101570264360962,
+          "validation_cer": 5.877578626986811,
+          "elapsed_seconds": 425.94666050000524
+        },
+        {
+          "epoch": 2,
+          "optimizer_steps": 350,
+          "train_loss": 0.7526312372727053,
+          "validation_wer": 19.15126217451799,
+          "validation_cer": 5.911396685830233,
+          "elapsed_seconds": 488.71763149999606
+        }
+      ],
+      "weight-audit": {
+        "experiment": "E14",
+        "initial_experiment": "E13",
+        "groups": {
+          "encoder": {
+            "parameters": 8208384,
+            "changed_parameters": 7632156,
+            "tensors": 67,
+            "changed_tensors": 66,
+            "relative_l2_change": 0.0001132534988156501
+          },
+          "decoder": {
+            "parameters": 29552256,
+            "changed_parameters": 29551870,
+            "tensors": 100,
+            "changed_tensors": 100,
+            "relative_l2_change": 0.001518434366797184
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      },
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-tiny",
+          "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+        },
+        "hyperparameters": {
+          "initialize_from": "E13",
+          "learning_rate_full": 2e-06,
+          "learning_rate_encoder": 2e-06,
+          "learning_rate_decoder": 2e-06,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 8,
+          "gradient_accumulation_steps": 2,
+          "epochs": 3,
+          "seed": 42,
+          "early_stopping_patience": 3,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "validation_interval_updates": 44,
+          "validation_batch_size": 4
+        },
+        "initial_experiment": "E13",
+        "initial_weights_sha256": "a1cc69abb9104dc378ddbc6dddaaafdf1a044dd2a2cae2393d1b362722509c8a",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 0,
+          "additional_manifest": null,
+          "total_samples": 2796,
+          "total_hours": 8.805533333333333
+        },
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "training_dataset_fingerprint": "08ab2ace976976343c41370723dfa20efb6de8251ae16a8a1cc9b41e78cf2df5",
+        "optimizer_steps": 350,
+        "best_optimizer_step": 219,
+        "best_epoch": 1.251,
+        "best_validation_wer": 18.962432915921287,
+        "trainable_parameters": 37184640,
+        "total_parameters": 37760640,
+        "training_seconds": 488.7246021000028,
+        "cumulative_training_seconds": 2450.0688452999893,
+        "peak_gpu_memory_mb": 1268.97802734375,
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "78ee61b0fb89fc719586c2d1f948486bf185d324f4c17ff4e3a98914508021f5",
+        "loss_objective": "supervised cross-entropy"
+      }
+    },
+    "E7": {
+      "metrics-validation": {
+        "wer": 6.340687736036574,
+        "cer": 2.1575921542103482,
+        "substitutions": 520,
+        "deletions": 63,
+        "insertions": 55,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "caza → casa",
+              "count": 6
+            },
+            {
+              "text": "al → el",
+              "count": 6
+            },
+            {
+              "text": "de → del",
+              "count": 5
+            },
+            {
+              "text": "bhajans → bajans",
+              "count": 5
+            },
+            {
+              "text": "aun → aún",
+              "count": 4
+            },
+            {
+              "text": "solo → sólo",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "diez → 10",
+              "count": 3
+            },
+            {
+              "text": "cinco → 5",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 7
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "se",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "de",
+              "count": 3
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "edad",
+              "count": 2
+            },
+            {
+              "text": "et al",
+              "count": 2
+            },
+            {
+              "text": "hacia",
+              "count": 2
+            },
+            {
+              "text": "las",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 8
+            },
+            {
+              "text": "campo",
+              "count": 3
+            },
+            {
+              "text": "los",
+              "count": 3
+            },
+            {
+              "text": "7",
+              "count": 3
+            },
+            {
+              "text": "john",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 2
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "en",
+              "count": 2
+            },
+            {
+              "text": "verbi",
+              "count": 2
+            },
+            {
+              "text": "ira",
+              "count": 2
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.2704887589683521,
+        "trainable_parameters": 0,
+        "training_seconds": 0,
+        "peak_gpu_memory_mb": null,
+        "groups": {
+          "condition:read speech": {
+            "wer": 6.340687736036574,
+            "cer": 2.1575921542103482,
+            "substitutions": 520,
+            "deletions": 63,
+            "insertions": 55,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "caza → casa",
+                  "count": 6
+                },
+                {
+                  "text": "al → el",
+                  "count": 6
+                },
+                {
+                  "text": "de → del",
+                  "count": 5
+                },
+                {
+                  "text": "bhajans → bajans",
+                  "count": 5
+                },
+                {
+                  "text": "aun → aún",
+                  "count": 4
+                },
+                {
+                  "text": "solo → sólo",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "diez → 10",
+                  "count": 3
+                },
+                {
+                  "text": "cinco → 5",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 7
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "se",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "de",
+                  "count": 3
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "edad",
+                  "count": 2
+                },
+                {
+                  "text": "et al",
+                  "count": 2
+                },
+                {
+                  "text": "hacia",
+                  "count": 2
+                },
+                {
+                  "text": "las",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 8
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                },
+                {
+                  "text": "7",
+                  "count": 3
+                },
+                {
+                  "text": "john",
+                  "count": 3
+                },
+                {
+                  "text": "o",
+                  "count": 2
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "en",
+                  "count": 2
+                },
+                {
+                  "text": "verbi",
+                  "count": 2
+                },
+                {
+                  "text": "ira",
+                  "count": 2
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T22:57:03.153233+00:00"
+      },
+      "metrics-test": {
+        "wer": 6.34326753537178,
+        "cer": 2.157259839746412,
+        "substitutions": 1038,
+        "deletions": 189,
+        "insertions": 248,
+        "reference_words": 23253,
+        "samples": 907,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 10
+            },
+            {
+              "text": "del → de",
+              "count": 8
+            },
+            {
+              "text": "solo → sólo",
+              "count": 7
+            },
+            {
+              "text": "treinta → 30",
+              "count": 6
+            },
+            {
+              "text": "aun → aún",
+              "count": 5
+            },
+            {
+              "text": "jóquey → hockey",
+              "count": 5
+            },
+            {
+              "text": "casablanca → blanca",
+              "count": 5
+            },
+            {
+              "text": "período → periodo",
+              "count": 5
+            },
+            {
+              "text": "cinco → 5",
+              "count": 5
+            },
+            {
+              "text": "hacer → hacerlo",
+              "count": 4
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 16
+            },
+            {
+              "text": "en",
+              "count": 13
+            },
+            {
+              "text": "de",
+              "count": 13
+            },
+            {
+              "text": "el",
+              "count": 9
+            },
+            {
+              "text": "la",
+              "count": 6
+            },
+            {
+              "text": "lo",
+              "count": 5
+            },
+            {
+              "text": "por ciento",
+              "count": 5
+            },
+            {
+              "text": "es",
+              "count": 4
+            },
+            {
+              "text": "con",
+              "count": 3
+            },
+            {
+              "text": "m",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "a",
+              "count": 9
+            },
+            {
+              "text": "la",
+              "count": 9
+            },
+            {
+              "text": "y",
+              "count": 7
+            },
+            {
+              "text": "casa",
+              "count": 5
+            },
+            {
+              "text": "en",
+              "count": 5
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "ya",
+              "count": 4
+            },
+            {
+              "text": "de",
+              "count": 4
+            },
+            {
+              "text": "un",
+              "count": 4
+            },
+            {
+              "text": "es",
+              "count": 3
+            }
+          ]
+        },
+        "split": "test",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.28631914619625226,
+        "trainable_parameters": 0,
+        "training_seconds": 0,
+        "peak_gpu_memory_mb": null,
+        "groups": {
+          "condition:read speech": {
+            "wer": 6.34326753537178,
+            "cer": 2.157259839746412,
+            "substitutions": 1038,
+            "deletions": 189,
+            "insertions": 248,
+            "reference_words": 23253,
+            "samples": 907,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 10
+                },
+                {
+                  "text": "del → de",
+                  "count": 8
+                },
+                {
+                  "text": "solo → sólo",
+                  "count": 7
+                },
+                {
+                  "text": "treinta → 30",
+                  "count": 6
+                },
+                {
+                  "text": "aun → aún",
+                  "count": 5
+                },
+                {
+                  "text": "jóquey → hockey",
+                  "count": 5
+                },
+                {
+                  "text": "casablanca → blanca",
+                  "count": 5
+                },
+                {
+                  "text": "período → periodo",
+                  "count": 5
+                },
+                {
+                  "text": "cinco → 5",
+                  "count": 5
+                },
+                {
+                  "text": "hacer → hacerlo",
+                  "count": 4
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 16
+                },
+                {
+                  "text": "en",
+                  "count": 13
+                },
+                {
+                  "text": "de",
+                  "count": 13
+                },
+                {
+                  "text": "el",
+                  "count": 9
+                },
+                {
+                  "text": "la",
+                  "count": 6
+                },
+                {
+                  "text": "lo",
+                  "count": 5
+                },
+                {
+                  "text": "por ciento",
+                  "count": 5
+                },
+                {
+                  "text": "es",
+                  "count": 4
+                },
+                {
+                  "text": "con",
+                  "count": 3
+                },
+                {
+                  "text": "m",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "a",
+                  "count": 9
+                },
+                {
+                  "text": "la",
+                  "count": 9
+                },
+                {
+                  "text": "y",
+                  "count": 7
+                },
+                {
+                  "text": "casa",
+                  "count": 5
+                },
+                {
+                  "text": "en",
+                  "count": 5
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "ya",
+                  "count": 4
+                },
+                {
+                  "text": "de",
+                  "count": 4
+                },
+                {
+                  "text": "un",
+                  "count": 4
+                },
+                {
+                  "text": "es",
+                  "count": 3
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T23:04:06.789054+00:00"
+      }
+    },
+    "E8": {
+      "metrics-validation": {
+        "wer": 5.674816139932419,
+        "cer": 1.8278660804869802,
+        "substitutions": 465,
+        "deletions": 58,
+        "insertions": 48,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "de → en",
+              "count": 4
+            },
+            {
+              "text": "como → cómo",
+              "count": 4
+            },
+            {
+              "text": "al → el",
+              "count": 4
+            },
+            {
+              "text": "bhajans → bajans",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "se regresa → que regrese",
+              "count": 3
+            },
+            {
+              "text": "quince → 15",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 11
+            },
+            {
+              "text": "en",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "u u",
+              "count": 3
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "bhog",
+              "count": 2
+            },
+            {
+              "text": "se",
+              "count": 2
+            },
+            {
+              "text": "hacia",
+              "count": 2
+            },
+            {
+              "text": "singh",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 8
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "a",
+              "count": 4
+            },
+            {
+              "text": "campo",
+              "count": 3
+            },
+            {
+              "text": "los",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 2
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "y",
+              "count": 2
+            },
+            {
+              "text": "john",
+              "count": 2
+            },
+            {
+              "text": "clocker era",
+              "count": 1
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.27917383120405825,
+        "trainable_parameters": 153580800,
+        "training_seconds": 1737.3974234000052,
+        "peak_gpu_memory_mb": 3297.6884765625,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.674816139932419,
+            "cer": 1.8278660804869802,
+            "substitutions": 465,
+            "deletions": 58,
+            "insertions": 48,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "de → en",
+                  "count": 4
+                },
+                {
+                  "text": "como → cómo",
+                  "count": 4
+                },
+                {
+                  "text": "al → el",
+                  "count": 4
+                },
+                {
+                  "text": "bhajans → bajans",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "se regresa → que regrese",
+                  "count": 3
+                },
+                {
+                  "text": "quince → 15",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 11
+                },
+                {
+                  "text": "en",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "u u",
+                  "count": 3
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "bhog",
+                  "count": 2
+                },
+                {
+                  "text": "se",
+                  "count": 2
+                },
+                {
+                  "text": "hacia",
+                  "count": 2
+                },
+                {
+                  "text": "singh",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 8
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "a",
+                  "count": 4
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                },
+                {
+                  "text": "o",
+                  "count": 2
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "y",
+                  "count": 2
+                },
+                {
+                  "text": "john",
+                  "count": 2
+                },
+                {
+                  "text": "clocker era",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T22:59:19.344278+00:00"
+      },
+      "metrics-test": {
+        "wer": 5.616479594030878,
+        "cer": 1.7999178186727713,
+        "substitutions": 978,
+        "deletions": 172,
+        "insertions": 156,
+        "reference_words": 23253,
+        "samples": 907,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 9
+            },
+            {
+              "text": "del → de",
+              "count": 6
+            },
+            {
+              "text": "jóquey → hockey",
+              "count": 5
+            },
+            {
+              "text": "casablanca → blanca",
+              "count": 5
+            },
+            {
+              "text": "únicamente → unicamente",
+              "count": 4
+            },
+            {
+              "text": "treinta → 30",
+              "count": 4
+            },
+            {
+              "text": "nyiragongo → gongo",
+              "count": 4
+            },
+            {
+              "text": "martelly → martelli",
+              "count": 4
+            },
+            {
+              "text": "duvall → dubal",
+              "count": 3
+            },
+            {
+              "text": "hacer → hacerlo",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "en",
+              "count": 12
+            },
+            {
+              "text": "a",
+              "count": 12
+            },
+            {
+              "text": "de",
+              "count": 12
+            },
+            {
+              "text": "el",
+              "count": 9
+            },
+            {
+              "text": "la",
+              "count": 6
+            },
+            {
+              "text": "por ciento",
+              "count": 5
+            },
+            {
+              "text": "lo",
+              "count": 4
+            },
+            {
+              "text": "es",
+              "count": 4
+            },
+            {
+              "text": "con",
+              "count": 3
+            },
+            {
+              "text": "m",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "a",
+              "count": 13
+            },
+            {
+              "text": "de",
+              "count": 11
+            },
+            {
+              "text": "la",
+              "count": 7
+            },
+            {
+              "text": "y",
+              "count": 6
+            },
+            {
+              "text": "en",
+              "count": 6
+            },
+            {
+              "text": "el",
+              "count": 6
+            },
+            {
+              "text": "un",
+              "count": 6
+            },
+            {
+              "text": "casa",
+              "count": 5
+            },
+            {
+              "text": "san",
+              "count": 3
+            },
+            {
+              "text": "nira",
+              "count": 3
+            }
+          ]
+        },
+        "split": "test",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.291380646857605,
+        "trainable_parameters": 153580800,
+        "training_seconds": 1737.3974234000052,
+        "peak_gpu_memory_mb": 3297.6884765625,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.616479594030878,
+            "cer": 1.7999178186727713,
+            "substitutions": 978,
+            "deletions": 172,
+            "insertions": 156,
+            "reference_words": 23253,
+            "samples": 907,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 9
+                },
+                {
+                  "text": "del → de",
+                  "count": 6
+                },
+                {
+                  "text": "jóquey → hockey",
+                  "count": 5
+                },
+                {
+                  "text": "casablanca → blanca",
+                  "count": 5
+                },
+                {
+                  "text": "únicamente → unicamente",
+                  "count": 4
+                },
+                {
+                  "text": "treinta → 30",
+                  "count": 4
+                },
+                {
+                  "text": "nyiragongo → gongo",
+                  "count": 4
+                },
+                {
+                  "text": "martelly → martelli",
+                  "count": 4
+                },
+                {
+                  "text": "duvall → dubal",
+                  "count": 3
+                },
+                {
+                  "text": "hacer → hacerlo",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "en",
+                  "count": 12
+                },
+                {
+                  "text": "a",
+                  "count": 12
+                },
+                {
+                  "text": "de",
+                  "count": 12
+                },
+                {
+                  "text": "el",
+                  "count": 9
+                },
+                {
+                  "text": "la",
+                  "count": 6
+                },
+                {
+                  "text": "por ciento",
+                  "count": 5
+                },
+                {
+                  "text": "lo",
+                  "count": 4
+                },
+                {
+                  "text": "es",
+                  "count": 4
+                },
+                {
+                  "text": "con",
+                  "count": 3
+                },
+                {
+                  "text": "m",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "a",
+                  "count": 13
+                },
+                {
+                  "text": "de",
+                  "count": 11
+                },
+                {
+                  "text": "la",
+                  "count": 7
+                },
+                {
+                  "text": "y",
+                  "count": 6
+                },
+                {
+                  "text": "en",
+                  "count": 6
+                },
+                {
+                  "text": "el",
+                  "count": 6
+                },
+                {
+                  "text": "un",
+                  "count": 6
+                },
+                {
+                  "text": "casa",
+                  "count": 5
+                },
+                {
+                  "text": "san",
+                  "count": 3
+                },
+                {
+                  "text": "nira",
+                  "count": 3
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-10-31T23:08:54.912982+00:00"
+      },
+      "history": [
+        {
+          "epoch": 0.504,
+          "optimizer_steps": 88,
+          "train_loss": 1.1247972517951645,
+          "validation_wer": 5.943152454780361,
+          "validation_cer": 1.958065607034156,
+          "elapsed_seconds": 255.34625460000825
+        },
+        {
+          "epoch": 1,
+          "optimizer_steps": 175,
+          "train_loss": 0.9912327318552226,
+          "validation_wer": 5.853707016497714,
+          "validation_cer": 1.8853567805207982,
+          "elapsed_seconds": 470.5098297000077
+        },
+        {
+          "epoch": 1.504,
+          "optimizer_steps": 263,
+          "train_loss": 0.8092059668746184,
+          "validation_wer": 5.774199960246472,
+          "validation_cer": 1.8397024010821779,
+          "elapsed_seconds": 675.6011829000054
+        },
+        {
+          "epoch": 2,
+          "optimizer_steps": 350,
+          "train_loss": 0.8126509732464182,
+          "validation_wer": 5.794076724309283,
+          "validation_cer": 1.883665877578627,
+          "elapsed_seconds": 889.8082205999963
+        },
+        {
+          "epoch": 2.504,
+          "optimizer_steps": 438,
+          "train_loss": 0.779067056285302,
+          "validation_wer": 5.754323196183661,
+          "validation_cer": 1.8397024010821779,
+          "elapsed_seconds": 1109.9538020000036
+        },
+        {
+          "epoch": 3,
+          "optimizer_steps": 525,
+          "train_loss": 0.7664644439253044,
+          "validation_wer": 5.71456966805804,
+          "validation_cer": 1.8464660128508625,
+          "elapsed_seconds": 1319.7272873000038
+        },
+        {
+          "epoch": 3.504,
+          "optimizer_steps": 613,
+          "train_loss": 0.719138537697621,
+          "validation_wer": 5.754323196183661,
+          "validation_cer": 1.8481569157930335,
+          "elapsed_seconds": 1527.8437661000062
+        },
+        {
+          "epoch": 4,
+          "optimizer_steps": 700,
+          "train_loss": 0.730032170212725,
+          "validation_wer": 5.674816139932419,
+          "validation_cer": 1.8278660804869802,
+          "elapsed_seconds": 1736.0946525000036
+        }
+      ],
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-small",
+          "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language",
+          "evaluation_batch_size": 4,
+          "local_model_path": "data/models/whisper-small"
+        },
+        "hyperparameters": {
+          "learning_rate_full": 2e-06,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 4,
+          "gradient_accumulation_steps": 4,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "lora_rank": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.1,
+          "lora_targets": [
+            "q_proj",
+            "v_proj"
+          ],
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": true,
+          "validation_interval_updates": 88
+        },
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "optimizer_steps": 700,
+        "best_optimizer_step": 700,
+        "best_epoch": 4,
+        "best_validation_wer": 5.674816139932419,
+        "trainable_parameters": 153580800,
+        "total_parameters": 241734912,
+        "training_seconds": 1737.3974234000052,
+        "peak_gpu_memory_mb": 3297.6884765625,
+        "tokenizer_prefix_verified": true
+      }
+    },
+    "E10": {
+      "metrics-validation": {
+        "wer": 5.605247465712582,
+        "cer": 1.8278660804869802,
+        "substitutions": 456,
+        "deletions": 62,
+        "insertions": 46,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 5
+            },
+            {
+              "text": "caza → casa",
+              "count": 5
+            },
+            {
+              "text": "bhajans → bajans",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "de → en",
+              "count": 3
+            },
+            {
+              "text": "se regresa → que regrese",
+              "count": 3
+            },
+            {
+              "text": "quince → 15",
+              "count": 3
+            },
+            {
+              "text": "camposanto → santo",
+              "count": 3
+            },
+            {
+              "text": "ex → exagente",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 10
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "se",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "u u",
+              "count": 3
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "edad",
+              "count": 2
+            },
+            {
+              "text": "bhog",
+              "count": 2
+            },
+            {
+              "text": "et al",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 8
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "a",
+              "count": 4
+            },
+            {
+              "text": "campo",
+              "count": 3
+            },
+            {
+              "text": "los",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 2
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "y",
+              "count": 2
+            },
+            {
+              "text": "john",
+              "count": 2
+            },
+            {
+              "text": "clocker era",
+              "count": 1
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.28982233980350786,
+        "trainable_parameters": 240582912,
+        "training_seconds": 3592.7653430999926,
+        "stage_training_seconds": 1855.3679196999874,
+        "initial_experiment": "E8",
+        "peak_gpu_memory_mb": 4746.2646484375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.605247465712582,
+            "cer": 1.8278660804869802,
+            "substitutions": 456,
+            "deletions": 62,
+            "insertions": 46,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 5
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 5
+                },
+                {
+                  "text": "bhajans → bajans",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "de → en",
+                  "count": 3
+                },
+                {
+                  "text": "se regresa → que regrese",
+                  "count": 3
+                },
+                {
+                  "text": "quince → 15",
+                  "count": 3
+                },
+                {
+                  "text": "camposanto → santo",
+                  "count": 3
+                },
+                {
+                  "text": "ex → exagente",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 10
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "se",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "u u",
+                  "count": 3
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "edad",
+                  "count": 2
+                },
+                {
+                  "text": "bhog",
+                  "count": 2
+                },
+                {
+                  "text": "et al",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 8
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "a",
+                  "count": 4
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                },
+                {
+                  "text": "o",
+                  "count": 2
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "y",
+                  "count": 2
+                },
+                {
+                  "text": "john",
+                  "count": 2
+                },
+                {
+                  "text": "clocker era",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T00:03:27.743366+00:00"
+      },
+      "metrics-test": {
+        "wer": 5.646583236571625,
+        "cer": 1.8072554371753105,
+        "substitutions": 996,
+        "deletions": 157,
+        "insertions": 160,
+        "reference_words": 23253,
+        "samples": 907,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 9
+            },
+            {
+              "text": "del → de",
+              "count": 6
+            },
+            {
+              "text": "davey → dabey",
+              "count": 5
+            },
+            {
+              "text": "jóquey → hockey",
+              "count": 5
+            },
+            {
+              "text": "casablanca → blanca",
+              "count": 5
+            },
+            {
+              "text": "hacer → hacerlo",
+              "count": 4
+            },
+            {
+              "text": "treinta → 30",
+              "count": 4
+            },
+            {
+              "text": "las → los",
+              "count": 4
+            },
+            {
+              "text": "nyiragongo → gongo",
+              "count": 4
+            },
+            {
+              "text": "martelly → martelli",
+              "count": 4
+            }
+          ],
+          "deletions": [
+            {
+              "text": "en",
+              "count": 11
+            },
+            {
+              "text": "a",
+              "count": 11
+            },
+            {
+              "text": "de",
+              "count": 10
+            },
+            {
+              "text": "el",
+              "count": 8
+            },
+            {
+              "text": "la",
+              "count": 5
+            },
+            {
+              "text": "lo",
+              "count": 5
+            },
+            {
+              "text": "por ciento",
+              "count": 5
+            },
+            {
+              "text": "00",
+              "count": 5
+            },
+            {
+              "text": "con",
+              "count": 3
+            },
+            {
+              "text": "le temía",
+              "count": 3
+            }
+          ],
+          "insertions": [
+            {
+              "text": "a",
+              "count": 16
+            },
+            {
+              "text": "de",
+              "count": 12
+            },
+            {
+              "text": "un",
+              "count": 6
+            },
+            {
+              "text": "la",
+              "count": 6
+            },
+            {
+              "text": "en",
+              "count": 6
+            },
+            {
+              "text": "y",
+              "count": 5
+            },
+            {
+              "text": "casa",
+              "count": 5
+            },
+            {
+              "text": "el",
+              "count": 5
+            },
+            {
+              "text": "san",
+              "count": 3
+            },
+            {
+              "text": "nira",
+              "count": 3
+            }
+          ]
+        },
+        "split": "test",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.3015750910695292,
+        "trainable_parameters": 240582912,
+        "training_seconds": 3592.7653430999926,
+        "stage_training_seconds": 1855.3679196999874,
+        "initial_experiment": "E8",
+        "peak_gpu_memory_mb": 4746.2646484375,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.646583236571625,
+            "cer": 1.8072554371753105,
+            "substitutions": 996,
+            "deletions": 157,
+            "insertions": 160,
+            "reference_words": 23253,
+            "samples": 907,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 9
+                },
+                {
+                  "text": "del → de",
+                  "count": 6
+                },
+                {
+                  "text": "davey → dabey",
+                  "count": 5
+                },
+                {
+                  "text": "jóquey → hockey",
+                  "count": 5
+                },
+                {
+                  "text": "casablanca → blanca",
+                  "count": 5
+                },
+                {
+                  "text": "hacer → hacerlo",
+                  "count": 4
+                },
+                {
+                  "text": "treinta → 30",
+                  "count": 4
+                },
+                {
+                  "text": "las → los",
+                  "count": 4
+                },
+                {
+                  "text": "nyiragongo → gongo",
+                  "count": 4
+                },
+                {
+                  "text": "martelly → martelli",
+                  "count": 4
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "en",
+                  "count": 11
+                },
+                {
+                  "text": "a",
+                  "count": 11
+                },
+                {
+                  "text": "de",
+                  "count": 10
+                },
+                {
+                  "text": "el",
+                  "count": 8
+                },
+                {
+                  "text": "la",
+                  "count": 5
+                },
+                {
+                  "text": "lo",
+                  "count": 5
+                },
+                {
+                  "text": "por ciento",
+                  "count": 5
+                },
+                {
+                  "text": "00",
+                  "count": 5
+                },
+                {
+                  "text": "con",
+                  "count": 3
+                },
+                {
+                  "text": "le temía",
+                  "count": 3
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "a",
+                  "count": 16
+                },
+                {
+                  "text": "de",
+                  "count": 12
+                },
+                {
+                  "text": "un",
+                  "count": 6
+                },
+                {
+                  "text": "la",
+                  "count": 6
+                },
+                {
+                  "text": "en",
+                  "count": 6
+                },
+                {
+                  "text": "y",
+                  "count": 5
+                },
+                {
+                  "text": "casa",
+                  "count": 5
+                },
+                {
+                  "text": "el",
+                  "count": 5
+                },
+                {
+                  "text": "san",
+                  "count": 3
+                },
+                {
+                  "text": "nira",
+                  "count": 3
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T04:11:47.721162+00:00",
+        "evaluation_context": "Reused FLEURS test corpus: earlier project test results were already read. This is an exploratory diagnostic, not a new blind evaluation."
+      },
+      "history": [
+        {
+          "epoch": 0.504,
+          "optimizer_steps": 88,
+          "train_loss": 0.7885405207793652,
+          "validation_wer": 5.873583780560525,
+          "validation_cer": 1.8938112952316537,
+          "elapsed_seconds": 285.0507343999925
+        },
+        {
+          "epoch": 1,
+          "optimizer_steps": 175,
+          "train_loss": 0.7509686900342739,
+          "validation_wer": 5.684754521963824,
+          "validation_cer": 1.870138654041258,
+          "elapsed_seconds": 597.7963167999987
+        },
+        {
+          "epoch": 1.504,
+          "optimizer_steps": 263,
+          "train_loss": 0.709730566368142,
+          "validation_wer": 5.625124229775393,
+          "validation_cer": 1.8278660804869802,
+          "elapsed_seconds": 919.8329393999884
+        },
+        {
+          "epoch": 2,
+          "optimizer_steps": 350,
+          "train_loss": 0.7207912743672494,
+          "validation_wer": 5.605247465712582,
+          "validation_cer": 1.8278660804869802,
+          "elapsed_seconds": 1221.2381764999882
+        },
+        {
+          "epoch": 2.504,
+          "optimizer_steps": 438,
+          "train_loss": 0.7124424766410481,
+          "validation_wer": 5.615185847743987,
+          "validation_cer": 1.8346296922556644,
+          "elapsed_seconds": 1534.3704415999964
+        },
+        {
+          "epoch": 3,
+          "optimizer_steps": 525,
+          "train_loss": 0.705383263802814,
+          "validation_wer": 5.605247465712582,
+          "validation_cer": 1.8363205951978359,
+          "elapsed_seconds": 1855.3602398999938
+        }
+      ],
+      "weight-audit": {
+        "experiment": "E10",
+        "initial_experiment": "E8",
+        "groups": {
+          "encoder": {
+            "parameters": 88154112,
+            "changed_parameters": 87001012,
+            "tensors": 187,
+            "changed_tensors": 186,
+            "relative_l2_change": 0.00041471894434032356
+          },
+          "decoder": {
+            "parameters": 153580800,
+            "changed_parameters": 153306928,
+            "tensors": 292,
+            "changed_tensors": 292,
+            "relative_l2_change": 0.0010234756062521247
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      },
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-small",
+          "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language",
+          "evaluation_batch_size": 4,
+          "local_model_path": "data/models/whisper-small"
+        },
+        "hyperparameters": {
+          "initialize_from": "E8",
+          "learning_rate_full": 2e-06,
+          "learning_rate_encoder": 2e-06,
+          "learning_rate_decoder": 5e-07,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 4,
+          "gradient_accumulation_steps": 4,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": false,
+          "augmentation_method": "specaugment",
+          "mask_time_prob": 0.03,
+          "mask_time_length": 10,
+          "mask_time_min_masks": 1,
+          "mask_feature_prob": 0.015,
+          "mask_feature_length": 4,
+          "validation_interval_updates": 88
+        },
+        "initial_experiment": "E8",
+        "initial_weights_sha256": "cbc0562fc8cd9e48c406eebac244e3cf29bd66eccc8e8a7c576db54e49651474",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "optimizer_steps": 525,
+        "best_optimizer_step": 350,
+        "best_epoch": 2,
+        "best_validation_wer": 5.605247465712582,
+        "trainable_parameters": 240582912,
+        "total_parameters": 241734912,
+        "training_seconds": 1855.3679196999874,
+        "cumulative_training_seconds": 3592.7653430999926,
+        "peak_gpu_memory_mb": 4746.2646484375,
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347"
+      }
+    },
+    "E15": {
+      "metrics-validation": {
+        "wer": 5.833830252434904,
+        "cer": 1.9462292864389583,
+        "substitutions": 471,
+        "deletions": 69,
+        "insertions": 47,
+        "reference_words": 10062,
+        "samples": 407,
+        "common_errors": {
+          "substitutions": [
+            {
+              "text": "de → del",
+              "count": 6
+            },
+            {
+              "text": "caza → casa",
+              "count": 4
+            },
+            {
+              "text": "mayorca → mallorca",
+              "count": 3
+            },
+            {
+              "text": "víctima → víctimas",
+              "count": 3
+            },
+            {
+              "text": "de → en",
+              "count": 3
+            },
+            {
+              "text": "diez → 10",
+              "count": 3
+            },
+            {
+              "text": "cinco → 5",
+              "count": 3
+            },
+            {
+              "text": "quince → 15",
+              "count": 3
+            },
+            {
+              "text": "camposanto → santo",
+              "count": 3
+            },
+            {
+              "text": "javanesa → jabanesa",
+              "count": 3
+            }
+          ],
+          "deletions": [
+            {
+              "text": "a",
+              "count": 12
+            },
+            {
+              "text": "g",
+              "count": 4
+            },
+            {
+              "text": "shyam",
+              "count": 3
+            },
+            {
+              "text": "en",
+              "count": 3
+            },
+            {
+              "text": "agente",
+              "count": 3
+            },
+            {
+              "text": "por ciento",
+              "count": 3
+            },
+            {
+              "text": "u u",
+              "count": 3
+            },
+            {
+              "text": "la",
+              "count": 2
+            },
+            {
+              "text": "bhog",
+              "count": 2
+            },
+            {
+              "text": "se",
+              "count": 2
+            }
+          ],
+          "insertions": [
+            {
+              "text": "de",
+              "count": 7
+            },
+            {
+              "text": "en",
+              "count": 4
+            },
+            {
+              "text": "a",
+              "count": 4
+            },
+            {
+              "text": "la",
+              "count": 3
+            },
+            {
+              "text": "campo",
+              "count": 3
+            },
+            {
+              "text": "los",
+              "count": 3
+            },
+            {
+              "text": "o",
+              "count": 2
+            },
+            {
+              "text": "john",
+              "count": 2
+            },
+            {
+              "text": "clocker",
+              "count": 1
+            },
+            {
+              "text": "promoción",
+              "count": 1
+            }
+          ]
+        },
+        "split": "validation",
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "model": "openai/whisper-small",
+        "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+        "language": "spanish",
+        "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+        "seed": 42,
+        "mean_latency_seconds": 0.2961349132678089,
+        "trainable_parameters": 153580800,
+        "training_seconds": 2379.481884699999,
+        "stage_training_seconds": 642.0844612999936,
+        "initial_experiment": "E8",
+        "peak_gpu_memory_mb": 3354.32080078125,
+        "groups": {
+          "condition:read speech": {
+            "wer": 5.833830252434904,
+            "cer": 1.9462292864389583,
+            "substitutions": 471,
+            "deletions": 69,
+            "insertions": 47,
+            "reference_words": 10062,
+            "samples": 407,
+            "common_errors": {
+              "substitutions": [
+                {
+                  "text": "de → del",
+                  "count": 6
+                },
+                {
+                  "text": "caza → casa",
+                  "count": 4
+                },
+                {
+                  "text": "mayorca → mallorca",
+                  "count": 3
+                },
+                {
+                  "text": "víctima → víctimas",
+                  "count": 3
+                },
+                {
+                  "text": "de → en",
+                  "count": 3
+                },
+                {
+                  "text": "diez → 10",
+                  "count": 3
+                },
+                {
+                  "text": "cinco → 5",
+                  "count": 3
+                },
+                {
+                  "text": "quince → 15",
+                  "count": 3
+                },
+                {
+                  "text": "camposanto → santo",
+                  "count": 3
+                },
+                {
+                  "text": "javanesa → jabanesa",
+                  "count": 3
+                }
+              ],
+              "deletions": [
+                {
+                  "text": "a",
+                  "count": 12
+                },
+                {
+                  "text": "g",
+                  "count": 4
+                },
+                {
+                  "text": "shyam",
+                  "count": 3
+                },
+                {
+                  "text": "en",
+                  "count": 3
+                },
+                {
+                  "text": "agente",
+                  "count": 3
+                },
+                {
+                  "text": "por ciento",
+                  "count": 3
+                },
+                {
+                  "text": "u u",
+                  "count": 3
+                },
+                {
+                  "text": "la",
+                  "count": 2
+                },
+                {
+                  "text": "bhog",
+                  "count": 2
+                },
+                {
+                  "text": "se",
+                  "count": 2
+                }
+              ],
+              "insertions": [
+                {
+                  "text": "de",
+                  "count": 7
+                },
+                {
+                  "text": "en",
+                  "count": 4
+                },
+                {
+                  "text": "a",
+                  "count": 4
+                },
+                {
+                  "text": "la",
+                  "count": 3
+                },
+                {
+                  "text": "campo",
+                  "count": 3
+                },
+                {
+                  "text": "los",
+                  "count": 3
+                },
+                {
+                  "text": "o",
+                  "count": 2
+                },
+                {
+                  "text": "john",
+                  "count": 2
+                },
+                {
+                  "text": "clocker",
+                  "count": 1
+                },
+                {
+                  "text": "promoción",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        },
+        "evaluation_protocol": {
+          "batch_size": 4,
+          "precision": "float32",
+          "num_beams": 1,
+          "max_new_tokens": 225
+        },
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "latency_mode": "amortized batch",
+        "audit_warnings": [
+          "Speaker IDs are missing: speaker independence cannot be verified."
+        ],
+        "device": "cuda",
+        "evaluated_at": "2026-11-01T04:06:42.683847+00:00"
+      },
+      "history": [
+        {
+          "epoch": 0.504,
+          "optimizer_steps": 88,
+          "train_loss": 0.7650428312005136,
+          "validation_wer": 5.833830252434904,
+          "validation_cer": 1.9462292864389583,
+          "elapsed_seconds": 212.599759299992
+        },
+        {
+          "epoch": 1,
+          "optimizer_steps": 175,
+          "train_loss": 0.7221045268590273,
+          "validation_wer": 6.062413039157225,
+          "validation_cer": 1.9715928305715251,
+          "elapsed_seconds": 424.4318373999995
+        },
+        {
+          "epoch": 1.504,
+          "optimizer_steps": 263,
+          "train_loss": 0.5469101972994395,
+          "validation_wer": 6.122043331345657,
+          "validation_cer": 2.0155563070679743,
+          "elapsed_seconds": 642.0746844999958
+        }
+      ],
+      "weight-audit": {
+        "experiment": "E15",
+        "initial_experiment": "E8",
+        "groups": {
+          "encoder": {
+            "parameters": 88154112,
+            "changed_parameters": 0,
+            "tensors": 187,
+            "changed_tensors": 0,
+            "relative_l2_change": 0.0
+          },
+          "decoder": {
+            "parameters": 153580800,
+            "changed_parameters": 153579935,
+            "tensors": 292,
+            "changed_tensors": 292,
+            "relative_l2_change": 0.005422222253807899
+          }
+        },
+        "interpretation": "Parameter changes verify training; recognition quality is measured separately by validation WER/CER."
+      },
+      "training": {
+        "project": {
+          "language": "spanish",
+          "language_code": "es",
+          "dataset": "google/fleurs",
+          "dataset_config": "es_419",
+          "model": "openai/whisper-small",
+          "model_revision": "973afd24965f72e36ca33b3055d56a652f456b4d",
+          "manifest": "data/manifest.csv",
+          "seed": 42,
+          "sample_rate": 16000,
+          "max_duration_seconds": 30,
+          "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+          "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+          "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+          "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language",
+          "evaluation_batch_size": 4,
+          "local_model_path": "data/models/whisper-small"
+        },
+        "hyperparameters": {
+          "initialize_from": "E8",
+          "learning_rate_full": 1e-05,
+          "learning_rate_lora": 2e-05,
+          "batch_size": 4,
+          "gradient_accumulation_steps": 4,
+          "epochs": 4,
+          "seed": 42,
+          "early_stopping_patience": 2,
+          "warmup_ratio": 0.05,
+          "weight_decay": 0.05,
+          "log_every_steps": 20,
+          "target_text": "punctuated",
+          "freeze_encoder": true,
+          "validation_interval_updates": 88
+        },
+        "initial_experiment": "E8",
+        "initial_weights_sha256": "cbc0562fc8cd9e48c406eebac244e3cf29bd66eccc8e8a7c576db54e49651474",
+        "training_data": {
+          "base_training_samples": 2796,
+          "additional_samples": 0,
+          "additional_manifest": null,
+          "total_samples": 2796,
+          "total_hours": 8.805533333333333
+        },
+        "dataset_fingerprint": "aafe85198c1b4afbb7d7c57f2599500d8085e560f9e6a60dc7b18afbe27ce757",
+        "training_dataset_fingerprint": "08ab2ace976976343c41370723dfa20efb6de8251ae16a8a1cc9b41e78cf2df5",
+        "optimizer_steps": 263,
+        "best_optimizer_step": 88,
+        "best_epoch": 0.504,
+        "best_validation_wer": 5.833830252434904,
+        "trainable_parameters": 153580800,
+        "total_parameters": 241734912,
+        "training_seconds": 642.0844612999936,
+        "cumulative_training_seconds": 2379.481884699999,
+        "peak_gpu_memory_mb": 3354.32080078125,
+        "tokenizer_prefix_verified": true,
+        "generation_config_sha256": "48f2dab708965f5fb72fbd9cc2253e4d57f571a0e1eb41fdc06bda16f62ae347",
+        "loss_objective": "supervised cross-entropy"
+      }
+    }
+  }
+}

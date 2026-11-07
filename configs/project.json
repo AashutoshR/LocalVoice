@@ -1,0 +1,16 @@
+{
+  "language": "spanish",
+  "language_code": "es",
+  "dataset": "google/fleurs",
+  "dataset_config": "es_419",
+  "model": "openai/whisper-tiny",
+  "model_revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+  "manifest": "data/manifest.csv",
+  "seed": 42,
+  "sample_rate": 16000,
+  "max_duration_seconds": 30,
+  "normalization": "NFC + lowercase + remove Unicode punctuation + collapse whitespace",
+  "license": "CC-BY-4.0 (FLEURS); Apache-2.0 (Whisper)",
+  "speaker_policy": "Missing speaker IDs must be disclosed; never infer identity from gender.",
+  "study_setting": "Spanish ASR adaptation with limited labeled data; Spanish itself is not a low-resource language"
+}

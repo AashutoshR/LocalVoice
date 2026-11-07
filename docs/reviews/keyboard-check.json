@@ -1,0 +1,11 @@
+{
+  "copyTranscriptNotification": "Transcribe a clip first.",
+  "dismissedByKeyboard": true,
+  "dismissHeight": 40,
+  "mobileReferenceFont": 16,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "date": "2026-10-31"
+}
