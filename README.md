@@ -18,12 +18,21 @@ LocalVoice pairs a Python/CUDA experiment pipeline with a responsive web dashboa
 
 ## Measured results
 
-Each tuned checkpoint is compared with its pretrained counterpart on the **same 407 FLEURS Spanish validation clips**. Word error rate (WER) counts substitutions, deletions, and insertions per 100 reference words. Character error rate (CER) counts edits at the character level. Lower is better for both. Results were measured on an **NVIDIA RTX 4060 Laptop GPU with 8 GB VRAM**, using Python 3.13 and CUDA PyTorch.
+### Pretrained vs. fine-tuned
 
-| Backbone and runs | Pretrained → tuned WER | Relative WER reduction | Pretrained → tuned CER | Word errors removed |
-| --- | --- | --- | --- | --- | --- |
-| Whisper Tiny (E0 → E11) | 20.79% → **18.40%** | **11.5%** | 6.50% → 5.80% | **241** (2,092 → 1,851) |
-| Whisper Small (E7 → E18) | 6.34% → **5.57%** | **12.2%** | 2.16% → 1.82% | **78** (638 → 560) |
+Both comparisons use the **same 407 FLEURS Spanish validation clips**. Each tuned checkpoint is paired with its own pretrained backbone.
+
+| Metric | Whisper Tiny | Whisper Small |
+| :--- | ---: | ---: |
+| Runs | `E0` → `E11` | `E7` → `E18` |
+| Pretrained WER | 20.79% | 6.34% |
+| **Fine-tuned WER** | **18.40%** | **5.57%** |
+| **Relative WER reduction** | **11.5%** | **12.2%** |
+| CER, before → after | 6.50% → 5.80% | 2.16% → 1.82% |
+| Word errors, before → after | 2,092 → 1,851 | 638 → 560 |
+| **Fewer word errors** | **241** | **78** |
+
+Word error rate (WER) counts substitutions, deletions, and insertions per 100 reference words. Character error rate (CER) counts edits at the character level. Lower is better for both. Measurements used an NVIDIA RTX 4060 Laptop GPU with 8 GB VRAM, Python 3.13, and CUDA PyTorch.
 
 ### What the fine-tuning changed
 
