@@ -18,14 +18,20 @@ LocalVoice pairs a Python/CUDA experiment pipeline with a responsive web dashboa
 
 ## Measured results
 
-The following rows use the **same 407 FLEURS Spanish validation clips** within each backbone. Results were measured on an **NVIDIA RTX 4060 Laptop GPU with 8 GB VRAM**, using Python 3.13 and CUDA PyTorch. Lower WER/CER is better.
+Each tuned checkpoint is compared with its pretrained counterpart on the **same 407 FLEURS Spanish validation clips**. Word error rate (WER) counts substitutions, deletions, and insertions per 100 reference words. Character error rate (CER) counts edits at the character level. Lower is better for both. Results were measured on an **NVIDIA RTX 4060 Laptop GPU with 8 GB VRAM**, using Python 3.13 and CUDA PyTorch.
 
 | Backbone and runs | Pretrained → tuned WER | Relative WER reduction | Pretrained → tuned CER | Word errors removed |
 | --- | --- | --- | --- | --- | --- |
 | Whisper Tiny (E0 → E11) | 20.79% → **18.40%** | **11.5%** | 6.50% → 5.80% | **241** (2,092 → 1,851) |
 | Whisper Small (E7 → E18) | 6.34% → **5.57%** | **12.2%** | 2.16% → 1.82% | **78** (638 → 560) |
 
-Each checkpoint is compared with its own pretrained backbone. Tiny's acoustic tuning combined a higher learning rate, a smaller effective batch, and light time masking. It removed 164 substitutions, 72 insertions, and 5 deletions. Small's decoder tuning reached 5.67% WER, then encoder and decoder adaptation brought it to 5.57%. The final Small run improved on the previous best by four word errors.
+### What the fine-tuning changed
+
+- **Tiny improved by 2.40 percentage points of WER.** The gain came mainly from replacing fewer words incorrectly (164 fewer substitutions) and adding fewer words (72 fewer insertions). Omissions changed little (5 fewer deletions). E11 combined a higher learning rate, a smaller effective batch, and light time masking. Those settings changed together, so the experiment measures the combined recipe.
+- **Small improved by 0.78 percentage points of WER.** Decoder tuning alone cut the error count by **67**. Adapting the encoder and decoder cut it by another 11, and the final run beat the previous best full-tuning run by four errors. Most of Small’s measured gain came from the decoder stage.
+- **Some recipes traded one error type for another.** Tiny's teacher-regularized recipe E12 made 49 fewer deletions than E11 but added 177 insertions and 183 substitutions. Its WER rose from 18.40% to 21.49%, above the 20.79% pretrained baseline. Small's decoder LoRA run E16 used about 67% less peak allocated training GPU memory than E10, with higher validation WER (5.84% versus 5.61%).
+
+E11 and E18 were selected using FLEURS validation scores from single-seed training runs. An earlier Small checkpoint, E8, also improved from 6.34% to 5.62% WER on the original 907-clip FLEURS test. Fresh held-out FLEURS performance for E11 and E18 remains unmeasured. [Full experiment measurements](docs/RESULTS.md).
 
 ### Results on other Spanish recordings
 
@@ -34,9 +40,9 @@ Each checkpoint is compared with its own pretrained backbone. Tiny's acoustic tu
 | Latin American Spanish holdout (300 clips) | Tiny pretrained E0 → replay-tuned E17 | 24.42% → **19.80%** | 9.13% → **7.11%** |
 | Spanish audiobook dev sample (300 clips, exploratory) | Tiny pretrained E0 → audiobook-adapted E13 | 23.93% → **20.27%** | 7.54% → **6.47%** |
 
-E17 reduced Latin American holdout WER by **18.9% relative** to pretrained Tiny and removed 151 errors compared with E11. E11 still had the lower FLEURS validation WER, 18.40% versus E17's 18.64%. The Latin American holdout was reserved before E17 training and checked for transcript overlap. The source lacks speaker IDs, so speaker independence is unknown. [Domain-specific comparisons and evaluation details](docs/FINE_TUNING_COMPARISON.md).
+**The best Tiny checkpoint depended on the recordings.** FLEURS-tuned E11 scored 24.97% WER on the Latin American holdout, worse than pretrained Tiny at 24.42%. E17 continued from E11 with 3,000 Argentinian Spanish recordings mixed with the original FLEURS training data. It removed 151 holdout word errors relative to E11 and cut WER by **18.9% relative** to pretrained Tiny, while adding 25 word errors on FLEURS validation relative to E11. The holdout was reserved before E17 training and checked for transcript overlap. Speaker independence is unknown because the source lacks speaker IDs.
 
-[Full experiment measurements](docs/RESULTS.md) · [Published evidence](docs/evidence/README.md)
+The audiobook result shows a similar tradeoff. Adding Spanish audiobook training data in E13 reduced WER by **15.3% relative** to pretrained Tiny on the exploratory audiobook sample. On FLEURS validation, E13 reached 18.91% WER, behind E11 at 18.40%. [Domain-specific comparisons and evaluation details](docs/FINE_TUNING_COMPARISON.md) · [Published evidence](docs/evidence/README.md).
 
 <!-- RESEARCH_RESULTS_START -->
 ## Latest research-method results
